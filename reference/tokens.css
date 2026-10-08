@@ -1,0 +1,45 @@
+/* Sai Sree Enterprise site tokens. Normative values live in DESIGN.md.
+   Edit a colour here, then re-run: python3 tools/contrast_check.py
+   No em dash, no gradient, 0px radius by design. */
+
+:root {
+  /* Grounds */
+  --paper: #F5F0E1;      /* page ground, aged cream */
+  --paper-2: #EFE6D2;    /* alternate band ground */
+
+  /* Text */
+  --ink: #2B1D12;        /* body text, deep warm brown-black */
+  --ink-2: #6B5638;      /* secondary text */
+
+  /* Signals */
+  --terracotta: #9E4A28; /* links, actions, key rules. darkened from #B85C38 (see DESIGN.md) */
+  --green: #2E5A3E;      /* secondary accent, sparing */
+  --vermillion: #B23A28; /* rare emphasis only */
+
+  /* Ornament linework only. Never body text. */
+  --gold: #A87F2E;
+
+  /* Rules and borders */
+  --hairline: #C9B99A;
+
+  /* Layout */
+  --maxw: 1400px;
+  --pad: 28px;                    /* cell padding */
+  --gutter: clamp(18px, 5vw, 28px); /* page gutter, narrows on small screens */
+  --tap: 44px;                    /* minimum tap target */
+  --radius: 0px;                  /* sharp corners everywhere */
+
+  /* Type. Provisional set, see DESIGN.md "Typography". */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Archivo", system-ui, "Segoe UI", sans-serif;
+  --step--1: 0.9375rem; /* 15px */
+  --step-0: 1.0625rem;  /* 17px base body */
+  --step-1: 1.25rem;    /* 20px */
+  --step-2: 1.6rem;     /* 26px */
+  --step-3: 2.1rem;     /* 34px */
+  --step-4: 3rem;       /* 48px */
+  --lh: 1.6;
+
+  /* Focus */
+  --focus: var(--terracotta);
+}
