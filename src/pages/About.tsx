@@ -50,7 +50,9 @@ export default function About() {
             </p>
           </div>
           <div className="lg:col-span-5">
-            <FramedImage plate={heroSlides[0]} ratioClassName="aspect-[4/5]" />
+            <div className="max-w-[min(100%,calc((100dvh_-_380px)*0.8))]">
+              <FramedImage plate={heroSlides[0]} ratioClassName="aspect-[4/5]" />
+            </div>
           </div>
         </div>
       </Section>

@@ -48,6 +48,7 @@ export function Hero() {
   return (
     <section
       aria-label="Sai Sree Enterprise"
+      data-viewport-exempt
       className="relative isolate h-[100dvh] min-h-[560px] w-full overflow-hidden bg-ink"
     >
       <div className="absolute inset-0 z-0">

@@ -326,6 +326,31 @@ and the copy deck are unchanged.
 - check_shots: no blank frames; hero upper band 89.0 vs paper 246.
 - dead-space: largest flat band on Work **119px** (bar: ≤128px); other pages unchanged.
 
+## Round 6 revisions (viewport-fit rule)
+
+Directive: no section may run past the viewport unless it has to — the images were
+overwhelming the screen. The only exemption is the full-height hero, now marked
+`data-viewport-exempt`.
+
+- **Work** (`src/pages/Work.tsx`): each group is a centered, height-capped column —
+  `max-w = min(100%, max(420px, (100dvh − 450px) × 1.5))` — so heading, blurb, 3:2 photo,
+  caption and controls fit one screen; the pre-carousel gap is trimmed (mt-10 → mt-8).
+  Images stay uncropped; the column grows on taller screens.
+- **About** (`src/pages/About.tsx`): the 4:5 plate is capped at `(100dvh − 380px) × 0.8`
+  wide.
+- **Machinery** (`src/pages/Machinery.tsx`): the 16:9 plate is capped at
+  `(100dvh − 240px) × 16/9` wide — no crop, the painted border stays whole.
+- **Audit** (`scripts/audit.cjs`): new gate — at desktop, any section taller than the
+  viewport fails the audit unless marked `data-viewport-exempt`; more than 2px of overflow
+  trips it.
+
+### Round 6 re-verification (all PASS, all shots regenerated)
+- audit: **18/18** route×viewport combinations pass, including the new section-height gate.
+- Measured at 1440×900: Work first group 824px (832 available); carousel frame 673×449,
+  centered (gutters 384/383). Work page 12261 → 8184px; flat seams hold at 119px.
+- shots: no console errors, page errors, failed requests or 4xx/5xx; no blank frames.
+- `npm run check` clean; `npm run build` ✓ built.
+
 ## Reproduce
 
 ```bash

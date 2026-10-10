@@ -32,9 +32,11 @@ export default function Work() {
       {photoGroups.map((group, index) => (
         <Fragment key={group.title}>
           <Section tone={index % 2 === 0 ? "paper2" : "paper"} className="py-8 sm:py-9 lg:py-10">
-            <SectionHeading>{group.title}</SectionHeading>
-            <p className="mt-5 max-w-[52ch] text-ink-2">{group.blurb}</p>
-            <PhotoCarousel photos={group.photos} label={group.title} className="mt-10" />
+            <div className="mx-auto w-full max-w-[min(100%,max(420px,calc((100dvh_-_450px)*1.5)))]">
+              <SectionHeading>{group.title}</SectionHeading>
+              <p className="mt-5 max-w-[52ch] text-ink-2">{group.blurb}</p>
+              <PhotoCarousel photos={group.photos} label={group.title} className="mt-8" />
+            </div>
           </Section>
           {(index === 2 || index === 5) && <MotifBand />}
         </Fragment>

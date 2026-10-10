@@ -116,6 +116,27 @@ async function main() {
         .catch(() => {});
       const r = await auditPage(page);
       const problems = [];
+      // House rule: at desktop, every section must fit the viewport (the fixed
+      // 68px header included) unless it is marked data-viewport-exempt — the
+      // full-height hero is the only such case.
+      if (device.slug === "desktop") {
+        const tall = await page.evaluate(() =>
+          Array.from(document.querySelectorAll("section"))
+            .filter((el) => !el.closest("[data-viewport-exempt]"))
+            .map((el) => ({
+              label: (el.querySelector("h1, h2, h3")?.textContent || el.getAttribute("aria-label") || "section")
+                .trim()
+                .slice(0, 40),
+              h: Math.round(el.getBoundingClientRect().height),
+            }))
+            .filter((s) => s.h > window.innerHeight + 2),
+        );
+        if (tall.length) {
+          problems.push(
+            `${tall.length} section(s) taller than the viewport: ${JSON.stringify(tall.slice(0, 5))}`,
+          );
+        }
+      }
       if (r.overflow > 0) problems.push(`horizontal overflow ${r.overflow}px`);
       if (r.h1.length !== 1) problems.push(`h1 count = ${r.h1.length}`);
       if (r.broken.length) problems.push(`broken images: ${r.broken.join(", ")}`);

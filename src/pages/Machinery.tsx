@@ -55,7 +55,9 @@ export default function Machinery() {
       <MotifBand />
 
       <Section>
-        <FramedImage plate={heroSlides[1]} ratioClassName="aspect-[16/9]" />
+        <div className="mx-auto w-full max-w-[min(100%,calc((100dvh_-_240px)*16/9))]">
+          <FramedImage plate={heroSlides[1]} ratioClassName="aspect-[16/9]" />
+        </div>
       </Section>
 
       <MotifBand />
