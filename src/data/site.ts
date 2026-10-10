@@ -17,6 +17,8 @@ export interface Service {
   body: string;
   provide: string;
   plate: Plate;
+  /** A real photograph of this work on the company's own sites, where one exists. */
+  evidence?: SitePhoto;
 }
 
 export interface SitePhoto {
@@ -37,6 +39,10 @@ export const navItems: NavItem[] = [
 ];
 
 export const companyName = "Sai Sree Enterprise";
+
+/** The name the work is built under, and the enterprise behind it. */
+export const brandName = "Alankara";
+export const brandBy = "Sai Sree Enterprises";
 
 /** Four hero slides, in the order fixed by the brief. */
 export const heroSlides: Plate[] = [
@@ -128,6 +134,13 @@ export const services: Service[] = [
       height: 800,
       alt: "Two masons building a brick masonry wall, one laying a brick with a trowel while a plumb line hangs.",
     },
+    evidence: {
+      src: "/photos/site-10.webp",
+      width: 1600,
+      height: 1200,
+      alt: "A multi-storey brick building under construction behind bamboo scaffolding, with a parked backhoe, gravel and a concrete mixer in the foreground.",
+      caption: "Brick building under construction",
+    },
   },
   {
     id: "earthwork",
@@ -139,6 +152,13 @@ export const services: Service[] = [
       width: 1600,
       height: 900,
       alt: "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
+    },
+    evidence: {
+      src: "/photos/site-09.webp",
+      width: 1600,
+      height: 1200,
+      alt: "A backhoe loader trenching at an early earthworks site with a tractor and trailer behind, workers and palms around, an overcast sky.",
+      caption: "Machine trenching on the plot",
     },
   },
   {
@@ -152,6 +172,13 @@ export const services: Service[] = [
       height: 800,
       alt: "Workers levelling and cutting red earth on a pegged-out plot, with string lines and a small excavator at the edge.",
     },
+    evidence: {
+      src: "/photos/site-20.webp",
+      width: 1600,
+      height: 1200,
+      alt: "A wide plot of graded land with a long boundary wall, ground levelled and pegged for the build under an overcast sky.",
+      caption: "Land graded and set out",
+    },
   },
   {
     id: "machine-contracts",
@@ -163,6 +190,13 @@ export const services: Service[] = [
       width: 1600,
       height: 900,
       alt: "An earthmover loading red soil into a tipper truck on a haul road, a cut hillside behind.",
+    },
+    evidence: {
+      src: "/photos/site-14.webp",
+      width: 1280,
+      height: 720,
+      alt: "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+      caption: "Clearing with the backhoe loader",
     },
   },
   {
@@ -176,6 +210,13 @@ export const services: Service[] = [
       height: 900,
       alt: "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
     },
+    evidence: {
+      src: "/photos/site-11.webp",
+      width: 1600,
+      height: 900,
+      alt: "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+      caption: "Sub-base compaction inside the shed",
+    },
   },
   {
     id: "material-supply",
@@ -187,6 +228,13 @@ export const services: Service[] = [
       width: 800,
       height: 800,
       alt: "Materials at a building site: stacked cement bags, a heap of stone aggregate, steel bars, and a truck unloading red soil.",
+    },
+    evidence: {
+      src: "/photos/site-07.webp",
+      width: 1040,
+      height: 780,
+      alt: "A mixer truck placing concrete by chute into a deep pit, rebar cage along the wall and formwork at the bottom of the excavation.",
+      caption: "Placing concrete at the pit",
     },
   },
   {
@@ -200,6 +248,13 @@ export const services: Service[] = [
       height: 800,
       alt: "A crew of workers arriving at a site with shovels and tools, a foreman pointing toward the work.",
     },
+    evidence: {
+      src: "/photos/site-23.webp",
+      width: 960,
+      height: 1280,
+      alt: "Workers laying turf across a steep earth embankment, the lower slope already greened and a truck loaded with turf at the crest.",
+      caption: "Laying turf on the slope",
+    },
   },
   {
     id: "road",
@@ -211,6 +266,13 @@ export const services: Service[] = [
       width: 800,
       height: 800,
       alt: "Workers building a concrete drainage channel and kerb line along a road shoulder, with barrier posts planted.",
+    },
+    evidence: {
+      src: "/photos/site-21.webp",
+      width: 1600,
+      height: 900,
+      alt: "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+      caption: "Slope finishing and drainage",
     },
   },
   {
@@ -237,6 +299,66 @@ export const steps: string[] = [
 
 // Site photographs now live in src/data/photos.ts (the client's own photos,
 // supplied 2026-10). The former stand-in set has been retired.
+
+/** Machines at work on the company's own sites — the Machinery page wall. */
+export const machineryPhotos: SitePhoto[] = [
+  {
+    src: "/photos/site-11.webp",
+    width: 1600,
+    height: 900,
+    alt: "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+    caption: "Sub-base compaction inside the shed",
+  },
+  {
+    src: "/photos/site-15.webp",
+    width: 1080,
+    height: 612,
+    alt: "Two excavators working the rubble pile at a demolition, dust rising, palm trees and onlookers beyond.",
+    caption: "Excavators at the demolition",
+  },
+  {
+    src: "/photos/site-14.webp",
+    width: 1280,
+    height: 720,
+    alt: "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+    caption: "Clearing with the backhoe loader",
+  },
+];
+
+/** Studio cutouts of the machine classes — the frieze on the Machinery page. */
+export interface MachineCutout {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+}
+
+export const fleetCutouts: MachineCutout[] = [
+  {
+    src: "/machines/excavator.webp",
+    width: 359,
+    height: 314,
+    alt: "A tracked excavator, boom raised, its bucket curled at the end of the arm.",
+  },
+  {
+    src: "/machines/backhoe.webp",
+    width: 713,
+    height: 360,
+    alt: "A backhoe loader with its front bucket raised and the rear digging arm extended.",
+  },
+  {
+    src: "/machines/tipper.webp",
+    width: 510,
+    height: 360,
+    alt: "A three-axle tipper truck with a steel dump body.",
+  },
+  {
+    src: "/machines/compactor.webp",
+    width: 572,
+    height: 360,
+    alt: "A single-drum soil compactor with a smooth steel drum at the front.",
+  },
+];
 
 /** Decorative plates. These carry alt="" and never depict the company's sites. */
 export const frieze: Plate = {

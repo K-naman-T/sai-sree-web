@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { companyName, navItems } from "@/data/site";
+import { brandName, navItems } from "@/data/site";
 import { useScrolled } from "@/hooks/useScrolled";
 import { CloseIcon, MenuIcon } from "@/components/ui/icons";
 
@@ -31,7 +31,7 @@ export function SiteHeader({ overHero = false }: { overHero?: boolean }) {
             transparent ? "text-cream" : "text-ink hover:text-terracotta",
           )}
         >
-          {companyName}
+          {brandName}
         </Link>
 
         <nav aria-label="Primary" className="hidden md:block">

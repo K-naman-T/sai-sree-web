@@ -6,14 +6,15 @@ import { useReducedMotion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import { cn } from "@/lib/utils";
-import { heroSlides } from "@/data/site";
+import { brandBy, brandName, heroSlides } from "@/data/site";
 import { Button } from "@/components/ui/Button";
 
 /**
  * Full-viewport hero: a multi-image auto-carousel (crossfade, ~5.2s) with a slow
  * Ken Burns drift, a light scrim localized to the bottom-left text block, an
  * editorial slide counter and proof-marked indicators bottom-right, and arrow-key
- * control. Motion stops under prefers-reduced-motion and pauses on hover.
+ * control. Motion stops under prefers-reduced-motion and pauses on hover. The
+ * house mark (Alankara, by Sai Sree Enterprises) signs the bottom-right corner.
  *
  * Contrast: the scrim is a targeted bottom band plus a faint left bias, so the
  * upper and right areas of the plates stay clear. Over the text block the two
@@ -47,7 +48,7 @@ export function Hero() {
 
   return (
     <section
-      aria-label="Sai Sree Enterprise"
+      aria-label={brandName}
       data-viewport-exempt
       className="relative isolate h-[100dvh] min-h-[560px] w-full overflow-hidden bg-ink"
     >
@@ -103,7 +104,7 @@ export function Hero() {
               className="font-display text-[clamp(2.6rem,7.5vw,5.75rem)] font-semibold leading-[1.0] tracking-[-0.02em] text-cream"
               style={{ textShadow: TEXT_SHADOW }}
             >
-              Sai Sree Enterprise
+              {brandName}
             </h1>
             <p
               className="mt-8 max-w-[50rem] font-body text-[clamp(1.12rem,1.75vw,1.5rem)] font-medium leading-[1.72] text-cream/95 sm:mt-7"
@@ -116,7 +117,7 @@ export function Hero() {
 
             <div className="mt-9">
               <Button to="/contact" variant="cream" size="lg">
-                Get in touch
+                Tell us about your site
               </Button>
 
               <div
@@ -161,6 +162,19 @@ export function Hero() {
                 ))}
               </div>
             </div>
+
+            {/* The house mark: signed bottom-right, above the paper's edge. */}
+            <p className="mt-10 text-right lg:absolute lg:bottom-6 lg:right-[clamp(18px,5vw,28px)] lg:mt-0">
+              <span
+                className="block font-display text-[1.3rem] font-semibold leading-none text-cream"
+                style={{ textShadow: TEXT_SHADOW }}
+              >
+                {brandName}
+              </span>
+              <span className="mt-1.5 block font-body text-[10.5px] font-semibold uppercase tracking-[0.24em] text-cream/75">
+                by {brandBy}
+              </span>
+            </p>
           </div>
         </div>
       </div>

@@ -55,7 +55,34 @@ export default function Services() {
             <Container className="py-9 lg:py-12">
               <BlurFade inView={false} delay={0.04}>
                 <div className="mx-auto grid max-w-[1120px] gap-8 lg:grid-cols-[minmax(0,20rem)_minmax(0,1fr)] lg:items-start lg:gap-14">
-                  <FramedImage plate={service.plate} />
+                  <div>
+                    <FramedImage plate={service.plate} />
+                    {service.evidence && (
+                      <figure className="mt-7">
+                        <div
+                          className={cn(
+                            "overflow-hidden border border-hairline bg-paper-2",
+                            service.evidence.height > service.evidence.width
+                              ? "aspect-[4/5]"
+                              : "aspect-[3/2]",
+                          )}
+                        >
+                          <img
+                            src={service.evidence.src}
+                            width={service.evidence.width}
+                            height={service.evidence.height}
+                            alt={service.evidence.alt}
+                            loading="lazy"
+                            decoding="async"
+                            className="h-full w-full object-cover"
+                          />
+                        </div>
+                        <figcaption className="mt-3 text-[15px] leading-snug text-ink">
+                          {service.evidence.caption}
+                        </figcaption>
+                      </figure>
+                    )}
+                  </div>
                   <div>
                     {/* leading-[1.15] + -mt-[0.2em] trim the half-leading so the
                         heading's cap line lands on the plate's top edge. */}
@@ -84,7 +111,7 @@ export default function Services() {
         </BlurFade>
       </Section>
 
-      <TalkBand action="Get in touch" texture={heroSlides[0]}>
+      <TalkBand action="Talk to us" texture={heroSlides[0]}>
         <PullQuote>Tell us about the site and we will work out the rest.</PullQuote>
       </TalkBand>
     </>

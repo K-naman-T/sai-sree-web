@@ -1,9 +1,9 @@
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { FramedImage } from "@/components/ui/FramedImage";
 import { MotifBand } from "@/components/ui/Ornament";
+import { PhotoWall } from "@/components/ui/PhotoWall";
 import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
-import { heroSlides, services } from "@/data/site";
+import { fleetCutouts, heroSlides, machineryPhotos } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 export default function Machinery() {
@@ -53,17 +53,41 @@ export default function Machinery() {
         </div>
       </Section>
 
-      <MotifBand />
-
-      <Section>
-        <div className="mx-auto w-full max-w-[min(100%,calc((100dvh_-_240px)*16/9))]">
-          <FramedImage plate={services[3].plate} ratioClassName="aspect-[16/9]" />
+      {/* The fleet, drawn up on one line: studio cutouts standing on the hairline.
+          Class-level machines, no fleet table implied — the details box above
+          stays the only place the fleet is discussed. Kept tight to the hire
+          terms: the two 80px section pads would otherwise leave a 160px dead
+          band between the fleet box and the machines. */}
+      <Section className="pt-4 lg:pt-6">
+        <div className="mx-auto w-full max-w-[1120px]">
+          <div className="flex items-end justify-between gap-[clamp(10px,3.5vw,56px)]">
+            {fleetCutouts.map((machine) => (
+              <img
+                key={machine.src}
+                src={machine.src}
+                width={machine.width}
+                height={machine.height}
+                alt={machine.alt}
+                loading="lazy"
+                decoding="async"
+                className="h-auto w-auto min-w-0 max-h-[clamp(64px,13vh,150px)] max-w-[70px] object-contain sm:max-w-none"
+              />
+            ))}
+          </div>
+          <div aria-hidden="true" className="border-t border-hairline" />
         </div>
       </Section>
 
       <MotifBand />
 
-      <TalkBand>
+      <Section>
+        <SectionHeading>Machines at work</SectionHeading>
+        <PhotoWall photos={machineryPhotos} variant="rail" className="mt-10" />
+      </Section>
+
+      <MotifBand />
+
+      <TalkBand action="Hire a machine">
         <TalkLine>Book a machine for the work in hand.</TalkLine>
       </TalkBand>
     </>

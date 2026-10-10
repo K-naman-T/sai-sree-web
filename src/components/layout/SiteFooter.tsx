@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { companyName, navItems } from "@/data/site";
+import { brandBy, brandName, companyName, navItems } from "@/data/site";
 import { Container } from "@/components/ui/Section";
 import { BorderRule } from "@/components/ui/Ornament";
 
@@ -11,7 +11,10 @@ export function SiteFooter() {
       <Container className="py-14 lg:py-16">
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="max-w-md">
-            <p className="font-display text-[1.6rem] font-semibold leading-tight">{companyName}</p>
+            <p className="font-display text-[1.6rem] font-semibold leading-tight">{brandName}</p>
+            <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-ink-2">
+              by {brandBy}
+            </p>
             <p className="mt-4 font-display text-[1.15rem] italic leading-snug text-ink">
               Art and design at the core of everything we build.
             </p>

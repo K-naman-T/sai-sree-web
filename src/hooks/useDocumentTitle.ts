@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
-/** Sets `document.title` to `<title> | Sai Sree Enterprise`. */
+/** Sets `document.title` to `<title> | Alankara`. */
 export function useDocumentTitle(title: string): void {
   useEffect(() => {
-    document.title = `${title} | Sai Sree Enterprise`;
+    document.title = `${title} | Alankara`;
   }, [title]);
 }

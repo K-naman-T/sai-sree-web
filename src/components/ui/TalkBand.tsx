@@ -24,7 +24,7 @@ export function TalkLine({ children, className }: { children: ReactNode; classNa
  */
 export function TalkBand({
   children,
-  action = "Get in touch",
+  action = "Talk to us",
   to = "/contact",
   texture,
   bordered = true,

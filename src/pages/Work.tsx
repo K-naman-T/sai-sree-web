@@ -60,7 +60,7 @@ export default function Work() {
 
       <MotifBand />
 
-      <TalkBand action="Get in touch" texture={services[6].plate}>
+      <TalkBand action="Talk to us" texture={services[6].plate}>
         <TalkLine>Tell us about the site and we will work out the rest.</TalkLine>
       </TalkBand>
     </>
