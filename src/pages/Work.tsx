@@ -1,65 +1,44 @@
+import { Fragment } from "react";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { finishedSites, runningSites, type SitePhoto } from "@/data/site";
+import { PhotoCarousel } from "@/components/ui/PhotoCarousel";
+import { MotifBand } from "@/components/ui/Ornament";
+import { heroSlides } from "@/data/site";
+import { photoGroups } from "@/data/photos";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
-
-/**
- * One curated cell: a 3:2 photo in a single hairline frame with its caption
- * directly beneath at body size. The photo never runs full-bleed, so the
- * caption always reads with the image in the same glance.
- */
-function WorkCard({ photo }: { photo: SitePhoto }) {
-  return (
-    <figure>
-      <div className="aspect-[3/2] overflow-hidden border border-hairline bg-paper-2">
-        <img
-          src={photo.src}
-          width={photo.width}
-          height={photo.height}
-          alt={photo.alt}
-          loading="lazy"
-          decoding="async"
-          className="h-full w-full object-cover"
-        />
-      </div>
-      <figcaption className="mt-3 text-[15px] leading-snug text-ink">{photo.caption}</figcaption>
-    </figure>
-  );
-}
-
-const GRID = "grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10";
 
 export default function Work() {
   useDocumentTitle("Work");
 
   return (
     <>
-      <Section className="pb-8 sm:pb-10 lg:pb-12">
+      <Section
+        className="pb-8 sm:pb-8 lg:pb-10"
+        wash="seam-to-paper2"
+        texture={heroSlides[0]}
+        textureClassName="right-0 top-0 hidden h-full w-[36%] object-cover lg:block"
+      >
         <SectionHeading as="h1" rule>
           Work
         </SectionHeading>
-        <p className="mt-6 max-w-[44ch] text-lg text-ink-2">Finished and running sites.</p>
+        <p className="mt-6 max-w-[24ch] font-display text-[clamp(1.5rem,3vw,2.2rem)] leading-tight">
+          Work built to be looked at.
+        </p>
+        <p className="mt-5 max-w-[48ch] text-lg text-ink-2">
+          Finished and running sites. The proof is in the finish.
+        </p>
       </Section>
 
-      {/* STAND-IN photographs. Temporary web images, not the client's sites.
-          Replace with the client's own site photographs (docs/CONTENT-MANIFEST.md #8). */}
-      <Section tone="paper2" className="pt-10 sm:pt-12 lg:pt-14">
-        <SectionHeading>Finished sites</SectionHeading>
-        <div className={`mt-10 ${GRID}`}>
-          {finishedSites.map((photo) => (
-            <WorkCard key={photo.src} photo={photo} />
-          ))}
-        </div>
-      </Section>
-
-      <Section>
-        <SectionHeading>Running sites</SectionHeading>
-        <div className={`mt-10 ${GRID}`}>
-          {runningSites.map((photo) => (
-            <WorkCard key={photo.src} photo={photo} />
-          ))}
-        </div>
-      </Section>
+      {photoGroups.map((group, index) => (
+        <Fragment key={group.title}>
+          <Section tone={index % 2 === 0 ? "paper2" : "paper"} className="py-8 sm:py-9 lg:py-10">
+            <SectionHeading>{group.title}</SectionHeading>
+            <p className="mt-5 max-w-[52ch] text-ink-2">{group.blurb}</p>
+            <PhotoCarousel photos={group.photos} label={group.title} className="mt-10" />
+          </Section>
+          {(index === 2 || index === 5) && <MotifBand />}
+        </Fragment>
+      ))}
     </>
   );
 }

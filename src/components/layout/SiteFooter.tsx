@@ -12,6 +12,9 @@ export function SiteFooter() {
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="max-w-md">
             <p className="font-display text-[1.6rem] font-semibold leading-tight">{companyName}</p>
+            <p className="mt-4 font-display text-[1.15rem] italic leading-snug text-ink">
+              Art and design at the core of everything we build.
+            </p>
             <p className="mt-4 text-[15px] leading-relaxed text-ink-2">
               Registered name: {companyName}
             </p>

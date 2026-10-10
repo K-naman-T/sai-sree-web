@@ -1,50 +1,262 @@
 [
- {
-  "file": "standin-01.jpg",
-  "caption": "Road paving work",
-  "title": "Construction greenway extension Pitt Street",
-  "license": "cc0",
-  "creator": "?",
-  "source": "https://www.rawpixel.com/image/9658704/image-public-domain-construction-photo"
- },
- {
-  "file": "standin-02.jpg",
-  "caption": "Earthwork and excavation",
-  "title": "Volvo excavators, Location unknown, May",
-  "license": "cc0",
-  "creator": "?",
-  "source": "https://www.rawpixel.com/image/6112416/volvo-excavators-location-unknown-may-21-2015"
- },
- {
-  "file": "standin-03.jpg",
-  "caption": "Kerb and edge work",
-  "title": "Construction crews prepare paving along",
-  "license": "cc0",
-  "creator": "?",
-  "source": "https://www.rawpixel.com/image/9658790/image-people-public-domain-construction"
- },
- {
-  "file": "standin-04.jpg",
-  "caption": "Foundation excavation",
-  "title": "File:Clay In A Construction Site.jpg",
-  "license": "Public domain",
-  "creator": "<p><a href=\"https://en.wikipedia.org/wiki/User:Ingolfson\" cl",
-  "source": "https://commons.wikimedia.org/wiki/File:File:Clay_In_A_Construction_Site.jpg"
- },
- {
-  "file": "standin-05.jpg",
-  "caption": "Earthmoving and haul",
-  "title": "File:Assignment- 48-DPA-N OSM IL 10-18-05) Office of Surface Mining, Reclamation, and Enforcement staff (working at site of abandoned coal mine, the Horse Creek Mine, near Pinckneyville, - DPLA - b088c58b2f072628e2462dd71292875e.JPG",
-  "license": "Public domain",
-  "creator": "Department of the Interior. National Business Center. Admini",
-  "source": "https://commons.wikimedia.org/wiki/File:File:Assignment-_48-DPA-N_OSM_IL_10-18-05)_Office_of_Surface_Mining,_Reclamation,_and_Enforcement_staff_(working_at_site_of_abandoned_coal_mine,_the_Horse_Creek_Mine,_near_Pinckneyville,_-_DPLA_-_b088c58b2f072628e2462dd71292875e.JPG"
- },
- {
-  "file": "standin-06.jpg",
-  "caption": "Site levelling work",
-  "title": "File:Latvian and US Engineers Level Up Joint Capabilities (9094869).jpg",
-  "license": "Public domain",
-  "creator": "U.S. Air National Guard photo by Tech. Sgt. <a rel=\"nofollow",
-  "source": "https://commons.wikimedia.org/wiki/File:File:Latvian_and_US_Engineers_Level_Up_Joint_Capabilities_(9094869).jpg"
- }
+  {
+    "file": "site-01.webp",
+    "orig": "IMG-20261009-WA0034.jpg",
+    "width": 2000,
+    "height": 1500,
+    "caption": "Stone retaining wall at the cut",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-02.webp",
+    "orig": "IMG-20261009-WA0045.jpg",
+    "width": 1040,
+    "height": 780,
+    "caption": "Rebar cage in the foundation pit",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-03.webp",
+    "orig": "IMG-20261009-WA0048.jpg",
+    "width": 1040,
+    "height": 780,
+    "caption": "Wall and slab reinforcement",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-04.webp",
+    "orig": "IMG-20261009-WA0049.jpg",
+    "width": 1040,
+    "height": 780,
+    "caption": "Column cages on the base slab",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-05.webp",
+    "orig": "IMG-20261009-WA0051.jpg",
+    "width": 780,
+    "height": 1040,
+    "caption": "Pour into the reinforcement cage",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-06.webp",
+    "orig": "IMG-20261009-WA0052.jpg",
+    "width": 1040,
+    "height": 780,
+    "caption": "Concrete pour into the foundation",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-07.webp",
+    "orig": "IMG-20261009-WA0053.jpg",
+    "width": 1040,
+    "height": 780,
+    "caption": "Placing concrete at the pit",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-08.webp",
+    "orig": "IMG-20261009-WA0055.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Concrete retaining wall at the earthworks",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-09.webp",
+    "orig": "IMG-20261009-WA0083.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Machine trenching on the plot",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-10.webp",
+    "orig": "IMG-20261009-WA0092.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Brick building under construction",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-11.webp",
+    "orig": "IMG-20261009-WA0129.jpg",
+    "width": 1600,
+    "height": 900,
+    "caption": "Sub-base compaction inside the shed",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-12.webp",
+    "orig": "IMG-20261009-WA0162.jpg",
+    "width": 1280,
+    "height": 960,
+    "caption": "Steel frame on the slab",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-13.webp",
+    "orig": "IMG-20261009-WA0168.jpg",
+    "width": 1280,
+    "height": 960,
+    "caption": "Steel columns and beams",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-14.webp",
+    "orig": "IMG-20261009-WA0226.jpg",
+    "width": 1280,
+    "height": 720,
+    "caption": "Clearing with the backhoe loader",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-15.webp",
+    "orig": "IMG-20261009-WA0238.jpg",
+    "width": 1080,
+    "height": 612,
+    "caption": "Excavators at the demolition",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-16.webp",
+    "orig": "IMG-20261009-WA0289.jpg",
+    "width": 1600,
+    "height": 739,
+    "caption": "Two-storey frame and blockwork",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-17.webp",
+    "orig": "IMG-20261009-WA0290.jpg",
+    "width": 1600,
+    "height": 739,
+    "caption": "Framework and block walls",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-18.webp",
+    "orig": "IMG-20261010-WA0036.jpg",
+    "width": 2000,
+    "height": 1500,
+    "caption": "Steel erection on concrete columns",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-19.webp",
+    "orig": "IMG-20261010-WA0037.jpg",
+    "width": 2000,
+    "height": 1500,
+    "caption": "Raising the roof trusses",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-20.webp",
+    "orig": "IMG-20261010-WA0045.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Land graded and set out",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-21.webp",
+    "orig": "IMG-20261010-WA0047.jpg",
+    "width": 1600,
+    "height": 900,
+    "caption": "Slope finishing and drainage",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-22.webp",
+    "orig": "IMG-20261010-WA0048.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Finished open ground",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-23.webp",
+    "orig": "IMG-20261010-WA0056.jpg",
+    "width": 960,
+    "height": 1280,
+    "caption": "Laying turf on the slope",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-24.webp",
+    "orig": "IMG-20261010-WA0080.jpg",
+    "width": 2000,
+    "height": 1500,
+    "caption": "Finished residence and pool",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-25.webp",
+    "orig": "IMG-20261010-WA0081.jpg",
+    "width": 2000,
+    "height": 1500,
+    "caption": "Pool-side view of the residence",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  },
+  {
+    "file": "site-26.webp",
+    "orig": "IMG-20261010-WA0085.jpg",
+    "width": 2000,
+    "height": 1500,
+    "caption": "Pavilions and the finished lawn",
+    "license": "Client-supplied; permission of Sai Sree Enterprise",
+    "creator": "Sai Sree Enterprise",
+    "source": "Client photographs supplied 2026-10-10 (consfilnal-2.zip)"
+  }
 ]

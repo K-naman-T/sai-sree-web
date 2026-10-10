@@ -1,7 +1,7 @@
 # Build brief — Sai Sree Enterprise website (Vite + React rebuild)
 
 You are building the website for **Sai Sree Enterprise**, an Indian construction,
-earthwork and machinery contractor (Jharkhand/Bihar class of work: civil contracts,
+earthwork and machinery contractor (Karnataka/Bihar class of work: civil contracts,
 earthwork and excavation, site levelling, machine contracts by hour/day/trip,
 machinery with operator, material supply, labour supply, road/drain/barrier work,
 rammed earth and mud construction).

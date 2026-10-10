@@ -46,18 +46,18 @@ def lerp_stops(stops, t):
 #   vertical  linear-gradient(to top,   0.90 0%, 0.85 47%, 0.38 58%, 0 68%)
 #   horizontal linear-gradient(to right, 0.18 0%, 0.10 40%, 0 66%)
 # The vertical layer is indexed by y from the TOP of the hero (0) to the bottom (1).
-# A third, top-down nav layer (0.14 at 0%, 0 by 13%) is not modelled: it is zero
-# across the sampled text region (y 56..82%), so it cannot change the result.
+# A third, top-down nav layer (0.14 held to 8%, 0 by 16%) is not modelled: it is zero
+# across the sampled text region (y 55..83%), so it cannot change the result.
 # A mobile-only bottom layer is likewise outside the desktop sample.
 V_STOPS = [(0.0, 0.0), (0.32, 0.0), (0.42, 0.38), (0.53, 0.85), (1.0, 0.90)]
 H_STOPS = [(0.0, 0.18), (0.40, 0.10), (0.66, 0.0), (1.0, 0.0)]
 SCRIM_RGB = (18, 14, 10)
 
 
-def analytic(background_luminance=0.90, x_lo=3, x_hi=66, y_lo=56, y_hi=82):
+def analytic(background_luminance=0.90, x_lo=3, x_hi=66, y_lo=55, y_hi=83):
     """Worst and best effective scrim alpha over the hero text block.
 
-    Defaults cover the rendered H1 and sub-paragraph region (x 3..66%, y 56..82%),
+    Defaults cover the rendered H1 and sub-paragraph region (x 3..66%, y 55..83%),
     derived from shots/home-hero-boxes.json at 1440x900.
     """
     worst_alpha = 1.0

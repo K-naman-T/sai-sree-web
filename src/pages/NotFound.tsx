@@ -11,7 +11,9 @@ export default function NotFound() {
       <SectionHeading as="h1" rule>
         Page not found
       </SectionHeading>
-      <p className="mt-6 max-w-[44ch] text-lg text-ink-2">The page you looked for is not here.</p>
+      <p className="mt-6 max-w-[44ch] text-lg text-ink-2">
+        The page you looked for is not here. The work is on the other pages.
+      </p>
       <div className="mt-9">
         <Button to="/">Back to the home page</Button>
       </div>

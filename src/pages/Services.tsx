@@ -3,10 +3,10 @@ import { Section, Container } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { StepsRail } from "@/components/ui/StepsRail";
-import { Frieze } from "@/components/ui/Ornament";
+import { Frieze, PullQuote } from "@/components/ui/Ornament";
 import { Button } from "@/components/ui/Button";
 import { BlurFade } from "@/components/magicui/BlurFade";
-import { services, steps } from "@/data/site";
+import { heroSlides, services, steps } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 function ProvideLine({ provide }: { provide: string }) {
@@ -24,13 +24,13 @@ export default function Services() {
 
   return (
     <>
-      <Section className="pb-8 sm:pb-10 lg:pb-12">
+      <Section className="pb-8 sm:pb-8 lg:pb-10" wash="seam-to-paper2">
         <SectionHeading as="h1" rule>
           Services
         </SectionHeading>
-        <p className="mt-6 max-w-[58ch] text-lg text-ink-2">
-          Sai Sree Enterprise takes on civil, earthwork, supply and machine work, and this page sets
-          out what can be hired and how a job starts.
+        <p className="mt-6 max-w-[60ch] text-lg text-ink-2">
+          Everything we are asked to do carries the same standard: art and design at the core,
+          from the first cut to the final finish. Here is what can be hired, and how a job starts.
         </p>
       </Section>
 
@@ -69,19 +69,28 @@ export default function Services() {
 
       <Frieze />
 
-      <Section>
+      <Section wash="wash-ochre-up">
         <SectionHeading>How a job starts</SectionHeading>
+        <p className="mt-6 max-w-[52ch] font-display text-[clamp(1.3rem,2.2vw,1.7rem)] leading-snug">
+          Every site runs the same measured sequence. Craft is a discipline.
+        </p>
         <BlurFade inView={false} delay={0.04}>
-          <StepsRail steps={steps} className="mt-12" />
+          <StepsRail steps={steps} className="mt-10" />
         </BlurFade>
       </Section>
 
-      <Section tone="paper2">
-        <div className="flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">
-          <p className="max-w-[34ch] font-display text-[clamp(1.5rem,2.6vw,2.2rem)] leading-tight">
-            Tell us about the site and we will work out the rest.
-          </p>
-          <Button to="/contact">Get in touch</Button>
+      <Section
+        tone="paper2"
+        texture={heroSlides[2]}
+        textureClassName="right-0 top-0 hidden h-full w-[44%] object-cover lg:block"
+      >
+        <div className="grid gap-8 lg:grid-cols-12 lg:items-end">
+          <div className="lg:col-span-7">
+            <PullQuote>Tell us about the site and we will work out the rest.</PullQuote>
+          </div>
+          <div className="lg:col-span-5 lg:text-right">
+            <Button to="/contact">Get in touch</Button>
+          </div>
         </div>
       </Section>
     </>

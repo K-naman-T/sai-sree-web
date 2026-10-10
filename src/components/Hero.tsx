@@ -25,11 +25,11 @@ import { Button } from "@/components/ui/Button";
  * where the subtext sits. See scripts/check_hero_contrast.py and REPORT.md.
  */
 const SCRIM =
-  "linear-gradient(to bottom, rgba(18,14,10,0.14) 0%, rgba(18,14,10,0.05) 5%, rgba(18,14,10,0) 13%), linear-gradient(to top, rgba(18,14,10,0.90) 0%, rgba(18,14,10,0.85) 47%, rgba(18,14,10,0.38) 58%, rgba(18,14,10,0) 68%), linear-gradient(to right, rgba(18,14,10,0.18) 0%, rgba(18,14,10,0.10) 40%, rgba(18,14,10,0) 66%)";
+  "linear-gradient(to bottom, rgba(18,14,10,0.14) 0%, rgba(18,14,10,0.14) 8%, rgba(18,14,10,0) 16%), linear-gradient(to top, rgba(18,14,10,0.90) 0%, rgba(18,14,10,0.85) 47%, rgba(18,14,10,0.38) 58%, rgba(18,14,10,0) 68%), linear-gradient(to right, rgba(18,14,10,0.18) 0%, rgba(18,14,10,0.10) 40%, rgba(18,14,10,0) 66%)";
 
 /** Mobile-only: deepen the bottom of the scrim so the subtext holds over busy art. */
 const MOBILE_SCRIM =
-  "linear-gradient(to top, rgba(18,14,10,0.34) 0%, rgba(18,14,10,0.14) 40%, rgba(18,14,10,0) 100%)";
+  "linear-gradient(to top, rgba(18,14,10,0.40) 0%, rgba(18,14,10,0.24) 50%, rgba(18,14,10,0) 100%)";
 
 /** Keeps the cream type legible where the scrim feathers toward the plates. */
 const TEXT_SHADOW = "0 1px 3px rgba(18,14,10,0.65), 0 3px 26px rgba(18,14,10,0.55)";
@@ -105,12 +105,12 @@ export function Hero() {
               Sai Sree Enterprise
             </h1>
             <p
-              className="mt-7 max-w-[34rem] font-body text-[clamp(1.2rem,1.9vw,1.6rem)] font-medium leading-[1.62] text-cream/95 sm:mt-6"
+              className="mt-8 max-w-[50rem] font-body text-[clamp(1.12rem,1.75vw,1.5rem)] font-medium leading-[1.72] text-cream/95 sm:mt-7"
               style={{ textShadow: TEXT_SHADOW }}
             >
-              <span className="block">Civil construction, earthwork and levelling,</span>
-              <span className="block">machine and material supply, and</span>
-              <span className="block">rammed earth and mud construction.</span>
+              <span className="block">Construction built as craft. Art and design sit at the core </span>
+              <span className="block">of everything we build: civil works, earthwork and levelling, </span>
+              <span className="block">machine and material supply, and rammed earth and mud construction.</span>
             </p>
 
             <div className="mt-9">

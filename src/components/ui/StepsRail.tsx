@@ -1,6 +1,10 @@
 import { cn } from "@/lib/utils";
 
-/** The five-step process as a hairline drawing-office rail. Order carries the sequence. */
+/**
+ * The five-step process as a hairline drawing-office rail. Order carries the
+ * sequence, so each station leads with its oversized numeral: the rank is the
+ * meaning, not decoration.
+ */
 export function StepsRail({ steps, className }: { steps: string[]; className?: string }) {
   return (
     <ol
@@ -10,13 +14,16 @@ export function StepsRail({ steps, className }: { steps: string[]; className?: s
         className,
       )}
     >
-      {steps.map((step) => (
-        <li key={step} className="flex flex-col gap-7 bg-paper p-6 lg:p-7">
-          <span className="flex items-center gap-3" aria-hidden="true">
-            <span className="h-[3px] w-8 bg-terracotta" />
-            <span className="h-[7px] w-[7px] border border-gold" />
+      {steps.map((step, index) => (
+        <li key={step} className="flex flex-col gap-6 bg-paper p-6 lg:p-7">
+          <span
+            aria-hidden="true"
+            className="font-display text-[clamp(2.4rem,4.2vw,3.4rem)] font-semibold leading-[0.9] tabular-nums text-terracotta/30"
+          >
+            {String(index + 1).padStart(2, "0")}
           </span>
-          <span className="font-display text-[1.3rem] leading-snug">{step}</span>
+          <span className="h-px w-full bg-hairline" aria-hidden="true" />
+          <span className="font-display text-[1.25rem] leading-snug">{step}</span>
         </li>
       ))}
     </ol>

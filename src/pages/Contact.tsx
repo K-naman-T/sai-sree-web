@@ -1,8 +1,9 @@
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StepsRail } from "@/components/ui/StepsRail";
+import { MotifBand } from "@/components/ui/Ornament";
 import { TextLink } from "@/components/ui/Button";
-import { steps } from "@/data/site";
+import { heroSlides, steps } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 export default function Contact() {
@@ -10,20 +11,34 @@ export default function Contact() {
 
   return (
     <>
-      <Section>
+      <Section wash="seam-to-paper2">
         <SectionHeading as="h1" rule>
           Contact
         </SectionHeading>
-        <p className="mt-6 max-w-[52ch] text-lg text-ink-2">
-          Reach out to talk about your site or start a job.
+        <p className="mt-6 max-w-[30ch] font-display text-[clamp(1.5rem,3vw,2.2rem)] leading-tight">
+          Art and design, built into the ground.
+        </p>
+        <p className="mt-5 max-w-[52ch] text-lg text-ink-2">
+          Tell us about your site or a job you are planning, and we will tell you how we would
+          build it.
         </p>
         {/* Phone, WhatsApp, address, working hours and service area render here only
-            when the client supplies the real values (docs/CONTENT-MANIFEST.md). */}
+            when the client supplies the real values (CONTENT-MANIFEST.md). */}
       </Section>
 
-      <Section tone="paper2">
+      <MotifBand />
+
+      <Section
+        tone="paper2"
+        bordered={false}
+        texture={heroSlides[3]}
+        textureClassName="right-0 top-0 hidden h-full w-[40%] object-cover lg:block"
+      >
         <SectionHeading>How a job starts</SectionHeading>
-        <StepsRail steps={steps} className="mt-12" />
+        <p className="mt-6 max-w-[52ch] font-display text-[clamp(1.3rem,2.2vw,1.7rem)] leading-snug">
+          Every site runs the same measured sequence. Craft is a discipline.
+        </p>
+        <StepsRail steps={steps} className="mt-10" />
         <p className="mt-10">
           <TextLink to="/services">See the services we run</TextLink>
         </p>

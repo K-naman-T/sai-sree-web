@@ -70,7 +70,8 @@ export const heroSlides: Plate[] = [
 export const categories: { title: string; blurb: string; plate: Plate }[] = [
   {
     title: "Civil construction",
-    blurb: "Contracts built to the drawings, from foundations to masonry.",
+    blurb:
+      "Contract work finished like craft: foundations, columns, slabs and masonry built to the drawing, and to the eye.",
     plate: {
       src: "/plates/TILE-CIVIL.webp",
       width: 800,
@@ -80,7 +81,8 @@ export const categories: { title: string; blurb: string; plate: Plate }[] = [
   },
   {
     title: "Earthwork and levelling",
-    blurb: "Ground cut, filled and set to level before the build starts.",
+    blurb:
+      "The ground is the first material. Cut, filled and set to level with the precision the build deserves.",
     plate: {
       src: "/plates/TILE-EARTHWORK.webp",
       width: 800,
@@ -90,7 +92,8 @@ export const categories: { title: string; blurb: string; plate: Plate }[] = [
   },
   {
     title: "Machine and material supply",
-    blurb: "Machines with an operator, and materials brought to site.",
+    blurb:
+      "Machines with an operator and materials chosen for the work. Power in service of the finish.",
     plate: {
       src: "/plates/TILE-SUPPLY.webp",
       width: 800,
@@ -100,7 +103,8 @@ export const categories: { title: string; blurb: string; plate: Plate }[] = [
   },
   {
     title: "Rammed earth and mud construction",
-    blurb: "Walls formed in lifts and finished by hand.",
+    blurb:
+      "The art form we keep alive: walls formed in lifts and finished by hand. Beautiful and permanent.",
     plate: {
       src: "/plates/HERO-MUDHOUSE-SQ.webp",
       width: 800,
@@ -116,7 +120,7 @@ export const services: Service[] = [
   {
     id: "civil",
     title: "Civil construction contracts",
-    body: "We take on civil construction work as a contract. The scope follows the drawings and the specification. Foundations, columns, slabs and masonry are built on site.",
+    body: "We take on civil construction work as a contract. The scope follows the drawings and the specification. Foundations, columns, slabs and masonry are built on site with the finish the work deserves.",
     provide: PROVIDE,
     plate: {
       src: "/plates/TILE-CIVIL.webp",
@@ -128,7 +132,7 @@ export const services: Service[] = [
   {
     id: "earthwork",
     title: "Earthwork and excavation",
-    body: "We cut and remove earth where the drawings call for it. Excavation follows the set-out lines and the levels. The spoil is loaded and carted off the site.",
+    body: "We cut and remove earth where the drawings call for it. Excavation follows the set-out lines and the levels. The spoil is loaded and carted off, and the cut is left true.",
     provide: PROVIDE,
     plate: {
       src: "/plates/HERO-MACHINE-V2.webp",
@@ -140,7 +144,7 @@ export const services: Service[] = [
   {
     id: "levelling",
     title: "Site levelling and preparation",
-    body: "We level and prepare ground before building starts. Pegs and string lines mark the levels. The plot is cut and filled until it is flat and ready.",
+    body: "We level and prepare ground before building starts. Pegs and string lines mark the levels. The plot is cut and filled until it is flat and set for the build.",
     provide: PROVIDE,
     plate: {
       src: "/plates/TILE-EARTHWORK.webp",
@@ -152,7 +156,7 @@ export const services: Service[] = [
   {
     id: "machine-contracts",
     title: "Machine contracts by hour, day or trip",
-    body: "The hire is booked and charged by the hour, the day or the trip. The rate is agreed before the machine is booked. The booking covers the machine's time on site.",
+    body: "The hire is booked and charged by the hour, the day or the trip. The rate is agreed before the machine is booked. The right machine is matched to the work in hand.",
     provide: PROVIDE,
     plate: {
       src: "/plates/HERO-MACHINE.webp",
@@ -164,7 +168,7 @@ export const services: Service[] = [
   {
     id: "machinery-operator",
     title: "Machinery with operator",
-    body: "Machines are hired out with an operator. The operator runs the machine on the work in hand. The machine is chosen for the ground and the access on your site. Machine hours are written in the logbook.",
+    body: "Machines are hired out with an operator. The operator runs the machine on the work in hand, with the care the work needs. Machine hours are written in the logbook.",
     provide: PROVIDE,
     plate: {
       src: "/plates/HERO-MACHINE-V2.webp",
@@ -176,7 +180,7 @@ export const services: Service[] = [
   {
     id: "material-supply",
     title: "Material supply (cement, steel, aggregates, fill earth)",
-    body: "Materials are supplied to site as the work needs them. They are brought in and unloaded on site. Supply can run with the construction or on its own.",
+    body: "Materials are supplied to site as the work needs them, chosen for the job. They are brought in and unloaded on site. Supply can run with the construction or on its own.",
     provide: PROVIDE,
     plate: {
       src: "/plates/TILE-SUPPLY.webp",
@@ -188,7 +192,7 @@ export const services: Service[] = [
   {
     id: "labour",
     title: "Labour supply and labour contracts",
-    body: "Labour is supplied to site on contract. Teams are placed with the job for the work it needs. The team works on site for the span of the job.",
+    body: "Labour is supplied to site on contract. Teams are placed with the job for the work it needs. The team works on site for the span of the job, and leaves the work to the standard set.",
     provide: PROVIDE,
     plate: {
       src: "/plates/TILE-LABOUR.webp",
@@ -200,7 +204,7 @@ export const services: Service[] = [
   {
     id: "road",
     title: "Road, drain and barrier work",
-    body: "We build roads, drains and barriers as part of a site. Formation, drainage lines and barrier runs are set out and built to the drawings.",
+    body: "We build roads, drains and barriers as part of a site. Formation, drainage lines and barrier runs are set out and built to the drawings. The lines are run true and the levels held.",
     provide: PROVIDE,
     plate: {
       src: "/plates/TILE-ROAD.webp",
@@ -212,7 +216,7 @@ export const services: Service[] = [
   {
     id: "rammed-earth",
     title: "Rammed earth and mud construction",
-    body: "Rammed earth walls are formed inside formwork. The earth mix is placed and compacted in lifts until the wall stands, then the formwork is struck. Mud construction follows the same method, and the wall is finished by hand.",
+    body: "Rammed earth is the art form we keep alive. Walls are formed inside formwork, the earth mix placed and compacted in lifts until the wall stands, then the formwork is struck. Mud construction follows the same method, and the wall is finished by hand.",
     provide: PROVIDE,
     plate: {
       src: "/plates/HERO-MUDHOUSE.webp",
@@ -231,55 +235,8 @@ export const steps: string[] = [
   "Compact and hand over",
 ];
 
-export const finishedSites: SitePhoto[] = [
-  {
-    src: "/photos/standin-01.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "Road paving work",
-    caption: "Road paving work",
-  },
-  {
-    src: "/photos/standin-02.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "Earthwork and excavation",
-    caption: "Earthwork and excavation",
-  },
-  {
-    src: "/photos/standin-03.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "Kerb and edge work",
-    caption: "Kerb and edge work",
-  },
-];
-
-export const runningSites: SitePhoto[] = [
-  {
-    src: "/photos/standin-04.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "Foundation excavation",
-    caption: "Foundation excavation",
-  },
-  {
-    src: "/photos/standin-05.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "Earthmoving and haul",
-    caption: "Earthmoving and haul",
-  },
-  {
-    src: "/photos/standin-06.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "Site levelling work",
-    caption: "Site levelling work",
-  },
-];
-
-export const allStandins: SitePhoto[] = [...finishedSites, ...runningSites];
+// Site photographs now live in src/data/photos.ts (the client's own photos,
+// supplied 2026-10). The former stand-in set has been retired.
 
 /** Decorative plates. These carry alt="" and never depict the company's sites. */
 export const frieze: Plate = {

@@ -92,6 +92,51 @@
   }
 }
 
+/* ------------------------------------------------------------------ *
+ * Round 4 composition fills.
+ * Warm gradient washes (<=8% tint) soften the paper <-> paper-2 seams
+ * and keep text-free zones from reading as voids. Kept as separate
+ * utilities so any band can opt in without a pseudo-element fight.
+ * ------------------------------------------------------------------ */
+@layer utilities {
+  .wash-ochre-down {
+    background-image: radial-gradient(
+      120% 80% at 50% 0%,
+      rgb(201 138 43 / 0.07),
+      rgb(201 138 43 / 0) 60%
+    );
+  }
+  .wash-ochre-up {
+    background-image: radial-gradient(
+      120% 80% at 50% 100%,
+      rgb(201 138 43 / 0.06),
+      rgb(201 138 43 / 0) 60%
+    );
+  }
+  .wash-terracotta-up {
+    background-image: radial-gradient(
+      130% 90% at 50% 100%,
+      rgb(180 71 46 / 0.055),
+      rgb(180 71 46 / 0) 58%
+    );
+  }
+  /* Soft seam where a paper band meets a paper-2 band above/below it. */
+  .seam-from-paper2 {
+    background-image: linear-gradient(
+      to bottom,
+      var(--color-paper-2) 0%,
+      rgb(243 235 221 / 0) 20%
+    );
+  }
+  .seam-to-paper2 {
+    background-image: linear-gradient(
+      to top,
+      var(--color-paper-2) 0%,
+      rgb(243 235 221 / 0) 20%
+    );
+  }
+}
+
 /* Hero background slider: crossfade with a slow Ken Burns drift. */
 .hero-swiper,
 .hero-swiper .swiper-wrapper {

@@ -24,7 +24,10 @@ def main():
         stat = ImageStat.Stat(img)
         mean = sum(stat.mean) / 3
         std = sum(stat.stddev) / 3
-        colors = len(img.getcolors(maxcolors=1_000_000) or [])
+        raw = img.getcolors(maxcolors=1_000_000)
+        # getcolors returns None when the cap is exceeded: that means MORE than a
+        # million distinct colours, i.e. richly detailed, the opposite of blank.
+        colors = len(raw) if raw is not None else 1_000_000
         name = os.path.basename(path)
         print(f"{name:<34} {str(img.size):<12} {mean:6.1f} {std:6.1f} {colors:8d}")
         if colors < 50 or std < 1.0:

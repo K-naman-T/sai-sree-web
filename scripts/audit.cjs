@@ -88,6 +88,20 @@ async function main() {
         }
         window.scrollTo(0, 0);
       });
+      // Bring every carousel slide into view in turn, so lazily-loaded slides
+      // behind the horizontal scroll actually load before the image checks run.
+      await page.evaluate(async () => {
+        const tracks = Array.from(document.querySelectorAll("[aria-roledescription='carousel']"));
+        for (const track of tracks) {
+          const width = track.clientWidth || 1;
+          const slides = Math.max(1, Math.round(track.scrollWidth / width));
+          for (let i = 0; i < slides; i++) {
+            track.scrollTo({ left: i * width });
+            await new Promise((r) => setTimeout(r, 150));
+          }
+          track.scrollTo({ left: 0 });
+        }
+      });
       await page.waitForTimeout(400);
       // Wait for every visible image to finish loading before judging them.
       await page

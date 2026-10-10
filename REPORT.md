@@ -91,8 +91,9 @@ by `scripts/audit.cjs`.
   address, hours or service area; the Machinery "Fleet list" renders a short empty
   state with no placeholder rows; the footer renders the lockup and legal name only.
   The fill-list remains `reference/CONTENT-MANIFEST.md`.
-- Work photos are the temporary stand-ins (`standin-01..06`), captioned by their work
-  type and never presented as this company's named sites.
+- Work photos are the client's own site photographs (supplied 2026-10), captioned by the
+  work they show; grouping in `src/data/photos.ts`, provenance in
+  `reference/PHOTO-CREDITS.md`.
 
 ## Deviations from the brief
 
@@ -162,6 +163,169 @@ fonts and content are unchanged; this was a composition and integration pass.
 - `python3 scripts/check_shots.py` — no blank frames; hero upper band 90.6 vs
   paper 246.
 
+## Round 3 revisions
+
+Applied the surgical art-direction pass in `ROUND3.md`. Design system, palette,
+fonts and content are unchanged; this was a plate-integration and hero-polish pass.
+
+### Services (`src/pages/Services.tsx`, `src/components/ui/FramedImage.tsx`)
+- **Sticker effect killed.** `FramedImage` no longer adds a mount background or a
+  border box: the container is transparent and the plate's own painted cream border
+  is the frame, sitting flush on the band ground. Verified at the plate edge, the
+  band ground runs straight into the plate's painted border with no hairline, matte
+  or chip between.
+- **Plate-native ratio.** The window now takes the plate's own aspect ratio (inline
+  `aspect-ratio` from the plate's width/height) rather than a forced 4:3, so no
+  plate is cropped and its painted frame is complete on all four edges. Home, About
+  and Machinery keep their explicit `aspect-[16/9]` windows, which match their 16:9
+  plates exactly, so those pages are visually unchanged.
+- **Rows top-aligned.** The real cause was half-leading, not the grid: the `h2` box
+  top already matched the plate top, but the cap line sat ~9px lower. The heading is
+  now `leading-[1.15]` with a `-mt-[0.2em]` optical trim. Measured: heading cap at
+  y=457 against plate top y=458 (Δ 1px).
+- **Dead gap removed.** The intro band's bottom padding is now
+  `pb-8 sm:pb-10 lg:pb-12` (the Work page's rhythm), giving **96px** from the intro
+  band to the first plate against a **97px** plate-to-plate rhythm.
+- **Plate weight.** Plate column capped at **20rem** (was 24rem), so the text column
+  carries equal weight.
+
+### Hero polish (`src/components/Hero.tsx`)
+- **Subtext leading** raised from 1.5 to **1.62** (+3.1px desktop / +2.3px mobile);
+  the deliberate three-line block is kept.
+- **Editorial slide counter** `01 / 04` (micro-type, tabular figures) added beside
+  the indicators, bottom-right. The counter and the indicator dashes share one flex
+  row, vertically centred, and that row is exactly aligned with the CTA row (same
+  top, bottom and centre at 1440). The count is 4, the real number of hero slides;
+  the spec's "01 / 05" was illustrative, and a wrong denominator would be a false claim.
+- **Nav scrim.** A third, very light top-down scrim (14% max, held across the 68px
+  header, fading out by 16% of the hero) sits over the hero so the links hold over
+  the plate border. It is zero across the text-contrast sample region.
+- **Title kerning** tightened from -0.01em to **-0.02em**.
+
+### Mobile hero
+- A mobile-only bottom layer deepens the scrim (0.40 → 0.24 → 0 over the bottom 64%
+  of the hero), keeping the art clear in the upper region and feathering through the
+  middle. Measured beside the rendered subtext on `home-mobile.png`, the background
+  is dark (worst pixel 15.2:1 against the cream text).
+- Headline-to-subtext gap increased (24px → 28px) on small screens.
+- All changes are scoped under `sm:` / `lg:`; desktop and mobile shots both regenerated.
+
+### Re-verification (all PASS, all 24 shots regenerated)
+- `npm run check` — clean. `npm run build` — ✓ built.
+- `NODE_PATH="$(npm root -g)" node scripts/shots.cjs` — no console errors, no page
+  errors, no failed requests, no 4xx/5xx.
+- `NODE_PATH="$(npm root -g)" node scripts/audit.cjs` — **18/18** route×viewport
+  combinations pass.
+- `python3 scripts/check_hero_contrast.py` — **5.33:1** / **4.94:1** analytic;
+  **11.26–14.78:1** measured beside the rendered text (the exact value tracks which
+  slide the frame caught). PASS.
+- `python3 scripts/check_shots.py` — no blank frames; hero upper band 89.0 vs paper 246.
+- Nav labels verified exactly **Home / Work / Services / Machinery / About / Contact**
+  on all six routes.
+
+## Round 4 revisions (positioning copy + dead-space composition)
+
+Round 4 carries the locked positioning directive: this company sells art and design in
+construction. Factual claims were held exactly as they were; only positioning language was
+added. Design system, palette and fonts are unchanged.
+
+### Copy deck applied (verbatim where given)
+- **Hero** (`src/components/Hero.tsx`) — H1 unchanged; subtext is now the positioning
+  block "Construction built as craft. Art and design sit at the core of everything we build:
+  civil works, earthwork and levelling, machine and material supply, and rammed earth and mud
+  construction.", typeset into three deliberate lines.
+- **What we take on** (`src/data/site.ts`) — four craft-framed card lines, CTA stays VIEW
+  SERVICES.
+- **The fleet** (`src/pages/Home.tsx`) — "Machines are the instruments. The eye of the
+  operator is the difference. Hired by the hour, by the day, or by the trip."
+- **How the work runs** — new lead "Every site runs the same measured sequence. Craft is a
+  discipline." above the five stations.
+- **Work** (`src/pages/Work.tsx`) — lead "Work built to be looked at."; intro "Finished and
+  running sites. The proof is in the finish."; captions unchanged.
+- **Contact** (`src/pages/Home.tsx`, `src/pages/Contact.tsx`) — "Art and design, built into
+  the ground." + "Tell us about your site or a job you are planning, and we will tell you how
+  we would build it."; TALK TO US on the home band.
+- **Services** (`src/pages/Services.tsx`) — the new page intro, plus all nine service bodies
+  rewritten to the formula (what we do plainly + one craft stance), max three sentences.
+  Titles and the "What you provide" line are unchanged.
+- **About** (`src/pages/About.tsx`) — rebuilt around the philosophy: the belief (art
+  aesthetics are how the work is planned and built), what we do, how we run, where, a
+  registrations block carrying only confirmed facts, and the closing positioning line.
+- **Machinery** (`src/pages/Machinery.tsx`) — the new intro; factual machine terms kept.
+- **Footer** (`src/components/layout/SiteFooter.tsx`) — positioning line under the lockup.
+- **404** (`src/pages/NotFound.tsx`) — light voice echo.
+
+### Dead-space composition
+- `Section` gained optional `wash` (<=8% warm gradient) and `texture` (plate art at 14% in
+  text-free zones) layers; `src/index.css` adds the wash/seam utilities.
+- A new `MotifBand` (BORDER-MOTIF) and `PullQuote` live in `src/components/ui/Ornament.tsx`;
+  `StepsRail` now leads each station with its oversized numeral.
+- Lower band rhythm (`py-14 sm:py-16 lg:py-20`) plus motif dividers and gradient washes.
+- Measured with the new `scripts/deadspace.py` (per-row luminance variance). Largest flat
+  band per page before → after: Home 225px → 119px, Services 233px → 103px (the ~95px bands
+  left on Services are the intended row rhythm), About 133px → 128px, Machinery 230px → 96px,
+  Work 228px → 102px, Contact 230px → 101px. No dead band above 128px remains.
+
+### Interrupted Round 3 layout items folded in
+- Services plates sit flush (own painted border is the frame), rows top-aligned, plate
+  column capped at 20rem, intro-to-first-row gap tightened.
+- Hero subtext leading raised to 1.72, editorial "01 / 04" counter by the indicators,
+  whisper nav scrim (14%) on the hero, title kerning tightened.
+- Mobile hero: bottom scrim deepened (0.40 / 0.24) and headline-to-subtext gap widened.
+- Nav labels confirmed exact on all six routes: Home / Work / Services / Machinery / About /
+  Contact.
+
+### Round 4 re-verification (all PASS, all shots regenerated)
+- `npm run check` — clean. `npm run build` — ✓ built.
+- `node scripts/shots.cjs` — no console errors, page errors, failed requests or 4xx/5xx.
+- `node scripts/audit.cjs` — **18/18** route×viewport combinations pass.
+- `python3 scripts/check_hero_contrast.py` — analytic 5.30:1 / 4.91:1; measured h1
+  13.7–14.3:1, sub 14.2–15.5:1 (the measured strip varies with the active carousel frame).
+  PASS. (Sample region widened to y 55–83% to cover the new text block.)
+- `python3 scripts/check_shots.py` — no blank frames; hero upper band 89.0 vs paper 246.
+
+## Round 5 revisions (client photographs)
+
+The client's own site photographs replace every stand-in. Design system, palette, fonts
+and the copy deck are unchanged.
+
+### Photography (`assets/photos/`, `src/data/photos.ts`)
+- 26 client photographs optimised to WebP (16–362 KB, EXIF stripped, no upscaled
+  frames): `site-01..26.webp`; original filenames in `site-photos.json`; provenance in
+  `credits.json` (client-supplied). The stand-ins (`standin-01..06`) are deleted
+  everywhere — files, data, credits.
+- Vision-classified into nine work groups with plain factual captions; every supplied
+  photograph is used on the Work page.
+
+### Work page (`src/pages/Work.tsx`, `src/components/ui/PhotoCarousel.tsx`)
+- Nine carousel groups in uniform 3:2 windows with snap scrolling, keeping the
+  alternating band tones and motif dividers.
+- Carousel controls: caption, count and paddles under the frame; below `sm` the caption
+  takes its own line and the controls stack beneath it. Paddles and dot hit areas hold
+  44px on every viewport; dot marks stay hairline-thin, top-hugging and flush left with
+  the frame.
+- Group padding tightened so every seam holds the Round 4 dead-band bar: 119px max on
+  Work.
+
+### Home page (`src/pages/Home.tsx`)
+- The Work band carries the hook pair: `site-24` (finished residence and pool) and
+  `site-06` (concrete pour into the foundation) — finish beside process — with the
+  stagger offset tightened (96px → 64px).
+
+### Checker corrections (surfaced by this round)
+- `check_shots.py`: a >1M-colour image (`getcolors` returns None) no longer reads as
+  zero colours / blank.
+- `audit.cjs`: the pre-check scan now sweeps every carousel slide horizontally, so
+  lazily-loaded slides are loaded and validated instead of misread as broken images.
+
+### Round 5 re-verification (all PASS, all shots regenerated)
+- `npm run check` — clean. `npm run build` — ✓ built.
+- shots: no console errors, page errors, failed requests or 4xx/5xx.
+- audit: **18/18** route×viewport combinations pass.
+- hero contrast: analytic **5.30:1 / 4.91:1**; measured h1 13.8–14.3:1, sub 14.1–15.5:1.
+- check_shots: no blank frames; hero upper band 89.0 vs paper 246.
+- dead-space: largest flat band on Work **119px** (bar: ≤128px); other pages unchanged.
+
 ## Reproduce
 
 ```bash
@@ -172,4 +336,5 @@ NODE_PATH="$(npm root -g)" node scripts/audit.cjs
 NODE_PATH="$(npm root -g)" node scripts/shots.cjs
 python3 scripts/check_hero_contrast.py
 python3 scripts/check_shots.py
+python3 scripts/deadspace.py          # dead-space measurement (Round 4)
 ```
