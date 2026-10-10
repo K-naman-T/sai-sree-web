@@ -6,6 +6,8 @@ interface SectionHeadingProps {
   children: ReactNode;
   as?: "h1" | "h2";
   link?: { to: string; label: string };
+  /** Optional right-hand content on the same row (a short note or blurb). */
+  aside?: ReactNode;
   className?: string;
   /** Short gold rule above the heading. Ornament, not an eyebrow label. */
   rule?: boolean;
@@ -15,6 +17,7 @@ export function SectionHeading({
   children,
   as = "h2",
   link,
+  aside,
   className,
   rule = true,
 }: SectionHeadingProps) {
@@ -39,6 +42,7 @@ export function SectionHeading({
           {link.label}
         </TextLink>
       )}
+      {aside && <div className="mb-1 min-w-0">{aside}</div>}
     </div>
   );
 }

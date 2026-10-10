@@ -19,7 +19,7 @@ const routes = [
 const devices = [
   { slug: "desktop", width: 1440, height: 900, isMobile: false },
   { slug: "mobile", width: 390, height: 844, isMobile: true },
-];
+].filter((d) => !process.env.DEVICES || process.env.DEVICES.split(",").includes(d.slug));
 
 async function main() {
   mkdirSync("shots", { recursive: true });
@@ -76,8 +76,30 @@ async function main() {
           await new Promise((r) => setTimeout(r, 150));
         }
         window.scrollTo(0, 0);
+        // Every lazy image has now been in view; wait for decode before the frame
+        // (raced against a timeout so a stalled load cannot hang the run).
+        await Promise.all(
+          Array.from(document.images).map((img) =>
+            Promise.race([
+              img.decode().catch(() => {}),
+              new Promise((r) => setTimeout(r, 4000)),
+            ]),
+          ),
+        );
       });
-      await page.waitForTimeout(400);
+      await page.waitForTimeout(900);
+      // Strip compositor-promoted layer styles from revealed tiles before the
+      // full-page frame: framer leaves filter/opacity/transform inline, and
+      // headless beyond-viewport capture renders some such layers blank.
+      await page.evaluate(() => {
+        document.querySelectorAll("figure").forEach((figure) => {
+          const wrapper = figure.parentElement;
+          if (!wrapper) return;
+          wrapper.style.filter = "none";
+          wrapper.style.opacity = "1";
+          wrapper.style.transform = "none";
+        });
+      });
       await page.screenshot({
         path: `shots/${route.slug}-${device.slug}-full.png`,
         fullPage: true,

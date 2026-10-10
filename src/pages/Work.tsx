@@ -1,11 +1,24 @@
 import { Fragment } from "react";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { PhotoCarousel } from "@/components/ui/PhotoCarousel";
+import { PhotoWall, type WallVariant } from "@/components/ui/PhotoWall";
 import { MotifBand } from "@/components/ui/Ornament";
 import { heroSlides } from "@/data/site";
 import { photoGroups } from "@/data/photos";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
+
+/** Wall layout per group, keyed by title so reordering the data cannot mismatch. */
+const WALL_BY_TITLE: Record<string, WallVariant> = {
+  "Excavation and foundations": "mosaic",
+  "Earthwork and site preparation": "duo",
+  "Retaining walls": "duo-flip",
+  "Demolition and clearing": "duo-cinema",
+  "Steel frame and decking": "duo-wide",
+  "Industrial steel and shed works": "rail",
+  "Building works": "split",
+  "Landscaping and ground finishing": "hang",
+  "A finished residence": "featured",
+};
 
 export default function Work() {
   useDocumentTitle("Work");
@@ -32,11 +45,16 @@ export default function Work() {
       {photoGroups.map((group, index) => (
         <Fragment key={group.title}>
           <Section tone={index % 2 === 0 ? "paper2" : "paper"} className="py-8 sm:py-9 lg:py-10">
-            <div className="mx-auto w-full max-w-[min(100%,max(420px,calc((100dvh_-_450px)*1.5)))]">
-              <SectionHeading>{group.title}</SectionHeading>
-              <p className="mt-5 max-w-[52ch] text-ink-2">{group.blurb}</p>
-              <PhotoCarousel photos={group.photos} label={group.title} className="mt-8" />
-            </div>
+            <SectionHeading
+              aside={<p className="max-w-[46ch] text-ink-2 sm:text-right">{group.blurb}</p>}
+            >
+              {group.title}
+            </SectionHeading>
+            <PhotoWall
+              photos={group.photos}
+              variant={WALL_BY_TITLE[group.title] ?? "grid"}
+              className="mt-8"
+            />
           </Section>
           {(index === 2 || index === 5) && <MotifBand />}
         </Fragment>
