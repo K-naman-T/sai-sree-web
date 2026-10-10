@@ -115,7 +115,7 @@ export function Hero() {
             </p>
 
             <div className="mt-9">
-              <Button to="/contact" variant="cream">
+              <Button to="/contact" variant="cream" size="lg">
                 Get in touch
               </Button>
 

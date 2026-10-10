@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { StepsRail } from "@/components/ui/StepsRail";
 import { Frieze, MotifBand, PullQuote } from "@/components/ui/Ornament";
+import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
 import { Button } from "@/components/ui/Button";
 import { BentoGrid, BentoCard } from "@/components/magicui/BentoGrid";
 import { BlurFade } from "@/components/magicui/BlurFade";
@@ -42,13 +43,9 @@ export default function Home() {
         </BlurFade>
       </Section>
 
-      {/* Positioning quote band: fills the seam between the category grid and
-          the fleet with a low-opacity plate, so the page is designed there too. */}
-      <Section
-        tone="paper2"
-        texture={heroSlides[2]}
-        textureClassName="right-0 top-0 hidden h-full w-[46%] object-cover lg:block"
-      >
+      {/* Positioning quote band: the earthwork plate struck into the paper
+          behind the quote, so the page is designed there too. */}
+      <Section tone="paper2" texture={categories[1].plate}>
         <PullQuote className="max-w-[38rem]">
           Art and design sit at the core of everything we build.
         </PullQuote>
@@ -122,23 +119,13 @@ export default function Home() {
 
       <MotifBand />
 
-      <Section wash="wash-ochre-up" texture={heroSlides[3]} textureClassName="right-0 top-0 hidden h-full w-[40%] object-cover lg:block">
-        <div className="grid gap-10 lg:grid-cols-12 lg:items-end">
-          <div className="lg:col-span-8">
-            <SectionHeading>Contact</SectionHeading>
-            <p className="mt-6 max-w-[30ch] font-display text-[clamp(1.4rem,2.6vw,2rem)] leading-tight">
-              Art and design, built into the ground.
-            </p>
-            <p className="mt-5 max-w-[52ch] text-ink-2">
-              Tell us about your site or a job you are planning, and we will tell you how we would
-              build it.
-            </p>
-          </div>
-          <div className="lg:col-span-4 lg:text-right">
-            <Button to="/contact">Talk to us</Button>
-          </div>
-        </div>
-      </Section>
+      <TalkBand action="Talk to us" texture={categories[3].plate}>
+        <TalkLine>Art and design, built into the ground.</TalkLine>
+        <p className="mt-5 max-w-[52ch] text-ink-2">
+          Tell us about your site or a job you are planning, and we will tell you how we would
+          build it.
+        </p>
+      </TalkBand>
     </>
   );
 }

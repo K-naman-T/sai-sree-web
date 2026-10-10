@@ -30,8 +30,10 @@ interface SectionProps {
    */
   wash?: string;
   /**
-   * Optional decorative plate laid in a text-free zone at low opacity, so a
-   * band does not read as empty. Always alt="".
+   * The band's plate: a decorative image laid full-bleed under the content as
+   * a pale struck print — desaturated into the paper (mix-blend-multiply) and
+   * released toward the right where the text clears it. Always alt="", never
+   * one of the company's own site photographs. Hidden below md.
    */
   texture?: Plate;
   textureClassName?: string;
@@ -60,19 +62,31 @@ export function Section({
     >
       {wash && <div aria-hidden="true" className={cn("pointer-events-none absolute inset-0", wash)} />}
       {texture && (
-        <img
-          src={texture.src}
-          width={texture.width}
-          height={texture.height}
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-          decoding="async"
-          className={cn(
-            "pointer-events-none absolute select-none object-cover opacity-[0.14]",
-            textureClassName,
-          )}
-        />
+        <>
+          {/* The plate is scaled past its painted frame edge so only artwork
+              shows; the wrapper clips the overflow. */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 hidden overflow-hidden md:block"
+          >
+            <img
+              src={texture.src}
+              width={texture.width}
+              height={texture.height}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              className={cn(
+                "h-full w-full scale-[1.28] select-none object-cover opacity-[0.6] mix-blend-multiply [filter:grayscale(1)_sepia(0.3)_brightness(1.24)_contrast(1.02)]",
+                textureClassName,
+              )}
+            />
+          </div>
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 hidden bg-gradient-to-r from-paper via-paper/82 to-paper/15 md:block"
+          />
+        </>
       )}
       <Container className={cn("relative", containerClassName)}>{children}</Container>
     </section>

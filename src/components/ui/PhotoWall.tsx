@@ -1,29 +1,21 @@
 import type { SitePhoto } from "@/data/site";
 import { cn } from "@/lib/utils";
 import { BlurFade } from "@/components/magicui/BlurFade";
+import type { WallVariant } from "@/components/ui/wallPlan";
 
 /**
- * PhotoWall — the Work page's plate compositions.
+ * PhotoWall — renders a group's photographs as one editorial wall.
  *
- * Each group's photographs are shown together as one editorial wall instead of
- * a carousel: a 12-column grid on large screens with per-layout spans and
- * viewport-derived tile heights, so the whole wall (heading to last caption)
- * stays inside one screen and no photo is cropped beyond a mild editorial trim.
- * Reveals use the vendored Magic UI BlurFade component. Below lg every wall
- * falls back to a single column of framed plates.
+ * The composition is not hand-picked per page: callers pass photographs and
+ * the variant the planner suggests (src/components/ui/wallPlan.ts), and the
+ * wall below draws it. Layouts are a 12-column grid on large screens with
+ * viewport-derived tile heights, so a normal group keeps its whole section
+ * inside one screen and no photo is cropped beyond a mild editorial trim.
+ * Below lg every wall falls back to a single column of framed plates; groups
+ * of nine or more plates flow past the viewport because they have to.
+ *
+ * Plates reveal with the vendored Magic UI BlurFade; captions sit under each.
  */
-export type WallVariant =
-  | "mosaic"
-  | "duo"
-  | "duo-flip"
-  | "duo-cinema"
-  | "duo-wide"
-  | "rail"
-  | "split"
-  | "hang"
-  | "featured"
-  | "grid";
-
 function Plate({
   photo,
   delay = 0,
@@ -71,7 +63,7 @@ function Plate({
 
 export function PhotoWall({
   photos,
-  variant = "grid",
+  variant = "grid-many",
   className,
 }: {
   photos: SitePhoto[];
@@ -80,48 +72,64 @@ export function PhotoWall({
 }) {
   if (photos.length === 0) return null;
   const base = "grid grid-cols-1 gap-x-6 gap-y-8 lg:grid-cols-12 lg:gap-y-6";
+  const d = (i: number) => Math.min(i * 0.06, 0.3);
 
-  // Six plates: a tall lead beside two rows (one wide pair, one trio).
-  if (variant === "mosaic" && photos.length >= 6) {
-    const lead = photos.find((p) => p.height > p.width) ?? photos[0];
-    const rest = photos.filter((p) => p !== lead).slice(0, 5);
+  // One plate: a wide centred window for a landscape, a narrow column for a portrait.
+  if (variant === "solo" || variant === "solo-portrait") {
     return (
       <div className={cn(base, className)}>
         <Plate
-          photo={lead}
-          delay={0}
-          stretch
-          wrapperClassName="col-span-full lg:col-span-3 lg:row-span-2"
+          photo={photos[0]}
+          wrapperClassName={
+            variant === "solo-portrait"
+              ? "col-span-full lg:col-span-4 lg:col-start-5"
+              : "col-span-full lg:col-span-8 lg:col-start-3"
+          }
+          heightClassName={
+            variant === "solo-portrait"
+              ? "lg:h-[clamp(300px,58vh,620px)]"
+              : "lg:h-[clamp(300px,62vh,620px)]"
+          }
+        />
+      </div>
+    );
+  }
+
+  // Two portraits of their own: a centred pair, one dropped a step.
+  if (variant === "duo-portrait" && photos.length >= 2) {
+    return (
+      <div className={cn(base, className)}>
+        <Plate
+          photo={photos[0]}
+          wrapperClassName="col-span-full lg:col-span-4 lg:col-start-3"
+          heightClassName="lg:h-[clamp(300px,58vh,600px)]"
         />
         <Plate
-          photo={rest[0]}
+          photo={photos[1]}
+          delay={0.06}
+          wrapperClassName="col-span-full lg:col-span-4 lg:col-start-7 lg:mt-10"
+          heightClassName="lg:h-[clamp(300px,58vh,600px)]"
+        />
+      </div>
+    );
+  }
+
+  // A portrait and a landscape together: unequal pair, bottoms aligned.
+  if (variant === "duo-mixed" && photos.length >= 2) {
+    const portrait = photos.find((p) => p.height > p.width) ?? photos[0];
+    const landscape = photos.find((p) => p.height <= p.width) ?? photos[0];
+    return (
+      <div className={cn(base, "lg:items-end", className)}>
+        <Plate
+          photo={landscape}
+          wrapperClassName="col-span-full lg:col-span-7"
+          heightClassName="lg:h-[clamp(300px,52vh,560px)]"
+        />
+        <Plate
+          photo={portrait}
           delay={0.06}
           wrapperClassName="col-span-full lg:col-span-5"
-          heightClassName="lg:h-[clamp(240px,36vh,380px)]"
-        />
-        <Plate
-          photo={rest[1]}
-          delay={0.12}
-          wrapperClassName="col-span-full lg:col-span-4"
-          heightClassName="lg:h-[clamp(240px,36vh,380px)]"
-        />
-        <Plate
-          photo={rest[2]}
-          delay={0.18}
-          wrapperClassName="col-span-full lg:col-span-3"
-          heightClassName="lg:h-[clamp(150px,22vh,250px)]"
-        />
-        <Plate
-          photo={rest[3]}
-          delay={0.24}
-          wrapperClassName="col-span-full lg:col-span-3"
-          heightClassName="lg:h-[clamp(150px,22vh,250px)]"
-        />
-        <Plate
-          photo={rest[4]}
-          delay={0.3}
-          wrapperClassName="col-span-full lg:col-span-3"
-          heightClassName="lg:h-[clamp(150px,22vh,250px)]"
+          heightClassName="lg:h-[clamp(340px,64vh,660px)]"
         />
       </div>
     );
@@ -143,7 +151,7 @@ export function PhotoWall({
           <Plate
             key={photo.src}
             photo={photo}
-            delay={i * 0.06}
+            delay={d(i)}
             wrapperClassName={cn("col-span-full lg:col-span-6", i === dropIndex && "lg:mt-10")}
             heightClassName={heightClassName}
           />
@@ -158,7 +166,6 @@ export function PhotoWall({
       <div className={cn(base, "lg:items-end", className)}>
         <Plate
           photo={photos[0]}
-          delay={0}
           wrapperClassName="col-span-full lg:col-span-7"
           heightClassName="lg:h-[clamp(300px,55vh,600px)]"
         />
@@ -185,9 +192,51 @@ export function PhotoWall({
           <Plate
             key={photo.src}
             photo={photo}
-            delay={i * 0.06}
+            delay={d(i)}
             wrapperClassName="col-span-full lg:col-span-4"
             heightClassName={heights[i]}
+          />
+        ))}
+      </div>
+    );
+  }
+
+  // Two tall portraits with a shorter landscape closing the rail.
+  if (variant === "rail-mixed" && photos.length >= 3) {
+    const portraits = photos.filter((p) => p.height > p.width);
+    const rest = photos.filter((p) => p.height <= p.width);
+    const tiles = [...portraits.slice(0, 2), ...rest.slice(0, 1)];
+    const heights = [
+      "lg:h-[clamp(300px,56vh,600px)]",
+      "lg:h-[clamp(300px,56vh,600px)]",
+      "lg:h-[clamp(160px,26vh,280px)]",
+    ];
+    return (
+      <div className={cn(base, className)}>
+        {tiles.map((photo, i) => (
+          <Plate
+            key={photo.src}
+            photo={photo}
+            delay={d(i)}
+            wrapperClassName="col-span-full lg:col-span-4"
+            heightClassName={heights[i]}
+          />
+        ))}
+      </div>
+    );
+  }
+
+  // Three portraits, one rail.
+  if (variant === "portrait-rail" && photos.length >= 3) {
+    return (
+      <div className={cn(base, className)}>
+        {photos.slice(0, 3).map((photo, i) => (
+          <Plate
+            key={photo.src}
+            photo={photo}
+            delay={d(i)}
+            wrapperClassName="col-span-full lg:col-span-4"
+            heightClassName="lg:h-[clamp(280px,52vh,560px)]"
           />
         ))}
       </div>
@@ -201,7 +250,6 @@ export function PhotoWall({
       <div className={cn(base, className)}>
         <Plate
           photo={big}
-          delay={0}
           wrapperClassName="col-span-full lg:col-span-6 lg:row-span-2 lg:self-center"
           heightClassName="lg:h-[clamp(300px,55vh,600px)]"
         />
@@ -229,7 +277,6 @@ export function PhotoWall({
       <div className={cn(base, "lg:items-center", className)}>
         <Plate
           photo={tall}
-          delay={0}
           wrapperClassName="col-span-full lg:col-span-3"
           heightClassName="lg:h-[clamp(320px,56vh,620px)]"
         />
@@ -253,39 +300,153 @@ export function PhotoWall({
   if (variant === "featured" && photos.length >= 3) {
     return (
       <div className={cn(base, "lg:items-center", className)}>
-        <Plate
-          photo={photos[0]}
-          delay={0}
-          wrapperClassName="col-span-full lg:col-span-6"
-          heightClassName="lg:h-[clamp(280px,55vh,600px)]"
-        />
-        <Plate
-          photo={photos[1]}
-          delay={0.06}
-          wrapperClassName="col-span-full lg:col-span-3"
-          heightClassName="lg:h-[clamp(150px,27vh,300px)]"
-        />
-        <Plate
-          photo={photos[2]}
-          delay={0.12}
-          wrapperClassName="col-span-full lg:col-span-3"
-          heightClassName="lg:h-[clamp(150px,27vh,300px)]"
-        />
+        {photos.slice(0, 3).map((photo, i) => (
+          <Plate
+            key={photo.src}
+            photo={photo}
+            delay={d(i)}
+            wrapperClassName={cn("col-span-full", i === 0 ? "lg:col-span-6" : "lg:col-span-3")}
+            heightClassName={
+              i === 0 ? "lg:h-[clamp(280px,55vh,600px)]" : "lg:h-[clamp(150px,27vh,300px)]"
+            }
+          />
+        ))}
       </div>
     );
   }
 
-  // Fallback: a plain wall of equal plates, three to a row.
-  return (
-    <div className={cn(base, className)}>
-      {photos.map((photo, i) => (
+  // Four plates as a centred 2x2 block.
+  if (variant === "quad" && photos.length >= 4) {
+    const positions = [
+      "col-span-full lg:col-span-4 lg:col-start-3",
+      "col-span-full lg:col-span-4 lg:col-start-7",
+      "col-span-full lg:col-span-4 lg:col-start-3",
+      "col-span-full lg:col-span-4 lg:col-start-7",
+    ];
+    return (
+      <div className={cn(base, className)}>
+        {photos.slice(0, 4).map((photo, i) => (
+          <Plate
+            key={photo.src}
+            photo={photo}
+            delay={d(i)}
+            wrapperClassName={positions[i]}
+            heightClassName="lg:h-[clamp(190px,31vh,340px)]"
+          />
+        ))}
+      </div>
+    );
+  }
+
+  // Five landscape plates: three over two, the pair centred.
+  if (variant === "stack32" && photos.length >= 5) {
+    const positions = [
+      "col-span-full lg:col-span-4",
+      "col-span-full lg:col-span-4",
+      "col-span-full lg:col-span-4",
+      "col-span-full lg:col-span-4 lg:col-start-3",
+      "col-span-full lg:col-span-4 lg:col-start-7",
+    ];
+    return (
+      <div className={cn(base, className)}>
+        {photos.slice(0, 5).map((photo, i) => (
+          <Plate
+            key={photo.src}
+            photo={photo}
+            delay={d(i)}
+            wrapperClassName={positions[i]}
+            heightClassName="lg:h-[clamp(170px,27vh,300px)]"
+          />
+        ))}
+      </div>
+    );
+  }
+
+  // Five or six plates with one portrait: the tall lead beside a mosaic.
+  if ((variant === "mosaic5" || variant === "mosaic") && photos.length >= 5) {
+    const lead = photos.find((p) => p.height > p.width) ?? photos[0];
+    const rest = photos.filter((p) => p !== lead).slice(0, variant === "mosaic5" ? 4 : 5);
+    const wide = "lg:h-[clamp(240px,36vh,380px)]";
+    const low = "lg:h-[clamp(150px,22vh,250px)]";
+    return (
+      <div className={cn(base, className)}>
+        <Plate photo={lead} stretch wrapperClassName="col-span-full lg:col-span-3 lg:row-span-2" />
         <Plate
-          key={photo.src}
-          photo={photo}
-          delay={Math.min(i, 6) * 0.05}
-          wrapperClassName="col-span-full lg:col-span-4"
-          heightClassName="lg:h-[clamp(180px,32vh,340px)]"
+          photo={rest[0]}
+          delay={0.06}
+          wrapperClassName="col-span-full lg:col-span-5"
+          heightClassName={wide}
         />
+        <Plate
+          photo={rest[1]}
+          delay={0.12}
+          wrapperClassName="col-span-full lg:col-span-4"
+          heightClassName={wide}
+        />
+        <Plate
+          photo={rest[2]}
+          delay={0.18}
+          wrapperClassName="col-span-full lg:col-span-3"
+          heightClassName={low}
+        />
+        <Plate
+          photo={rest[3]}
+          delay={0.24}
+          wrapperClassName="col-span-full lg:col-span-3"
+          heightClassName={low}
+        />
+        {variant === "mosaic" && rest[4] && (
+          <Plate
+            photo={rest[4]}
+            delay={0.3}
+            wrapperClassName="col-span-full lg:col-span-3"
+            heightClassName={low}
+          />
+        )}
+      </div>
+    );
+  }
+
+  // Six landscape plates: two rows of three.
+  if (variant === "grid6" && photos.length >= 6) {
+    return (
+      <div className={cn(base, className)}>
+        {photos.slice(0, 6).map((photo, i) => (
+          <Plate
+            key={photo.src}
+            photo={photo}
+            delay={d(i)}
+            wrapperClassName="col-span-full lg:col-span-4"
+            heightClassName="lg:h-[clamp(160px,26vh,280px)]"
+          />
+        ))}
+      </div>
+    );
+  }
+
+  // Anything larger: full-width sheets of four, partial rows centred.
+  const rows: SitePhoto[][] = [];
+  for (let i = 0; i < photos.length; i += 4) rows.push(photos.slice(i, i + 4));
+  return (
+    <div className={cn("flex flex-col gap-y-8 lg:gap-y-6", className)}>
+      {rows.map((row, r) => (
+        <div key={r} className="grid grid-cols-1 gap-x-6 gap-y-8 lg:grid-cols-12 lg:gap-y-6">
+          {row.map((photo, i) => (
+            <Plate
+              key={photo.src}
+              photo={photo}
+              delay={Math.min(r * 4 + i, 8) * 0.05}
+              wrapperClassName={cn(
+                "col-span-full",
+                row.length === 1 && "lg:col-span-4 lg:col-start-5",
+                row.length > 1 && "lg:col-span-3",
+                row.length === 3 && i === 0 && "lg:col-start-2",
+                row.length === 2 && i === 0 && "lg:col-start-4",
+              )}
+              heightClassName="lg:h-[clamp(140px,22vh,240px)]"
+            />
+          ))}
+        </div>
       ))}
     </div>
   );

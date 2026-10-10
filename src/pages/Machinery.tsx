@@ -2,8 +2,8 @@ import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { MotifBand } from "@/components/ui/Ornament";
-import { Button } from "@/components/ui/Button";
-import { heroSlides } from "@/data/site";
+import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
+import { heroSlides, services } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 export default function Machinery() {
@@ -11,10 +11,11 @@ export default function Machinery() {
 
   return (
     <>
+      {/* Title plate: machines cutting a haul road, struck into the paper. */}
       <Section
+        className="pt-14 sm:pt-16 lg:pt-24 pb-12 sm:pb-14 lg:pb-16"
         wash="seam-to-paper2"
         texture={heroSlides[1]}
-        textureClassName="right-0 top-0 hidden h-full w-[40%] object-cover lg:block"
       >
         <SectionHeading as="h1" rule>
           Machinery
@@ -56,20 +57,15 @@ export default function Machinery() {
 
       <Section>
         <div className="mx-auto w-full max-w-[min(100%,calc((100dvh_-_240px)*16/9))]">
-          <FramedImage plate={heroSlides[1]} ratioClassName="aspect-[16/9]" />
+          <FramedImage plate={services[3].plate} ratioClassName="aspect-[16/9]" />
         </div>
       </Section>
 
       <MotifBand />
 
-      <Section tone="paper2" wash="wash-terracotta-up">
-        <div className="flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">
-          <p className="max-w-[34ch] font-display text-[clamp(1.5rem,2.6vw,2.2rem)] leading-tight">
-            Book a machine for the work in hand.
-          </p>
-          <Button to="/contact">Get in touch</Button>
-        </div>
-      </Section>
+      <TalkBand>
+        <TalkLine>Book a machine for the work in hand.</TalkLine>
+      </TalkBand>
     </>
   );
 }

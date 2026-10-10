@@ -11,7 +11,12 @@ export default function Contact() {
 
   return (
     <>
-      <Section wash="seam-to-paper2">
+      {/* Title plate: machines shaping ground into a site, struck into the paper. */}
+      <Section
+        className="pt-14 sm:pt-16 lg:pt-24 pb-12 sm:pb-14 lg:pb-16"
+        wash="seam-to-paper2"
+        texture={heroSlides[3]}
+      >
         <SectionHeading as="h1" rule>
           Contact
         </SectionHeading>
@@ -28,12 +33,7 @@ export default function Contact() {
 
       <MotifBand />
 
-      <Section
-        tone="paper2"
-        bordered={false}
-        texture={heroSlides[3]}
-        textureClassName="right-0 top-0 hidden h-full w-[40%] object-cover lg:block"
-      >
+      <Section tone="paper2" bordered={false}>
         <SectionHeading>How a job starts</SectionHeading>
         <p className="mt-6 max-w-[52ch] font-display text-[clamp(1.3rem,2.2vw,1.7rem)] leading-snug">
           Every site runs the same measured sequence. Craft is a discipline.

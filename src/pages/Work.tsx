@@ -1,35 +1,33 @@
 import { Fragment } from "react";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { PhotoWall, type WallVariant } from "@/components/ui/PhotoWall";
+import { PhotoWall } from "@/components/ui/PhotoWall";
+import { planWalls } from "@/components/ui/wallPlan";
 import { MotifBand } from "@/components/ui/Ornament";
-import { heroSlides } from "@/data/site";
+import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
+import { heroSlides, services } from "@/data/site";
 import { photoGroups } from "@/data/photos";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
-/** Wall layout per group, keyed by title so reordering the data cannot mismatch. */
-const WALL_BY_TITLE: Record<string, WallVariant> = {
-  "Excavation and foundations": "mosaic",
-  "Earthwork and site preparation": "duo",
-  "Retaining walls": "duo-flip",
-  "Demolition and clearing": "duo-cinema",
-  "Steel frame and decking": "duo-wide",
-  "Industrial steel and shed works": "rail",
-  "Building works": "split",
-  "Landscaping and ground finishing": "hang",
-  "A finished residence": "featured",
-};
+/**
+ * Every group's wall is planned from its photographs alone — count, orientation
+ * and ratios — by src/components/ui/wallPlan.ts; there is no per-group mapping
+ * to maintain. When the CMS starts feeding these groups, the planner runs on
+ * whatever the client adds and each section keeps a fitting composition without
+ * anyone touching this file.
+ */
+const WALLS = planWalls(photoGroups.map((group) => group.photos));
 
 export default function Work() {
   useDocumentTitle("Work");
 
   return (
     <>
+      {/* Title plate: the rammed-earth crew struck into the paper behind the heading. */}
       <Section
-        className="pb-8 sm:pb-8 lg:pb-10"
+        className="pt-14 sm:pt-16 lg:pt-24 pb-8 sm:pb-8 lg:pb-10"
         wash="seam-to-paper2"
         texture={heroSlides[0]}
-        textureClassName="right-0 top-0 hidden h-full w-[36%] object-cover lg:block"
       >
         <SectionHeading as="h1" rule>
           Work
@@ -52,13 +50,19 @@ export default function Work() {
             </SectionHeading>
             <PhotoWall
               photos={group.photos}
-              variant={WALL_BY_TITLE[group.title] ?? "grid"}
+              variant={WALLS[index] ?? "grid-many"}
               className="mt-8"
             />
           </Section>
           {(index === 2 || index === 5) && <MotifBand />}
         </Fragment>
       ))}
+
+      <MotifBand />
+
+      <TalkBand action="Get in touch" texture={services[6].plate}>
+        <TalkLine>Tell us about the site and we will work out the rest.</TalkLine>
+      </TalkBand>
     </>
   );
 }

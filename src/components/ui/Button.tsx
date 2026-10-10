@@ -4,9 +4,14 @@ import { cn } from "@/lib/utils";
 import { ArrowRight } from "./icons";
 
 type Variant = "solid" | "quiet" | "cream";
+type Size = "md" | "lg";
 
 const BASE =
-  "inline-flex h-11 shrink-0 items-center justify-center gap-3 border px-6 font-body text-[12.5px] font-semibold uppercase tracking-[0.16em] transition-colors duration-200";
+  "group inline-flex shrink-0 items-center justify-center gap-4 border font-body font-semibold uppercase transition-colors duration-200";
+const SIZES: Record<Size, string> = {
+  md: "h-12 px-7 text-[12.5px] tracking-[0.16em]",
+  lg: "h-14 px-9 text-[13px] tracking-[0.18em]",
+};
 
 const VARIANTS: Record<Variant, string> = {
   solid: "border-terracotta bg-terracotta text-cream hover:border-ink hover:bg-ink",
@@ -19,6 +24,8 @@ interface ButtonProps {
   to?: string;
   href?: string;
   variant?: Variant;
+  /** lg for a page's closing action; md (default) inline. */
+  size?: Size;
   className?: string;
   withArrow?: boolean;
   "aria-label"?: string;
@@ -30,16 +37,22 @@ export function Button({
   to,
   href,
   variant = "solid",
+  size = "md",
   className,
   withArrow = true,
   onClick,
   ...rest
 }: ButtonProps) {
-  const classes = cn(BASE, VARIANTS[variant], className);
+  const classes = cn(BASE, SIZES[size], VARIANTS[variant], className);
   const inner = (
     <>
       <span>{children}</span>
-      {withArrow && <ArrowRight className="h-4 w-4" />}
+      {withArrow && (
+        <span aria-hidden="true" className="flex items-center gap-3">
+          <span className="h-4 w-px bg-current opacity-40" />
+          <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+        </span>
+      )}
     </>
   );
 

@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { StepsRail } from "@/components/ui/StepsRail";
 import { Frieze, PullQuote } from "@/components/ui/Ornament";
-import { Button } from "@/components/ui/Button";
+import { TalkBand } from "@/components/ui/TalkBand";
 import { BlurFade } from "@/components/magicui/BlurFade";
 import { heroSlides, services, steps } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
@@ -24,7 +24,12 @@ export default function Services() {
 
   return (
     <>
-      <Section className="pb-8 sm:pb-8 lg:pb-10" wash="seam-to-paper2">
+      {/* Title plate: the masons' tile struck into the paper behind the heading. */}
+      <Section
+        className="pt-14 sm:pt-16 lg:pt-24 pb-12 sm:pb-14 lg:pb-16"
+        wash="seam-to-paper2"
+        texture={services[0].plate}
+      >
         <SectionHeading as="h1" rule>
           Services
         </SectionHeading>
@@ -79,20 +84,9 @@ export default function Services() {
         </BlurFade>
       </Section>
 
-      <Section
-        tone="paper2"
-        texture={heroSlides[2]}
-        textureClassName="right-0 top-0 hidden h-full w-[44%] object-cover lg:block"
-      >
-        <div className="grid gap-8 lg:grid-cols-12 lg:items-end">
-          <div className="lg:col-span-7">
-            <PullQuote>Tell us about the site and we will work out the rest.</PullQuote>
-          </div>
-          <div className="lg:col-span-5 lg:text-right">
-            <Button to="/contact">Get in touch</Button>
-          </div>
-        </div>
-      </Section>
+      <TalkBand action="Get in touch" texture={heroSlides[0]}>
+        <PullQuote>Tell us about the site and we will work out the rest.</PullQuote>
+      </TalkBand>
     </>
   );
 }

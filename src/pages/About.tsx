@@ -3,7 +3,9 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { StepsRail } from "@/components/ui/StepsRail";
 import { MotifBand, PullQuote } from "@/components/ui/Ornament";
+import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
 import { heroSlides, steps } from "@/data/site";
+import { categories } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 const WHAT_WE_DO: { title: string; line: string }[] = [
@@ -34,7 +36,12 @@ export default function About() {
 
   return (
     <>
-      <Section wash="seam-to-paper2">
+      {/* Title plate: the mud house, the art form, struck into the paper. */}
+      <Section
+        className="pt-14 sm:pt-16 lg:pt-24 pb-12 sm:pb-14 lg:pb-16"
+        wash="seam-to-paper2"
+        texture={heroSlides[2]}
+      >
         <SectionHeading as="h1" rule>
           About
         </SectionHeading>
@@ -87,11 +94,7 @@ export default function About() {
 
       <MotifBand />
 
-      <Section
-        tone="paper2"
-        texture={heroSlides[1]}
-        textureClassName="right-0 top-0 hidden h-full w-[42%] object-cover lg:block"
-      >
+      <Section tone="paper2">
         <div className="grid gap-12 lg:grid-cols-12 lg:items-start">
           <div className="lg:col-span-7">
             <SectionHeading>Where</SectionHeading>
@@ -114,11 +117,9 @@ export default function About() {
         </div>
       </Section>
 
-      <Section wash="wash-ochre-up">
-        <p className="mx-auto max-w-[34ch] text-balance text-center font-display text-[clamp(1.7rem,3.4vw,2.8rem)] italic leading-[1.18] text-ink">
-          Art and design at the core of everything we build.
-        </p>
-      </Section>
+      <TalkBand action="Talk to us" texture={categories[2].plate}>
+        <TalkLine>Art and design at the core of everything we build.</TalkLine>
+      </TalkBand>
     </>
   );
 }
