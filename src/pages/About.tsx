@@ -52,7 +52,7 @@ export default function About() {
               and built.
             </PullQuote>
             <p className="mt-8 max-w-[52ch] text-lg text-ink-2">
-              Sai Sree Enterprise is a construction and earthmoving company. Art and design sit at
+              Sri Sai Enterprise is a construction and earthmoving company. Art and design sit at
               the core of everything we build, from the first cut to the final finish.
             </p>
           </div>
@@ -112,7 +112,7 @@ export default function About() {
             {/* Only confirmed facts render. Registration numbers (GST, Udyam, licence)
                 appear here only when the client supplies and authorises them; no number
                 is invented (CONTENT-MANIFEST.md #9). */}
-            <p className="mt-5 max-w-[46ch] text-ink-2">Registered name: Sai Sree Enterprise.</p>
+            <p className="mt-5 max-w-[46ch] text-ink-2">Registered name: Sri Sai Enterprise.</p>
           </div>
         </div>
       </Section>

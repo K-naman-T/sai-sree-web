@@ -38,11 +38,11 @@ export const navItems: NavItem[] = [
   { label: "Contact", to: "/contact" },
 ];
 
-export const companyName = "Sai Sree Enterprise";
+export const companyName = "Sri Sai Enterprise";
 
 /** The name the work is built under, and the enterprise behind it. */
 export const brandName = "Alankara";
-export const brandBy = "Sai Sree Enterprises";
+export const brandBy = "Sri Sai Enterprises";
 
 /** Four hero slides, in the order fixed by the brief. */
 export const heroSlides: Plate[] = [

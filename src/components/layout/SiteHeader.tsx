@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { brandName, navItems } from "@/data/site";
+import { brandBy, brandName, navItems } from "@/data/site";
 import { useScrolled } from "@/hooks/useScrolled";
 import { CloseIcon, MenuIcon } from "@/components/ui/icons";
 
@@ -27,11 +27,23 @@ export function SiteHeader({ overHero = false }: { overHero?: boolean }) {
         <Link
           to="/"
           className={cn(
-            "flex min-h-[44px] items-center font-display text-[1.3rem] font-semibold leading-none tracking-[-0.01em] transition-colors sm:text-[1.45rem]",
-            transparent ? "text-cream" : "text-ink hover:text-terracotta",
+            "flex min-h-[44px] flex-col justify-center gap-[3px] transition-colors sm:gap-[4px]",
+            transparent
+              ? "text-cream [text-shadow:0_1px_3px_rgba(18,14,10,0.65)]"
+              : "text-ink hover:text-terracotta",
           )}
         >
-          {brandName}
+          <span className="font-mark text-[1.05rem] uppercase leading-none tracking-[0.3em] sm:text-[1.18rem]">
+            {brandName}
+          </span>
+          <span
+            className={cn(
+              "font-body text-[10px] font-semibold uppercase leading-none tracking-[0.15em]",
+              transparent ? "text-cream/90" : "text-ink/80",
+            )}
+          >
+            - by {brandBy}
+          </span>
         </Link>
 
         <nav aria-label="Primary" className="hidden md:block">

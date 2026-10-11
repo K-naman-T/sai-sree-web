@@ -14,8 +14,8 @@ tracks the open items.
 
 ## Supplied and in use
 
-- **Names** — Sai Sree Enterprise (company name, header and footer); Alankara, by Sai Sree
-  Enterprises (hero signature and footer). See `brandName` / `brandBy` in `src/data/site.ts`.
+- **Names** — Sri Sai Enterprise (company name, header and footer); Alankara, by Sri Sai
+  Enterprises (header lockup; footer lead). See `brandName` / `brandBy` in `src/data/site.ts`. The company name was corrected to Sri Sai by the client, 11 October 2026 (was Sai Sree).
 - **Site photographs** — the client's own photographs (supplied 2026-10). See
   `src/data/photos.ts`; files in `assets/photos/`.
 - **Copy** — the nine service descriptions, steps, and page copy as written in this round set.

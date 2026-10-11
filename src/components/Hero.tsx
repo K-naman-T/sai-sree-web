@@ -6,7 +6,7 @@ import { useReducedMotion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import { cn } from "@/lib/utils";
-import { brandBy, brandName, heroSlides } from "@/data/site";
+import { brandName, heroSlides } from "@/data/site";
 import { Button } from "@/components/ui/Button";
 
 /**
@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/Button";
  * Ken Burns drift, a light scrim localized to the bottom-left text block, an
  * editorial slide counter and proof-marked indicators bottom-right, and arrow-key
  * control. Motion stops under prefers-reduced-motion and pauses on hover. The
- * house mark (Alankara, by Sai Sree Enterprises) signs the bottom-right corner.
+ * hero carries the statement and the action; the enterprise line lives in the header lockup.
  *
  * Contrast: the scrim is a targeted bottom band plus a faint left bias, so the
  * upper and right areas of the plates stay clear. Over the text block the two
@@ -101,18 +101,18 @@ export function Hero() {
           <div className="max-w-[56rem]">
             <span className="mb-6 block h-[3px] w-16 bg-gold" aria-hidden="true" />
             <h1
-              className="font-display text-[clamp(2.6rem,7.5vw,5.75rem)] font-semibold leading-[1.0] tracking-[-0.02em] text-cream"
+              className="text-balance font-display text-[clamp(2.6rem,7.5vw,5.75rem)] font-semibold leading-[1.0] tracking-[-0.02em] text-cream"
               style={{ textShadow: TEXT_SHADOW }}
             >
-              {brandName}
+              Construction built as craft.
             </h1>
             <p
               className="mt-8 max-w-[50rem] font-body text-[clamp(1.12rem,1.75vw,1.5rem)] font-medium leading-[1.72] text-cream/95 sm:mt-7"
               style={{ textShadow: TEXT_SHADOW }}
             >
-              <span className="block">Construction built as craft. Art and design sit at the core </span>
-              <span className="block">of everything we build: civil works, earthwork and levelling, </span>
-              <span className="block">machine and material supply, and rammed earth and mud construction.</span>
+              <span className="block">Art and design sit at the core of everything we build: </span>
+              <span className="block">civil works, earthwork and levelling, machine and material supply, </span>
+              <span className="block">and rammed earth and mud construction.</span>
             </p>
 
             <div className="mt-9">
@@ -163,18 +163,6 @@ export function Hero() {
               </div>
             </div>
 
-            {/* The house mark: signed bottom-right, above the paper's edge. */}
-            <p className="mt-10 text-right lg:absolute lg:bottom-6 lg:right-[clamp(18px,5vw,28px)] lg:mt-0">
-              <span
-                className="block font-display text-[1.3rem] font-semibold leading-none text-cream"
-                style={{ textShadow: TEXT_SHADOW }}
-              >
-                {brandName}
-              </span>
-              <span className="mt-1.5 block font-body text-[10.5px] font-semibold uppercase tracking-[0.24em] text-cream/75">
-                by {brandBy}
-              </span>
-            </p>
           </div>
         </div>
       </div>
