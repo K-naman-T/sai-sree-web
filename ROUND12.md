@@ -73,3 +73,14 @@ title, two lines, uniform height) and the record caption given more air; re-veri
 - Contact channels, hours, service area: confirm with the office, then swap the values in
   `src/data/site.ts` (see CONTENT-MANIFEST.md).
 - The fleet list (machinery) still awaited.
+
+## Addendum (same round) — the hero's controls removed
+
+Directive (verbatim): "remove the carousel number indicator entirely with those lines from the
+hero section".
+
+The bottom-right cluster is gone entirely: the `01 / 04` counter, the gold rule, the four
+tick indicators with their buttons, and the group's arrow-key handler. The carousel itself is
+untouched — crossfade, ~5.2s autoplay, Ken Burns drift, hover-pause and the
+prefers-reduced-motion stop all remain, now with no on-screen controls. The file comment was
+updated to match; the module header still documents the scrim and its contrast holds.

@@ -1,20 +1,18 @@
-import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
-import type { Swiper as SwiperClass } from "swiper";
 import { useReducedMotion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import { cn } from "@/lib/utils";
 import { brandName, heroSlides } from "@/data/site";
 import { Button } from "@/components/ui/Button";
 
 /**
  * Full-viewport hero: a multi-image auto-carousel (crossfade, ~5.2s) with a slow
- * Ken Burns drift, a light scrim localized to the bottom-left text block, an
- * editorial slide counter and proof-marked indicators bottom-right, and arrow-key
- * control. Motion stops under prefers-reduced-motion and pauses on hover. The
- * hero carries the statement and the action; the enterprise line lives in the header lockup.
+ * Ken Burns drift and a light scrim localized to the bottom-left text block. No
+ * on-screen controls — the slide counter and tick indicators were removed on the
+ * client's call (R12b). Motion stops under prefers-reduced-motion and pauses on
+ * hover. The hero carries the statement and the action; the enterprise line
+ * lives in the header lockup.
  *
  * Contrast: the scrim is a targeted bottom band plus a faint left bias, so the
  * upper and right areas of the plates stay clear. Over the text block the two
@@ -36,15 +34,7 @@ const MOBILE_SCRIM =
 const TEXT_SHADOW = "0 1px 3px rgba(18,14,10,0.65), 0 3px 26px rgba(18,14,10,0.55)";
 
 export function Hero() {
-  const swiperRef = useRef<SwiperClass | null>(null);
-  const [index, setIndex] = useState(0);
   const reduceMotion = useReducedMotion();
-
-  const go = (next: number) => {
-    const count = heroSlides.length;
-    const wrapped = (next + count) % count;
-    swiperRef.current?.slideTo(wrapped);
-  };
 
   return (
     <section
@@ -64,10 +54,6 @@ export function Hero() {
               ? false
               : { delay: 5200, disableOnInteraction: false, pauseOnMouseEnter: true }
           }
-          onSwiper={(instance) => {
-            swiperRef.current = instance;
-          }}
-          onSlideChange={(instance) => setIndex(instance.realIndex)}
           className="hero-swiper h-full w-full"
         >
           {heroSlides.map((slide, i) => (
@@ -119,48 +105,6 @@ export function Hero() {
               <Button to="/contact" variant="cream" size="lg">
                 Tell us about your site
               </Button>
-
-              <div
-                role="group"
-                aria-label="Choose the hero background"
-                className="mt-8 flex items-center gap-4 lg:absolute lg:bottom-20 lg:right-[clamp(18px,5vw,28px)] lg:mt-0"
-                onKeyDown={(event) => {
-                  if (event.key === "ArrowLeft") {
-                    event.preventDefault();
-                    go(index - 1);
-                  } else if (event.key === "ArrowRight") {
-                    event.preventDefault();
-                    go(index + 1);
-                  }
-                }}
-              >
-                <span
-                  aria-hidden="true"
-                  className="font-body text-[11px] font-semibold uppercase tabular-nums tracking-[0.22em] text-cream/75"
-                >
-                  {String(index + 1).padStart(2, "0")} / {String(heroSlides.length).padStart(2, "0")}
-                </span>
-                <span className="hidden h-px w-10 bg-gold/80 sm:block" aria-hidden="true" />
-                {heroSlides.map((slide, i) => (
-                  <button
-                    key={slide.src}
-                    type="button"
-                    onClick={() => go(i)}
-                    aria-label={`Show background ${i + 1} of ${heroSlides.length}`}
-                    aria-current={i === index ? "true" : undefined}
-                    className="group flex h-11 items-center px-1.5"
-                  >
-                    <span
-                      className={cn(
-                        "block w-7 transition-all duration-300",
-                        i === index
-                          ? "h-[3px] bg-cream"
-                          : "h-px bg-cream/45 group-hover:bg-cream/80",
-                      )}
-                    />
-                  </button>
-                ))}
-              </div>
             </div>
 
           </div>
