@@ -386,3 +386,51 @@ export const marqueeItems: string[] = [
   "Road, drain and barrier",
   "Rammed earth",
 ];
+
+/* ------------------------------------------------------------------ *
+ * Contact details. A value still to be confirmed by the office keeps a
+ * masked placeholder and `pending: true`: the Contact page prints it as
+ * plain text, never as a dead link. Set the real value and `href`, flip
+ * `pending` to false, and the links come alive (CONTENT-MANIFEST.md).
+ * ------------------------------------------------------------------ */
+export interface ContactChannel {
+  label: string;
+  value: string;
+  /** Shown under the value; says plainly where a pending value stands. */
+  detail: string;
+  href?: string;
+  pending: boolean;
+}
+
+export const contactChannels: ContactChannel[] = [
+  {
+    label: "Call",
+    value: "+91 9XXXX XXXXX",
+    detail: "The number prints here once the office confirms it.",
+    pending: true,
+  },
+  {
+    label: "WhatsApp",
+    value: "the same number",
+    detail: "Messages reach the same phone.",
+    pending: true,
+  },
+];
+
+/** Office facts. The starred values are assumed for the preview and await the office's confirmation. */
+export const contactFacts = {
+  hours: "Monday to Saturday, 9am to 6pm",
+  hoursNote: "Closed on Sunday.",
+  whoAnswers:
+    "Someone from the office answers, not a machine. If the line is busy, send the details on WhatsApp.",
+  /** Assumed: the engagement's market coverage is the company's working corridor. */
+  serviceArea:
+    "The office works across Bengaluru south, the Harohalli corridor and Ramanagara district.",
+  addressNote: "The street address prints once the office confirms it, with the map.",
+  whatToHave: [
+    "Where the site is, and what the land is like today",
+    "What the work is: a building, a cut, a supply, a hire",
+    "Any drawings you have, or a sketch",
+    "When you want to start",
+  ],
+};

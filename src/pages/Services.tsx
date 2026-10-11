@@ -1,26 +1,29 @@
-import { cn } from "@/lib/utils";
-import { Section, Container } from "@/components/ui/Section";
+import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { FramedImage } from "@/components/ui/FramedImage";
 import { StepsRail } from "@/components/ui/StepsRail";
 import { Frieze, PullQuote } from "@/components/ui/Ornament";
 import { TalkBand } from "@/components/ui/TalkBand";
 import { BlurFade } from "@/components/magicui/BlurFade";
+import { PhotoRail, type RailItem } from "@/components/services/PhotoRail";
+import { ServiceRecord } from "@/components/services/ServiceRecord";
 import { heroSlides, services, steps } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
-function ProvideLine({ provide }: { provide: string }) {
-  const [label, value] = provide.split(": ");
-  return (
-    <p className="mt-5 max-w-[58ch] border-t border-hairline pt-4 text-[15px] leading-relaxed text-ink-2">
-      {label && <span className="font-semibold text-ink">{label}:</span>}{" "}
-      {value && <span>{value}</span>}
-    </p>
-  );
-}
-
 export default function Services() {
   useDocumentTitle("Services");
+
+  const railItems: RailItem[] = services.flatMap((service, index) =>
+    service.evidence
+      ? [
+          {
+            id: service.id,
+            number: String(index + 1).padStart(2, "0"),
+            serviceTitle: service.title,
+            photo: service.evidence,
+          },
+        ]
+      : [],
+  );
 
   return (
     <>
@@ -39,63 +42,24 @@ export default function Services() {
         </p>
       </Section>
 
-      {/* One composed cell per service: plate, heading, description and the
-          "What you provide" line, top-aligned, on alternating band grounds so
-          the rows read as a steady rhythm rather than floating panels. */}
-      <ol>
+      {/* The contact sheet: every photograph the company supplied, one pane per
+          service, opening on hover and jumping to that service's record. */}
+      <Section className="pt-12 sm:pt-14 lg:pt-16 pb-10 lg:pb-14">
+        <SectionHeading>From our own sites</SectionHeading>
+        <p className="mt-6 max-w-[56ch] text-ink-2">
+          Every photograph on this site comes from the company's own sites. Open a frame to read
+          that service.
+        </p>
+        <BlurFade inView={false} delay={0.04}>
+          <PhotoRail items={railItems} className="mt-10" />
+        </BlurFade>
+      </Section>
+
+      {/* One record per service: plate, photograph on the plate, heading,
+          description and the "What you provide" line, on alternating grounds. */}
+      <ol className="border-t border-hairline">
         {services.map((service, index) => (
-          <li
-            key={service.id}
-            id={service.id}
-            className={cn(
-              "scroll-mt-24 border-b border-hairline",
-              index % 2 === 1 ? "bg-paper-2" : "bg-paper",
-            )}
-          >
-            <Container className="py-9 lg:py-12">
-              <BlurFade inView={false} delay={0.04}>
-                <div className="mx-auto grid max-w-[1120px] gap-8 lg:grid-cols-[minmax(0,20rem)_minmax(0,1fr)] lg:items-start lg:gap-14">
-                  <div>
-                    <FramedImage plate={service.plate} />
-                    {service.evidence && (
-                      <figure className="mt-7">
-                        <div
-                          className={cn(
-                            "overflow-hidden border border-hairline bg-paper-2",
-                            service.evidence.height > service.evidence.width
-                              ? "aspect-[4/5]"
-                              : "aspect-[3/2]",
-                          )}
-                        >
-                          <img
-                            src={service.evidence.src}
-                            width={service.evidence.width}
-                            height={service.evidence.height}
-                            alt={service.evidence.alt}
-                            loading="lazy"
-                            decoding="async"
-                            className="h-full w-full object-cover"
-                          />
-                        </div>
-                        <figcaption className="mt-3 text-[15px] leading-snug text-ink">
-                          {service.evidence.caption}
-                        </figcaption>
-                      </figure>
-                    )}
-                  </div>
-                  <div>
-                    {/* leading-[1.15] + -mt-[0.2em] trim the half-leading so the
-                        heading's cap line lands on the plate's top edge. */}
-                    <h2 className="text-balance text-[clamp(1.5rem,2.6vw,2.2rem)] leading-[1.15] -mt-[0.2em]">
-                      {service.title}
-                    </h2>
-                    <p className="mt-4 max-w-[58ch] text-ink-2">{service.body}</p>
-                    <ProvideLine provide={service.provide} />
-                  </div>
-                </div>
-              </BlurFade>
-            </Container>
-          </li>
+          <ServiceRecord key={service.id} service={service} index={index} />
         ))}
       </ol>
 

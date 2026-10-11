@@ -1,16 +1,33 @@
 # CONTENT MANIFEST — what the site awaits from the client
 
 Standing rule: the site publishes only what is true and supplied. Where a detail is still
-to come, the site says so plainly or renders nothing — it never invents data. This file
-tracks the open items.
+to come, the site says so plainly or holds a clearly marked placeholder; it never invents
+hard values. This file tracks the open items and every assumption.
 
 ## Awaited (render when supplied)
 
-1. **Contact channels** — phone, WhatsApp, email; office or site address; working hours;
-   service area. (Contact page; see the note in `src/pages/Contact.tsx`.)
+1. **Contact channels** — the phone and WhatsApp numbers, the office address and the map.
+   (The Contact page now renders masked placeholders and notes where these stand; the real
+   values swap in through `contactChannels` / `contactFacts` in `src/data/site.ts`.)
 2. **Fleet list** — the machine classes the company runs, their capacity, and whether each
    is owned or hired. (Machinery page, the "Fleet list" box, which currently states the
    details are not published yet.)
+
+## In place, to confirm before publish (Contact page)
+
+These render on the Contact page for the preview. Each is either a masked
+placeholder or an assumption from the engagement's record; none is a confirmed
+office value yet.
+
+- **Call / WhatsApp** — masked (`+91 9XXXX XXXXX`), printed as plain text so
+  nothing is a dead link. Confirm, then set the value, `href` and
+  `pending: false` in `contactChannels`.
+- **Working hours** — assumed: Monday to Saturday, 9am to 6pm; closed Sunday.
+- **Who answers** — assumed line ("someone from the office answers...").
+- **Where we work** — assumed from the engagement's market coverage: Bengaluru
+  south, the Harohalli corridor, Ramanagara district.
+- **Address and map** — held as a note on the page ("prints once the office
+  confirms it").
 
 ## Supplied and in use
 
