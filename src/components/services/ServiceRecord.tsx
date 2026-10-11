@@ -17,11 +17,13 @@ function ProvideLine({ provide }: { provide: string }) {
 }
 
 /**
- * One service, as a record. The painted plate carries the column, and the
- * photograph from the company's own work is laid onto it like a print pinned
- * to the painting - a hairline-mount window dropping past the plate's edge,
- * drifting a little as the page scrolls (ParallaxDrift). The columns alternate
- * sides so the page reads as a rhythm, not a stack.
+ * One service, as a record. The photograph from the company's own sites leads
+ * the row — a clean band in a paper mount, drifting a little as the page
+ * scrolls (ParallaxDrift), caption beneath. Art is no longer repeated per row
+ * (client's call, R12c: fewer pieces on this page — the plates were too much);
+ * a plate appears only where it is the sole witness: the one service without
+ * a photograph. Rows alternate their column order so the page reads as a
+ * rhythm, not a stack.
  */
 export function ServiceRecord({ service, index }: { service: Service; index: number }) {
   const flipped = index % 2 === 1;
@@ -32,34 +34,19 @@ export function ServiceRecord({ service, index }: { service: Service; index: num
       id={service.id}
       className={cn("scroll-mt-24 border-b border-hairline", flipped ? "bg-paper-2" : "bg-paper")}
     >
-      <Container className="py-10 lg:py-16">
+      <Container className="py-10 lg:py-14">
         <BlurFade inView={false} delay={0.04}>
           <div className="mx-auto grid max-w-[1120px] items-center gap-12 lg:grid-cols-2 lg:gap-16">
-            <div className={cn("relative", flipped && "lg:order-2")}>
-              <GlareHover
-                background="transparent"
-                color="#ffffff"
-                opacity={0.12}
-                angle={-30}
-                size={220}
-                duration={900}
-              >
-                <FramedImage plate={service.plate} />
-              </GlareHover>
-              {service.evidence && (
-                <figure
-                  className={cn(
-                    "mt-6 lg:absolute lg:bottom-[-2.25rem] lg:mt-0 lg:w-[48%]",
-                    flipped ? "lg:left-[-1.25rem]" : "lg:right-[-1.25rem]",
-                  )}
-                >
-                  <ParallaxDrift distance={18}>
+            <div className={cn(flipped && "lg:order-2")}>
+              {service.evidence ? (
+                <figure>
+                  <ParallaxDrift distance={14}>
                     <GlareHover
                       background="transparent"
                       color="#ffffff"
                       opacity={0.16}
                       angle={-30}
-                      size={200}
+                      size={220}
                       duration={800}
                       className="border border-hairline bg-paper p-2"
                     >
@@ -70,7 +57,7 @@ export function ServiceRecord({ service, index }: { service: Service; index: num
                         alt={service.evidence.alt}
                         loading="lazy"
                         decoding="async"
-                        className="h-auto w-full"
+                        className="h-[320px] w-full object-cover sm:h-[380px] lg:h-[440px]"
                       />
                     </GlareHover>
                     <figcaption className="mt-3 text-[13.5px] leading-snug text-ink-2">
@@ -78,6 +65,17 @@ export function ServiceRecord({ service, index }: { service: Service; index: num
                     </figcaption>
                   </ParallaxDrift>
                 </figure>
+              ) : (
+                <GlareHover
+                  background="transparent"
+                  color="#ffffff"
+                  opacity={0.12}
+                  angle={-30}
+                  size={220}
+                  duration={900}
+                >
+                  <FramedImage plate={service.plate} />
+                </GlareHover>
               )}
             </div>
             <div className={cn(flipped && "lg:order-1")}>

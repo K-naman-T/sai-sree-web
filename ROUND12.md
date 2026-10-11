@@ -84,3 +84,14 @@ tick indicators with their buttons, and the group's arrow-key handler. The carou
 untouched — crossfade, ~5.2s autoplay, Ken Burns drift, hover-pause and the
 prefers-reduced-motion stop all remain, now with no on-screen controls. The file comment was
 updated to match; the module header still documents the scrim and its contrast holds.
+
+## Addendum 2 (same round) — fewer pieces of art on the services page
+
+Directive (verbatim): "reduce the number of art, thats too much for the services page".
+
+The plates no longer repeat on every record. The photographed records are now photograph-led:
+the site photograph leads the row as a clean band in a paper mount (hover glare, gentle scroll
+drift, caption beneath), with the text column unchanged beside it. Art survives on this page
+only where it is the sole witness — the one service without a photograph (rammed earth) keeps
+its plate. That takes the page from nine framed plates to one. The rail, frieze, steps and
+talk band are unchanged.
