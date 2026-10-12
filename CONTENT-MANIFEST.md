@@ -29,6 +29,21 @@ office value yet.
 - **Address and map** — held as a note on the page ("prints once the office
   confirms it").
 
+## In place, to confirm before publish ("What we do" band, Home)
+
+The two service names are the client's. The one line under each name is provisional, written
+to the site voice for the preview, and swaps in one data edit (`whatWeDo` in
+`src/data/site.ts`).
+
+- **Architecture Designs** — provisional line: "Design work: the building studied, drawn and
+  detailed before the ground is cut." Photograph: `site-24`, the finished residence and pool,
+  from the client's own set.
+- **Landscape** — provisional line: "The ground carried as part of the design: levels,
+  drainage, turf and planting, brought to the finished line." Photograph: `site-21`, slope
+  finishing and drainage, from the client's own set.
+- No copy from the client's handwritten notes is published; the office's confirmed service
+  text is awaited.
+
 ## Supplied and in use
 
 - **Names** — Sri Sai Enterprise (company name, header and footer); Alankara, by Sri Sai

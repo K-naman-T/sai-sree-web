@@ -72,6 +72,43 @@ export const heroSlides: Plate[] = [
   },
 ];
 
+/** The design services, shown as the "What we do" carousel on the home page. */
+export interface WhatWeDoItem {
+  id: string;
+  title: string;
+  /** One line beside the name. Provisional wording until the office confirms its copy. */
+  line: string;
+  /** A photograph of this work from the company's own sites. */
+  photo: SitePhoto;
+}
+
+export const whatWeDo: WhatWeDoItem[] = [
+  {
+    id: "architecture-designs",
+    title: "Architecture Designs",
+    line: "Design work: the building studied, drawn and detailed before the ground is cut.",
+    photo: {
+      src: "/photos/site-24.webp",
+      width: 2000,
+      height: 1500,
+      alt: "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
+      caption: "Finished residence and pool",
+    },
+  },
+  {
+    id: "landscape",
+    title: "Landscape",
+    line: "The ground carried as part of the design: levels, drainage, turf and planting, brought to the finished line.",
+    photo: {
+      src: "/photos/site-21.webp",
+      width: 1600,
+      height: 900,
+      alt: "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+      caption: "Slope finishing and drainage",
+    },
+  },
+];
+
 /** "What we take on" cards on the home page. */
 export const categories: { title: string; blurb: string; plate: Plate }[] = [
   {
