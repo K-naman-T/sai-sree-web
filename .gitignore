@@ -4,6 +4,3 @@ dist-ssr
 *.local
 dev.log
 .DS_Store
-
-# generated screenshots (not part of the site)
-shots/

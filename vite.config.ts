@@ -18,11 +18,6 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 5173,
     allowedHosts: true,
-    watch: {
-      // Do not full-reload the app when tooling writes screenshots, scripts or
-      // reports. Only src/ and the assets/ public dir should trigger anything.
-      ignored: ["**/shots/**", "**/scripts/**", "**/dist/**", "**/dev.log", "**/REPORT.md"],
-    },
   },
   build: {
     outDir: "dist",
