@@ -1,0 +1,5197 @@
+[
+  {
+    "viewport": "desktop",
+    "route": "/",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/desktop-home.png",
+    "consoleErrors": [
+      "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/",
+    "title": "Home | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Construction built as craft."
+      },
+      {
+        "lvl": "H2",
+        "t": "What we take on"
+      },
+      {
+        "lvl": "H3",
+        "t": "Civil construction"
+      },
+      {
+        "lvl": "H3",
+        "t": "Earthwork and levelling"
+      },
+      {
+        "lvl": "H3",
+        "t": "Machine and material supply"
+      },
+      {
+        "lvl": "H3",
+        "t": "Rammed earth and mud construction"
+      },
+      {
+        "lvl": "H2",
+        "t": "What we do"
+      },
+      {
+        "lvl": "H3",
+        "t": "Architecture Designs"
+      },
+      {
+        "lvl": "H3",
+        "t": "Landscape"
+      },
+      {
+        "lvl": "H2",
+        "t": "The fleet"
+      },
+      {
+        "lvl": "H2",
+        "t": "How the work runs"
+      },
+      {
+        "lvl": "H2",
+        "t": "Work"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 2353,
+    "domNodes": 364,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "Workers raising a rammed earth wall, tamping wet earth into tall wooden formwork with hand rammers beside bamboo scaffolding.",
+        "w": "1600",
+        "h": "900",
+        "loading": "eager",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1549
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE-V2.webp",
+        "alt": "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1483
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE.webp",
+        "alt": "A mud house with rammed earth walls, a deep veranda and a tiled roof.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1483
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE.webp",
+        "alt": "An earthmover loading red soil into a tipper truck on a haul road, a cut hillside behind.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1483
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-CIVIL.webp",
+        "alt": "Two masons building a brick masonry wall, one laying a brick with a trowel while a plumb line hangs.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 800,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-EARTHWORK.webp",
+        "alt": "Workers levelling and cutting red earth on a pegged-out plot, with string lines and a small excavator at the edge.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 800,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-SUPPLY.webp",
+        "alt": "Materials at a building site: stacked cement bags, a heap of stone aggregate, steel bars, and a truck unloading red soil.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 800,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE-SQ.webp",
+        "alt": "A mud house with rammed earth walls, a deep veranda and a tiled roof.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 800,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-24.webp",
+        "alt": "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 650
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-21.webp",
+        "alt": "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 650
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-EARTHWORK.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 800,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE-V2.webp",
+        "alt": "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 1600,
+        "shown": 880
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/FRIEZE-5STATIONS.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "312",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-24.webp",
+        "alt": "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 650
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-06.webp",
+        "alt": "A concrete mixer truck at the top of the embankment, its chute reaching down to pour at the rebar foundation, workers watching the pour.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 535
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE-SQ.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 800,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 6,
+    "lazyImages": 18,
+    "eagerImages": 1,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -54,
+        "right": 1494
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -22,
+        "right": 1462
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -22,
+        "right": 1462
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -22,
+        "right": 1462
+      },
+      {
+        "tag": "div",
+        "cls": "flex shrink-0 justify-around gap-[var(--gap)] animate-marque",
+        "left": -124,
+        "right": 2850
+      },
+      {
+        "tag": "span",
+        "cls": "flex items-center gap-14",
+        "left": -124,
+        "right": 147
+      },
+      {
+        "tag": "span",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,1.8vw,1.55",
+        "left": -124,
+        "right": 81
+      },
+      {
+        "tag": "span",
+        "cls": "flex items-center gap-14",
+        "left": 1227,
+        "right": 1579
+      },
+      {
+        "tag": "span",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,1.8vw,1.55",
+        "left": 1227,
+        "right": 1513
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "left": 1569,
+        "right": 1579
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "left": 1569,
+        "right": 1579
+      },
+      {
+        "tag": "span",
+        "cls": "flex items-center gap-14",
+        "left": 1635,
+        "right": 1880
+      }
+    ],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Tell us about your site",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "All services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Civil constructionContract work finished lik",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Earthwork and levellingThe ground is the fir",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machine and material supplyMachines with an ",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Rammed earth and mud constructionThe art for",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 3,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 6,
+      "domContentLoaded": 136,
+      "load": 136
+    },
+    "resources": {
+      "count": 16,
+      "kb": 2221,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/photos/site-24.webp",
+        "type": "img",
+        "kb": 359,
+        "ms": 36
+      },
+      {
+        "name": "/photos/site-21.webp",
+        "type": "img",
+        "kb": 350,
+        "ms": 39
+      },
+      {
+        "name": "/plates/HERO-MACHINE.webp",
+        "type": "img",
+        "kb": 254,
+        "ms": 32
+      },
+      {
+        "name": "/plates/HERO-CREW.webp",
+        "type": "img",
+        "kb": 216,
+        "ms": 10
+      },
+      {
+        "name": "/plates/HERO-MUDHOUSE.webp",
+        "type": "img",
+        "kb": 203,
+        "ms": 29
+      },
+      {
+        "name": "/plates/HERO-MACHINE-V2.webp",
+        "type": "img",
+        "kb": 188,
+        "ms": 11
+      },
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 142,
+        "ms": 64
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 118,
+        "ms": 139
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "route": "/work",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/desktop-work.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/work",
+    "title": "Work | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Work"
+      },
+      {
+        "lvl": "H2",
+        "t": "Excavation and foundations"
+      },
+      {
+        "lvl": "H2",
+        "t": "Earthwork and site preparation"
+      },
+      {
+        "lvl": "H2",
+        "t": "Retaining walls"
+      },
+      {
+        "lvl": "H2",
+        "t": "Demolition and clearing"
+      },
+      {
+        "lvl": "H2",
+        "t": "Steel frame and decking"
+      },
+      {
+        "lvl": "H2",
+        "t": "Industrial steel and shed works"
+      },
+      {
+        "lvl": "H2",
+        "t": "Building works"
+      },
+      {
+        "lvl": "H2",
+        "t": "Landscaping and ground finishing"
+      },
+      {
+        "lvl": "H2",
+        "t": "A finished residence"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 1931,
+    "domNodes": 308,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-05.webp",
+        "alt": "A mixer truck at the ground level above the trench, its chute pouring concrete down into the reinforcement cage, workers watching at the edge.",
+        "w": "780",
+        "h": "1040",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 780,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-02.webp",
+        "alt": "A deep rectangular excavation with a poured base slab and a dense steel rebar cage, workers on the access ramp at the bottom.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 544
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-03.webp",
+        "alt": "An excavated pit with blinding slab and dense rebar grids set out for the foundation walls and slab, a hard hat resting on the steel.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-04.webp",
+        "alt": "A high view of the foundation pit: rebar cage around the walls and a separate column cage in the centre, cement bags and materials at the edges.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-06.webp",
+        "alt": "A concrete mixer truck at the top of the embankment, its chute reaching down to pour at the rebar foundation, workers watching the pour.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-07.webp",
+        "alt": "A mixer truck placing concrete by chute into a deep pit, rebar cage along the wall and formwork at the bottom of the excavation.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-09.webp",
+        "alt": "A backhoe loader trenching at an early earthworks site with a tractor and trailer behind, workers and palms around, an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-20.webp",
+        "alt": "A wide plot of graded land with a long boundary wall, ground levelled and pegged for the build under an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-01.webp",
+        "alt": "Terraced stone retaining walls built into a cut red-earth slope, with a small concrete block in the foreground.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-08.webp",
+        "alt": "A freshly struck concrete retaining wall with formwork seams and tie holes, a drain pipe at the top, compacted red earth below and a worker on the stair.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-14.webp",
+        "alt": "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+        "w": "1280",
+        "h": "720",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-15.webp",
+        "alt": "Two excavators working the rubble pile at a demolition, dust rising, palm trees and onlookers beyond.",
+        "w": "1080",
+        "h": "612",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-12.webp",
+        "alt": "A steel frame on a concrete slab: yellow columns and dark beams over a yellow diamond-plate floor, with a scaffolding tower to the side.",
+        "w": "1280",
+        "h": "960",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 772
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-13.webp",
+        "alt": "Steel columns and beams standing on the slab of a new building, the road and traffic beyond and a makeshift scaffold at the edge.",
+        "w": "1280",
+        "h": "960",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 544
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-18.webp",
+        "alt": "Steel trusses being erected over concrete columns in yellow formwork, workers in vests below and a mobile crane behind.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-19.webp",
+        "alt": "Rows of steel columns with a curved roof truss being raised between two of them, a mobile crane on site and workers in the foreground.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-11.webp",
+        "alt": "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-10.webp",
+        "alt": "A multi-storey brick building under construction behind bamboo scaffolding, with a parked backhoe, gravel and a concrete mixer in the foreground.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-16.webp",
+        "alt": "The steel frame of a two-storey building with blockwork walls at the ground floor, people at the entrance and palms around.",
+        "w": "1600",
+        "h": "739",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-17.webp",
+        "alt": "The yellow steel framework of a two-storey building above grey block walls, a worker on the frame and plaster work at the base.",
+        "w": "1600",
+        "h": "739",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-23.webp",
+        "alt": "Workers laying turf across a steep earth embankment, the lower slope already greened and a truck loaded with turf at the crest.",
+        "w": "960",
+        "h": "1280",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-21.webp",
+        "alt": "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 544
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-22.webp",
+        "alt": "A green open ground with a goal frame at the wall and trees along the boundary.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-24.webp",
+        "alt": "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 658
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-25.webp",
+        "alt": "A pool-side view of a finished single-storey residence with glass walls and sheer curtains, a terracotta privacy wall at the left and palms behind.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-26.webp",
+        "alt": "Single-storey pavilions with flat roofs and rust-toned cladding on a finished lawn, palms around and a string line on the grass.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 316
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-LABOUR.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 6,
+    "lazyImages": 32,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      }
+    ],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 6,
+      "domContentLoaded": 111,
+      "load": 111
+    },
+    "resources": {
+      "count": 15,
+      "kb": 1862,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/photos/site-09.webp",
+        "type": "img",
+        "kb": 331,
+        "ms": 68
+      },
+      {
+        "name": "/photos/site-20.webp",
+        "type": "img",
+        "kb": 239,
+        "ms": 68
+      },
+      {
+        "name": "/photos/site-02.webp",
+        "type": "img",
+        "kb": 237,
+        "ms": 43
+      },
+      {
+        "name": "/photos/site-08.webp",
+        "type": "img",
+        "kb": 192,
+        "ms": 67
+      },
+      {
+        "name": "/photos/site-03.webp",
+        "type": "img",
+        "kb": 185,
+        "ms": 39
+      },
+      {
+        "name": "/photos/site-04.webp",
+        "type": "img",
+        "kb": 173,
+        "ms": 39
+      },
+      {
+        "name": "/photos/site-05.webp",
+        "type": "img",
+        "kb": 171,
+        "ms": 39
+      },
+      {
+        "name": "/photos/site-07.webp",
+        "type": "img",
+        "kb": 170,
+        "ms": 65
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "route": "/services",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/desktop-services.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/services",
+    "title": "Services | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Services"
+      },
+      {
+        "lvl": "H2",
+        "t": "Civil construction contracts"
+      },
+      {
+        "lvl": "H2",
+        "t": "Earthwork and excavation"
+      },
+      {
+        "lvl": "H2",
+        "t": "Site levelling and preparation"
+      },
+      {
+        "lvl": "H2",
+        "t": "Machine contracts by hour, day or trip"
+      },
+      {
+        "lvl": "H2",
+        "t": "Machinery with operator"
+      },
+      {
+        "lvl": "H2",
+        "t": "Material supply (cement, steel, aggregates, fill earth)"
+      },
+      {
+        "lvl": "H2",
+        "t": "Labour supply and labour contracts"
+      },
+      {
+        "lvl": "H2",
+        "t": "Road, drain and barrier work"
+      },
+      {
+        "lvl": "H2",
+        "t": "Rammed earth and mud construction"
+      },
+      {
+        "lvl": "H2",
+        "t": "How a job starts"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 3399,
+    "domNodes": 283,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-CIVIL.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 800,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-10.webp",
+        "alt": "A multi-storey brick building under construction behind bamboo scaffolding, with a parked backhoe, gravel and a concrete mixer in the foreground.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-09.webp",
+        "alt": "A backhoe loader trenching at an early earthworks site with a tractor and trailer behind, workers and palms around, an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-20.webp",
+        "alt": "A wide plot of graded land with a long boundary wall, ground levelled and pegged for the build under an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-14.webp",
+        "alt": "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+        "w": "1280",
+        "h": "720",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-11.webp",
+        "alt": "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-07.webp",
+        "alt": "A mixer truck placing concrete by chute into a deep pit, rebar cage along the wall and formwork at the bottom of the excavation.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-23.webp",
+        "alt": "Workers laying turf across a steep earth embankment, the lower slope already greened and a truck loaded with turf at the crest.",
+        "w": "960",
+        "h": "1280",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-21.webp",
+        "alt": "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 510
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE.webp",
+        "alt": "A mud house with rammed earth walls, a deep veranda and a tiled roof.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 528
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/FRIEZE-5STATIONS.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "312",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1440
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 4,
+    "lazyImages": 13,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      }
+    ],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 8,
+      "domContentLoaded": 100,
+      "load": 100
+    },
+    "resources": {
+      "count": 9,
+      "kb": 368,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/photos/site-10.webp",
+        "type": "img",
+        "kb": 368,
+        "ms": 25
+      },
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 13
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 7
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 63
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 61
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 56
+      },
+      {
+        "name": "/plates/TILE-CIVIL.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 16
+      },
+      {
+        "name": "/photos/site-09.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 25
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "route": "/machinery",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/desktop-machinery.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/machinery",
+    "title": "Machinery | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Machinery"
+      },
+      {
+        "lvl": "H2",
+        "t": "Hire terms"
+      },
+      {
+        "lvl": "H3",
+        "t": "Fleet list"
+      },
+      {
+        "lvl": "H2",
+        "t": "Machines at work"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 852,
+    "domNodes": 136,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE-V2.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/excavator.webp",
+        "alt": "A tracked excavator, boom raised, its bucket curled at the end of the arm.",
+        "w": "359",
+        "h": "314",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 359,
+        "shown": 134
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/backhoe.webp",
+        "alt": "A backhoe loader with its front bucket raised and the rear digging arm extended.",
+        "w": "713",
+        "h": "360",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 713,
+        "shown": 232
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/tipper.webp",
+        "alt": "A three-axle tipper truck with a steel dump body.",
+        "w": "510",
+        "h": "360",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 510,
+        "shown": 166
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/compactor.webp",
+        "alt": "A single-drum soil compactor with a smooth steel drum at the front.",
+        "w": "572",
+        "h": "360",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 572,
+        "shown": 186
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-11.webp",
+        "alt": "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-15.webp",
+        "alt": "Two excavators working the rubble pile at a demolition, dust rising, palm trees and onlookers beyond.",
+        "w": "1080",
+        "h": "612",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1080,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-14.webp",
+        "alt": "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+        "w": "1280",
+        "h": "720",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1280,
+        "shown": 430
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 4,
+    "lazyImages": 11,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      }
+    ],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Hire a machine",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 6,
+      "domContentLoaded": 117,
+      "load": 118
+    },
+    "resources": {
+      "count": 14,
+      "kb": 722,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/photos/site-11.webp",
+        "type": "img",
+        "kb": 216,
+        "ms": 61
+      },
+      {
+        "name": "/photos/site-14.webp",
+        "type": "img",
+        "kb": 145,
+        "ms": 60
+      },
+      {
+        "name": "/photos/site-15.webp",
+        "type": "img",
+        "kb": 98,
+        "ms": 56
+      },
+      {
+        "name": "/machines/backhoe.webp",
+        "type": "img",
+        "kb": 70,
+        "ms": 35
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 61,
+        "ms": 34
+      },
+      {
+        "name": "/machines/tipper.webp",
+        "type": "img",
+        "kb": 52,
+        "ms": 27
+      },
+      {
+        "name": "/machines/compactor.webp",
+        "type": "img",
+        "kb": 44,
+        "ms": 29
+      },
+      {
+        "name": "/machines/excavator.webp",
+        "type": "img",
+        "kb": 36,
+        "ms": 23
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "route": "/about",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/desktop-about.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/about",
+    "title": "About | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "About"
+      },
+      {
+        "lvl": "H2",
+        "t": "What we do"
+      },
+      {
+        "lvl": "H3",
+        "t": "Civil construction"
+      },
+      {
+        "lvl": "H3",
+        "t": "Earthwork and levelling"
+      },
+      {
+        "lvl": "H3",
+        "t": "Machine and material supply"
+      },
+      {
+        "lvl": "H3",
+        "t": "Machinery with an operator"
+      },
+      {
+        "lvl": "H3",
+        "t": "Rammed earth and mud construction"
+      },
+      {
+        "lvl": "H2",
+        "t": "How we run"
+      },
+      {
+        "lvl": "H2",
+        "t": "Where"
+      },
+      {
+        "lvl": "H2",
+        "t": "Registrations"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 1396,
+    "domNodes": 167,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "Workers raising a rammed earth wall, tamping wet earth into tall wooden formwork with hand rammers beside bamboo scaffolding.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 416
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-SUPPLY.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 1440
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 6,
+    "lazyImages": 7,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      }
+    ],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 4,
+      "domContentLoaded": 89,
+      "load": 89
+    },
+    "resources": {
+      "count": 8,
+      "kb": 0,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 8
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 5
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 60
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 59
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 49
+      },
+      {
+        "name": "/plates/HERO-MUDHOUSE.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 20
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 20
+      },
+      {
+        "name": "/plates/HERO-CREW.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 20
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "route": "/contact",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/desktop-contact.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/contact",
+    "title": "Contact | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Contact"
+      },
+      {
+        "lvl": "H2",
+        "t": "Reach the office"
+      },
+      {
+        "lvl": "H2",
+        "t": "The company"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 1522,
+    "domNodes": 168,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 1843
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 4,
+    "lazyImages": 4,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full scale-[1.28] select-none object-cover opacity-",
+        "left": -202,
+        "right": 1642
+      }
+    ],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About the company",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "What can be hired",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "The machines",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the services we run",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 5,
+      "domContentLoaded": 89,
+      "load": 89
+    },
+    "resources": {
+      "count": 7,
+      "kb": 0,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 9
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 4
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 45
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 41
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 36
+      },
+      {
+        "name": "/plates/HERO-MACHINE.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 7
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 6
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "route": "/does-not-exist",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/desktop-does-not-exist.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/does-not-exist",
+    "title": "Page not found | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Page not found"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 360,
+    "domNodes": 77,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 1440
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 1,
+    "lazyImages": 1,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Back to the home page",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 5,
+      "domContentLoaded": 93,
+      "load": 93
+    },
+    "resources": {
+      "count": 6,
+      "kb": 0,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 12
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 7
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 58
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 57
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 59
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 5
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/mobile-home.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/",
+    "title": "Home | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Construction built as craft."
+      },
+      {
+        "lvl": "H2",
+        "t": "What we take on"
+      },
+      {
+        "lvl": "H3",
+        "t": "Civil construction"
+      },
+      {
+        "lvl": "H3",
+        "t": "Earthwork and levelling"
+      },
+      {
+        "lvl": "H3",
+        "t": "Machine and material supply"
+      },
+      {
+        "lvl": "H3",
+        "t": "Rammed earth and mud construction"
+      },
+      {
+        "lvl": "H2",
+        "t": "What we do"
+      },
+      {
+        "lvl": "H3",
+        "t": "Architecture Designs"
+      },
+      {
+        "lvl": "H3",
+        "t": "Landscape"
+      },
+      {
+        "lvl": "H2",
+        "t": "The fleet"
+      },
+      {
+        "lvl": "H2",
+        "t": "How the work runs"
+      },
+      {
+        "lvl": "H2",
+        "t": "Work"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 2310,
+    "domNodes": 364,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "Workers raising a rammed earth wall, tamping wet earth into tall wooden formwork with hand rammers beside bamboo scaffolding.",
+        "w": "1600",
+        "h": "900",
+        "loading": "eager",
+        "complete": true,
+        "natural": 1600,
+        "shown": 420
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE-V2.webp",
+        "alt": "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 402
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE.webp",
+        "alt": "A mud house with rammed earth walls, a deep veranda and a tiled roof.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 402
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE.webp",
+        "alt": "An earthmover loading red soil into a tipper truck on a haul road, a cut hillside behind.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 402
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-CIVIL.webp",
+        "alt": "Two masons building a brick masonry wall, one laying a brick with a trowel while a plumb line hangs.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 800,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-EARTHWORK.webp",
+        "alt": "Workers levelling and cutting red earth on a pegged-out plot, with string lines and a small excavator at the edge.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 800,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-SUPPLY.webp",
+        "alt": "Materials at a building site: stacked cement bags, a heap of stone aggregate, steel bars, and a truck unloading red soil.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE-SQ.webp",
+        "alt": "A mud house with rammed earth walls, a deep veranda and a tiled roof.",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-24.webp",
+        "alt": "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-21.webp",
+        "alt": "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-EARTHWORK.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 800,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE-V2.webp",
+        "alt": "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 1600,
+        "shown": 351
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/FRIEZE-5STATIONS.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "312",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-24.webp",
+        "alt": "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-06.webp",
+        "alt": "A concrete mixer truck at the top of the embankment, its chute reaching down to pour at the rebar foundation, workers watching the pour.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE-SQ.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 6,
+    "lazyImages": 18,
+    "eagerImages": 1,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -15,
+        "right": 405
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -6,
+        "right": 396
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -6,
+        "right": 396
+      },
+      {
+        "tag": "img",
+        "cls": "h-full w-full object-cover",
+        "left": -6,
+        "right": 396
+      },
+      {
+        "tag": "div",
+        "cls": "flex shrink-0 justify-around gap-[var(--gap)] animate-marque",
+        "left": -102,
+        "right": 2323
+      },
+      {
+        "tag": "span",
+        "cls": "flex items-center gap-14",
+        "left": -102,
+        "right": 110
+      },
+      {
+        "tag": "span",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,1.8vw,1.55",
+        "left": -102,
+        "right": 44
+      },
+      {
+        "tag": "span",
+        "cls": "flex items-center gap-14",
+        "left": 166,
+        "right": 447
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "left": 437,
+        "right": 447
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "left": 437,
+        "right": 447
+      },
+      {
+        "tag": "span",
+        "cls": "flex items-center gap-14",
+        "left": 503,
+        "right": 674
+      },
+      {
+        "tag": "span",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,1.8vw,1.55",
+        "left": 503,
+        "right": 608
+      }
+    ],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Tell us about your site",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "All services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Civil constructionContract work finished lik",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Earthwork and levellingThe ground is the fir",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machine and material supplyMachines with an ",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Rammed earth and mud constructionThe art for",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 3,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 5,
+      "domContentLoaded": 111,
+      "load": 111
+    },
+    "resources": {
+      "count": 11,
+      "kb": 1319,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/plates/HERO-MACHINE.webp",
+        "type": "img",
+        "kb": 254,
+        "ms": 20
+      },
+      {
+        "name": "/plates/HERO-CREW.webp",
+        "type": "img",
+        "kb": 216,
+        "ms": 12
+      },
+      {
+        "name": "/plates/HERO-MUDHOUSE.webp",
+        "type": "img",
+        "kb": 203,
+        "ms": 20
+      },
+      {
+        "name": "/plates/HERO-MACHINE-V2.webp",
+        "type": "img",
+        "kb": 188,
+        "ms": 19
+      },
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 142,
+        "ms": 38
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 118,
+        "ms": 102
+      },
+      {
+        "name": "/plates/TILE-EARTHWORK.webp",
+        "type": "img",
+        "kb": 73,
+        "ms": 18
+      },
+      {
+        "name": "/plates/TILE-CIVIL.webp",
+        "type": "img",
+        "kb": 64,
+        "ms": 17
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/work",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/mobile-work.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/work",
+    "title": "Work | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Work"
+      },
+      {
+        "lvl": "H2",
+        "t": "Excavation and foundations"
+      },
+      {
+        "lvl": "H2",
+        "t": "Earthwork and site preparation"
+      },
+      {
+        "lvl": "H2",
+        "t": "Retaining walls"
+      },
+      {
+        "lvl": "H2",
+        "t": "Demolition and clearing"
+      },
+      {
+        "lvl": "H2",
+        "t": "Steel frame and decking"
+      },
+      {
+        "lvl": "H2",
+        "t": "Industrial steel and shed works"
+      },
+      {
+        "lvl": "H2",
+        "t": "Building works"
+      },
+      {
+        "lvl": "H2",
+        "t": "Landscaping and ground finishing"
+      },
+      {
+        "lvl": "H2",
+        "t": "A finished residence"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 1888,
+    "domNodes": 308,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-05.webp",
+        "alt": "A mixer truck at the ground level above the trench, its chute pouring concrete down into the reinforcement cage, workers watching at the edge.",
+        "w": "780",
+        "h": "1040",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 780,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-02.webp",
+        "alt": "A deep rectangular excavation with a poured base slab and a dense steel rebar cage, workers on the access ramp at the bottom.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-03.webp",
+        "alt": "An excavated pit with blinding slab and dense rebar grids set out for the foundation walls and slab, a hard hat resting on the steel.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-04.webp",
+        "alt": "A high view of the foundation pit: rebar cage around the walls and a separate column cage in the centre, cement bags and materials at the edges.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-06.webp",
+        "alt": "A concrete mixer truck at the top of the embankment, its chute reaching down to pour at the rebar foundation, workers watching the pour.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1040,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-07.webp",
+        "alt": "A mixer truck placing concrete by chute into a deep pit, rebar cage along the wall and formwork at the bottom of the excavation.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-09.webp",
+        "alt": "A backhoe loader trenching at an early earthworks site with a tractor and trailer behind, workers and palms around, an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-20.webp",
+        "alt": "A wide plot of graded land with a long boundary wall, ground levelled and pegged for the build under an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-01.webp",
+        "alt": "Terraced stone retaining walls built into a cut red-earth slope, with a small concrete block in the foreground.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-08.webp",
+        "alt": "A freshly struck concrete retaining wall with formwork seams and tie holes, a drain pipe at the top, compacted red earth below and a worker on the stair.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-14.webp",
+        "alt": "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+        "w": "1280",
+        "h": "720",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-15.webp",
+        "alt": "Two excavators working the rubble pile at a demolition, dust rising, palm trees and onlookers beyond.",
+        "w": "1080",
+        "h": "612",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-12.webp",
+        "alt": "A steel frame on a concrete slab: yellow columns and dark beams over a yellow diamond-plate floor, with a scaffolding tower to the side.",
+        "w": "1280",
+        "h": "960",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-13.webp",
+        "alt": "Steel columns and beams standing on the slab of a new building, the road and traffic beyond and a makeshift scaffold at the edge.",
+        "w": "1280",
+        "h": "960",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-18.webp",
+        "alt": "Steel trusses being erected over concrete columns in yellow formwork, workers in vests below and a mobile crane behind.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-19.webp",
+        "alt": "Rows of steel columns with a curved roof truss being raised between two of them, a mobile crane on site and workers in the foreground.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-11.webp",
+        "alt": "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-10.webp",
+        "alt": "A multi-storey brick building under construction behind bamboo scaffolding, with a parked backhoe, gravel and a concrete mixer in the foreground.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-16.webp",
+        "alt": "The steel frame of a two-storey building with blockwork walls at the ground floor, people at the entrance and palms around.",
+        "w": "1600",
+        "h": "739",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-17.webp",
+        "alt": "The yellow steel framework of a two-storey building above grey block walls, a worker on the frame and plaster work at the base.",
+        "w": "1600",
+        "h": "739",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-23.webp",
+        "alt": "Workers laying turf across a steep earth embankment, the lower slope already greened and a truck loaded with turf at the crest.",
+        "w": "960",
+        "h": "1280",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-21.webp",
+        "alt": "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-22.webp",
+        "alt": "A green open ground with a goal frame at the wall and trees along the boundary.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-24.webp",
+        "alt": "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-25.webp",
+        "alt": "A pool-side view of a finished single-storey residence with glass walls and sheer curtains, a terracotta privacy wall at the left and palms behind.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-26.webp",
+        "alt": "Single-storey pavilions with flat roofs and rust-toned cladding on a finished lawn, palms around and a string line on the grass.",
+        "w": "2000",
+        "h": "1500",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-LABOUR.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 6,
+    "lazyImages": 32,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 4,
+      "domContentLoaded": 90,
+      "load": 90
+    },
+    "resources": {
+      "count": 10,
+      "kb": 930,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/photos/site-02.webp",
+        "type": "img",
+        "kb": 237,
+        "ms": 26
+      },
+      {
+        "name": "/photos/site-03.webp",
+        "type": "img",
+        "kb": 185,
+        "ms": 24
+      },
+      {
+        "name": "/photos/site-04.webp",
+        "type": "img",
+        "kb": 173,
+        "ms": 24
+      },
+      {
+        "name": "/photos/site-05.webp",
+        "type": "img",
+        "kb": 171,
+        "ms": 7
+      },
+      {
+        "name": "/photos/site-06.webp",
+        "type": "img",
+        "kb": 164,
+        "ms": 24
+      },
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 12
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 5
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 57
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/services",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/mobile-services.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/services",
+    "title": "Services | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Services"
+      },
+      {
+        "lvl": "H2",
+        "t": "Civil construction contracts"
+      },
+      {
+        "lvl": "H2",
+        "t": "Earthwork and excavation"
+      },
+      {
+        "lvl": "H2",
+        "t": "Site levelling and preparation"
+      },
+      {
+        "lvl": "H2",
+        "t": "Machine contracts by hour, day or trip"
+      },
+      {
+        "lvl": "H2",
+        "t": "Machinery with operator"
+      },
+      {
+        "lvl": "H2",
+        "t": "Material supply (cement, steel, aggregates, fill earth)"
+      },
+      {
+        "lvl": "H2",
+        "t": "Labour supply and labour contracts"
+      },
+      {
+        "lvl": "H2",
+        "t": "Road, drain and barrier work"
+      },
+      {
+        "lvl": "H2",
+        "t": "Rammed earth and mud construction"
+      },
+      {
+        "lvl": "H2",
+        "t": "How a job starts"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 3356,
+    "domNodes": 283,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-CIVIL.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-10.webp",
+        "alt": "A multi-storey brick building under construction behind bamboo scaffolding, with a parked backhoe, gravel and a concrete mixer in the foreground.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-09.webp",
+        "alt": "A backhoe loader trenching at an early earthworks site with a tractor and trailer behind, workers and palms around, an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-20.webp",
+        "alt": "A wide plot of graded land with a long boundary wall, ground levelled and pegged for the build under an overcast sky.",
+        "w": "1600",
+        "h": "1200",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-14.webp",
+        "alt": "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+        "w": "1280",
+        "h": "720",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-11.webp",
+        "alt": "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-07.webp",
+        "alt": "A mixer truck placing concrete by chute into a deep pit, rebar cage along the wall and formwork at the bottom of the excavation.",
+        "w": "1040",
+        "h": "780",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-23.webp",
+        "alt": "Workers laying turf across a steep earth embankment, the lower slope already greened and a truck loaded with turf at the crest.",
+        "w": "960",
+        "h": "1280",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-21.webp",
+        "alt": "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 333
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE.webp",
+        "alt": "A mud house with rammed earth walls, a deep veranda and a tiled roof.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 351
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/FRIEZE-5STATIONS.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "312",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 390
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 4,
+    "lazyImages": 13,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 8,
+      "domContentLoaded": 110,
+      "load": 110
+    },
+    "resources": {
+      "count": 8,
+      "kb": 938,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/photos/site-10.webp",
+        "type": "img",
+        "kb": 368,
+        "ms": 28
+      },
+      {
+        "name": "/photos/site-09.webp",
+        "type": "img",
+        "kb": 331,
+        "ms": 28
+      },
+      {
+        "name": "/photos/site-20.webp",
+        "type": "img",
+        "kb": 239,
+        "ms": 26
+      },
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 14
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 9
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 55
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 57
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 52
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/machinery",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/mobile-machinery.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/machinery",
+    "title": "Machinery | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Machinery"
+      },
+      {
+        "lvl": "H2",
+        "t": "Hire terms"
+      },
+      {
+        "lvl": "H3",
+        "t": "Fleet list"
+      },
+      {
+        "lvl": "H2",
+        "t": "Machines at work"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 809,
+    "domNodes": 136,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE-V2.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/excavator.webp",
+        "alt": "A tracked excavator, boom raised, its bucket curled at the end of the arm.",
+        "w": "359",
+        "h": "314",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 359,
+        "shown": 70
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/backhoe.webp",
+        "alt": "A backhoe loader with its front bucket raised and the rear digging arm extended.",
+        "w": "713",
+        "h": "360",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 713,
+        "shown": 70
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/tipper.webp",
+        "alt": "A three-axle tipper truck with a steel dump body.",
+        "w": "510",
+        "h": "360",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 510,
+        "shown": 70
+      },
+      {
+        "src": "http://127.0.0.1:5180/machines/compactor.webp",
+        "alt": "A single-drum soil compactor with a smooth steel drum at the front.",
+        "w": "572",
+        "h": "360",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 572,
+        "shown": 70
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-11.webp",
+        "alt": "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-15.webp",
+        "alt": "Two excavators working the rubble pile at a demolition, dust rising, palm trees and onlookers beyond.",
+        "w": "1080",
+        "h": "612",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1080,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-14.webp",
+        "alt": "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
+        "w": "1280",
+        "h": "720",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1280,
+        "shown": 349
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 390
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 4,
+    "lazyImages": 11,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Hire a machine",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 3,
+      "domContentLoaded": 93,
+      "load": 93
+    },
+    "resources": {
+      "count": 13,
+      "kb": 722,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/photos/site-11.webp",
+        "type": "img",
+        "kb": 216,
+        "ms": 22
+      },
+      {
+        "name": "/photos/site-14.webp",
+        "type": "img",
+        "kb": 145,
+        "ms": 33
+      },
+      {
+        "name": "/photos/site-15.webp",
+        "type": "img",
+        "kb": 98,
+        "ms": 32
+      },
+      {
+        "name": "/machines/backhoe.webp",
+        "type": "img",
+        "kb": 70,
+        "ms": 8
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 61,
+        "ms": 19
+      },
+      {
+        "name": "/machines/tipper.webp",
+        "type": "img",
+        "kb": 52,
+        "ms": 19
+      },
+      {
+        "name": "/machines/compactor.webp",
+        "type": "img",
+        "kb": 44,
+        "ms": 19
+      },
+      {
+        "name": "/machines/excavator.webp",
+        "type": "img",
+        "kb": 36,
+        "ms": 8
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/about",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/mobile-about.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/about",
+    "title": "About | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "About"
+      },
+      {
+        "lvl": "H2",
+        "t": "What we do"
+      },
+      {
+        "lvl": "H3",
+        "t": "Civil construction"
+      },
+      {
+        "lvl": "H3",
+        "t": "Earthwork and levelling"
+      },
+      {
+        "lvl": "H3",
+        "t": "Machine and material supply"
+      },
+      {
+        "lvl": "H3",
+        "t": "Machinery with an operator"
+      },
+      {
+        "lvl": "H3",
+        "t": "Rammed earth and mud construction"
+      },
+      {
+        "lvl": "H2",
+        "t": "How we run"
+      },
+      {
+        "lvl": "H2",
+        "t": "Where"
+      },
+      {
+        "lvl": "H2",
+        "t": "Registrations"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 1353,
+    "domNodes": 167,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MUDHOUSE.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-CREW.webp",
+        "alt": "Workers raising a rammed earth wall, tamping wet earth into tall wooden formwork with hand rammers beside bamboo scaffolding.",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 1600,
+        "shown": 351
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/TILE-SUPPLY.webp",
+        "alt": "",
+        "w": "800",
+        "h": "800",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 390
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 6,
+    "lazyImages": 7,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Talk to us",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 6,
+      "domContentLoaded": 97,
+      "load": 97
+    },
+    "resources": {
+      "count": 7,
+      "kb": 0,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 21
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 5
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 42
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 41
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 35
+      },
+      {
+        "name": "/plates/HERO-CREW.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 12
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 12
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/contact",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/mobile-contact.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/contact",
+    "title": "Contact | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Contact"
+      },
+      {
+        "lvl": "H2",
+        "t": "Reach the office"
+      },
+      {
+        "lvl": "H2",
+        "t": "The company"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 1479,
+    "domNodes": 168,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 390
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/HERO-MACHINE.webp",
+        "alt": "",
+        "w": "1600",
+        "h": "900",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 0,
+        "shown": 0
+      },
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": false,
+        "natural": 2000,
+        "shown": 390
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 4,
+    "lazyImages": 4,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About the company",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "What can be hired",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "The machines",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "See the services we run",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 6,
+      "domContentLoaded": 93,
+      "load": 93
+    },
+    "resources": {
+      "count": 6,
+      "kb": 0,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 13
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 8
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 36
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 30
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 25
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 9
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/does-not-exist",
+    "httpStatus": 200,
+    "shot": "/home/syd/projects/sai-sree-web/audit/shots/mobile-does-not-exist.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "url": "http://127.0.0.1:5180/does-not-exist",
+    "title": "Page not found | Alankara",
+    "lang": "en",
+    "metaDescription": "Alankara, by Sri Sai Enterprises. Civil construction, earthwork and levelling, machine and material supply, and rammed earth and mud construction.",
+    "metaOG": [],
+    "canonical": null,
+    "favicon": null,
+    "headings": [
+      {
+        "lvl": "H1",
+        "t": "Page not found"
+      }
+    ],
+    "h1Count": 1,
+    "bodyTextLength": 317,
+    "domNodes": 77,
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/plates/BORDER-MOTIF.webp",
+        "alt": "",
+        "w": "2000",
+        "h": "84",
+        "loading": "lazy",
+        "complete": true,
+        "natural": 2000,
+        "shown": 390
+      }
+    ],
+    "brokenImages": [],
+    "imagesWithoutAlt": 0,
+    "imagesEmptyAlt": 1,
+    "lazyImages": 1,
+    "eagerImages": 0,
+    "imagesWithoutDimensions": 0,
+    "docOverflow": 0,
+    "wideElements": [],
+    "smallTapTargets": [
+      {
+        "tag": "a",
+        "label": "Skip to content",
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Alankara- by Sri Sai Enterprises",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Back to the home page",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Home",
+        "href": "/",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Work",
+        "href": "/work",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Services",
+        "href": "/services",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Machinery",
+        "href": "/machinery",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "About",
+        "href": "/about",
+        "target": null,
+        "blank": false
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "target": null,
+        "blank": false
+      }
+    ],
+    "externalLinks": [],
+    "placeholderLinks": [],
+    "buttonCount": 1,
+    "formCount": 0,
+    "inputCount": 0,
+    "timingMs": {
+      "ttfb": 6,
+      "domContentLoaded": 105,
+      "load": 106
+    },
+    "resources": {
+      "count": 6,
+      "kb": 0,
+      "fontResources": 3
+    },
+    "slowest": [
+      {
+        "name": "/assets/index-0mDoyqz2.js",
+        "type": "script",
+        "kb": 0,
+        "ms": 19
+      },
+      {
+        "name": "/assets/index-Dk_4rOLt.css",
+        "type": "link",
+        "kb": 0,
+        "ms": 15
+      },
+      {
+        "name": "/assets/archivo-latin-wght-normal-E0tuGl4L.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 34
+      },
+      {
+        "name": "/assets/marcellus-latin-400-normal-86dSXJnk.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 33
+      },
+      {
+        "name": "/assets/fraunces-latin-full-normal-CFFu7zhK.woff2",
+        "type": "css",
+        "kb": 0,
+        "ms": 36
+      },
+      {
+        "name": "/plates/BORDER-MOTIF.webp",
+        "type": "img",
+        "kb": 0,
+        "ms": 4
+      }
+    ]
+  }
+]

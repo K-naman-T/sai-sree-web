@@ -10,6 +10,8 @@ import {
   contactChannels,
   contactFacts,
   heroSlides,
+  officeLine,
+  team,
 } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
@@ -56,7 +58,7 @@ export default function Contact() {
                   ) : (
                     <a
                       href={channel.href}
-                      className="mt-2 inline-block font-display text-[clamp(1.6rem,3vw,2.2rem)] leading-none underline-offset-8 hover:text-terracotta hover:underline"
+                      className="mt-2 flex min-h-[44px] items-center font-display text-[clamp(1.6rem,3vw,2.2rem)] leading-none underline-offset-8 hover:text-terracotta hover:underline"
                     >
                       {channel.value}
                     </a>
@@ -99,6 +101,50 @@ export default function Contact() {
             </div>
           </div>
         </div>
+      </Section>
+
+      {/* The office, by name: the roles the office gave, and the numbers it gave. */}
+      <Section tone="paper2" bordered={false}>
+        <SectionHeading>The office, by name</SectionHeading>
+        <p className="mt-5 max-w-[56ch] text-lg text-ink-2">
+          Work is signed off by a person, not a desk. Call whoever owns the job, or call the
+          office line — it reaches the same team.
+        </p>
+        <ul className="mt-10 grid gap-x-16 sm:grid-cols-2">
+          {team.map((person) => (
+            <li key={person.name} className="border-t border-hairline py-6">
+              <p className="font-display text-[1.4rem] leading-tight">{person.name}</p>
+              <p className="mt-1.5 text-[12px] font-semibold uppercase tracking-[0.16em] text-ink-2">
+                {person.role}
+              </p>
+              {person.phone ? (
+                <p className="mt-2 flex flex-wrap items-center gap-x-6">
+                  <a
+                    href={`tel:${person.phone.tel}`}
+                    className="flex min-h-[44px] items-center text-[16px] underline-offset-4 hover:text-terracotta hover:underline"
+                  >
+                    {person.phone.display}
+                  </a>
+                  <a
+                    href={person.phone.whatsapp}
+                    className="flex min-h-[44px] items-center text-[12px] font-semibold uppercase tracking-[0.16em] text-ink-2 underline-offset-4 hover:text-terracotta hover:underline"
+                  >
+                    WhatsApp
+                  </a>
+                </p>
+              ) : (
+                <p className="mt-2 flex min-h-[44px] items-center text-[15px]">
+                  <a
+                    href={`tel:${officeLine.tel}`}
+                    className="flex min-h-[44px] items-center underline-offset-4 hover:text-terracotta hover:underline"
+                  >
+                    Through the office line
+                  </a>
+                </p>
+              )}
+            </li>
+          ))}
+        </ul>
       </Section>
 
       {/* The company, and where it works. */}

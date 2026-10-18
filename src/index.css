@@ -156,6 +156,12 @@
   transform: scale(1.03);
 }
 
+/* <picture> is used only to pick the phone frame of a hero plate. It must add
+   no layout box of its own, or the image inside it loses the slide's height. */
+.hero-swiper .swiper-slide picture {
+  display: contents;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .hero-swiper .swiper-slide-active img {
     animation: kenburns 5.6s ease-out forwards;

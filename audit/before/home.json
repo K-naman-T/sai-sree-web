@@ -1,0 +1,66 @@
+{
+  "route": "/",
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pageHeight": 5904,
+  "sections": [
+    {
+      "heading": "Construction built as craft.",
+      "y": 0,
+      "h": 900
+    },
+    {
+      "heading": "What we take on",
+      "y": 998,
+      "h": 834
+    },
+    {
+      "heading": "What we do",
+      "y": 1831,
+      "h": 774
+    },
+    {
+      "heading": "(no heading)",
+      "y": 2605,
+      "h": 259
+    },
+    {
+      "heading": "The fleet",
+      "y": 2864,
+      "h": 655
+    },
+    {
+      "heading": "How the work runs",
+      "y": 3746,
+      "h": 635
+    },
+    {
+      "heading": "Work",
+      "y": 4444,
+      "h": 750
+    },
+    {
+      "heading": "(no heading)",
+      "y": 5256,
+      "h": 321
+    }
+  ],
+  "band": {
+    "heading": "What we do",
+    "y": 1831,
+    "h": 774,
+    "text": "What we do ARCHITECTURE DESIGNS LANDSCAPE Finished residence and pool Architecture Designs Design work: the building studied, drawn and detailed before the ground is cut. Slope finishing and drainage Landscape The ground carried as part of the design: levels, drainage, turf and planting, brought to the finished line.",
+    "images": [
+      {
+        "src": "http://127.0.0.1:5180/photos/site-24.webp",
+        "alt": "A finished tropical residence with flat roofs, glass walls a"
+      },
+      {
+        "src": "http://127.0.0.1:5180/photos/site-21.webp",
+        "alt": "A landscaped green slope with a drainage line across it and "
+      }
+    ],
+    "tabCount": 2
+  }
+}

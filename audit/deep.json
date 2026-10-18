@@ -1,0 +1,7950 @@
+{
+  "/": {
+    "httpErrors": [],
+    "colors": [
+      {
+        "text": "Skip to content",
+        "cls": "sr-only focus:not-sr-only focus:fixed focus:left-4",
+        "tag": "a",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-mark text-[1.05rem] uppercase leading-none tr",
+        "tag": "span",
+        "fontSize": 18.88,
+        "fontWeight": "400",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "- bySri Sai Enterprises",
+        "cls": "font-body text-[10px] font-semibold uppercase lead",
+        "tag": "span",
+        "fontSize": 10,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Construction built as craft.",
+        "cls": "text-balance font-display text-[clamp(2.6rem,7.5vw",
+        "tag": "h1",
+        "fontSize": 92,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design sit at the core of everything we build:",
+        "cls": "block",
+        "tag": "span",
+        "fontSize": 24,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "civil works, earthwork and levelling, machine and material s",
+        "cls": "block",
+        "tag": "span",
+        "fontSize": 24,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "and rammed earth and mud construction.",
+        "cls": "block",
+        "tag": "span",
+        "fontSize": 24,
+        "fontWeight": "500",
+        "fg": null,
+        "bg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Tell us about your site",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Civil construction",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Earthwork and excavation",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Site levelling",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machine contracts",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery with operator",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Material supply",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Labour supply",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Road, drain and barrier",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Rammed earth",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Civil construction",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Earthwork and excavation",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Site levelling",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machine contracts",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery with operator",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Material supply",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Labour supply",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Road, drain and barrier",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Rammed earth",
+        "cls": "whitespace-nowrap font-display text-[clamp(1.1rem,",
+        "tag": "span",
+        "fontSize": 24.8,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What we take on",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "All services",
+        "cls": "border-b border-transparent pb-1 transition-colors",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Civil construction",
+        "cls": "font-display text-[1.3rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20.8,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contract work finished like craft: foundations, columns, sla",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "View services",
+        "cls": "mt-auto inline-flex items-center gap-2 pt-6 text-[",
+        "tag": "span",
+        "fontSize": 11.5,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Earthwork and levelling",
+        "cls": "font-display text-[1.3rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20.8,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The ground is the first material. Cut, filled and set to lev",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "View services",
+        "cls": "mt-auto inline-flex items-center gap-2 pt-6 text-[",
+        "tag": "span",
+        "fontSize": 11.5,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machine and material supply",
+        "cls": "font-display text-[1.3rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20.8,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machines with an operator and materials chosen for the work.",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "View services",
+        "cls": "mt-auto inline-flex items-center gap-2 pt-6 text-[",
+        "tag": "span",
+        "fontSize": 11.5,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Rammed earth and mud construction",
+        "cls": "font-display text-[1.3rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20.8,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The art form we keep alive: walls formed in lifts and finish",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "View services",
+        "cls": "mt-auto inline-flex items-center gap-2 pt-6 text-[",
+        "tag": "span",
+        "fontSize": 11.5,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What we do",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Architecture Designs",
+        "cls": "-mb-px min-h-[44px] border-b-2 pt-1 text-[11px] fo",
+        "tag": "button",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Landscape",
+        "cls": "-mb-px min-h-[44px] border-b-2 pt-1 text-[11px] fo",
+        "tag": "button",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Finished residence and pool",
+        "cls": "mt-3 text-[11.5px] leading-snug text-ink-2",
+        "tag": "p",
+        "fontSize": 11.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Architecture Designs",
+        "cls": "text-balance font-display text-[clamp(1.6rem,2.6vw",
+        "tag": "h3",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Design work: the building studied, drawn and detailed before",
+        "cls": "mt-5 max-w-[38ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Slope finishing and drainage",
+        "cls": "mt-3 text-[11.5px] leading-snug text-ink-2",
+        "tag": "p",
+        "fontSize": 11.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Landscape",
+        "cls": "text-balance font-display text-[clamp(1.6rem,2.6vw",
+        "tag": "h3",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The ground carried as part of the design: levels, drainage, ",
+        "cls": "mt-5 max-w-[38ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design sit at the core of everything we build.",
+        "cls": "text-balance font-display text-[clamp(1.5rem,3.2vw",
+        "tag": "blockquote",
+        "fontSize": 41.6,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The fleet",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machines are the instruments. The eye of the operator is the",
+        "cls": "mt-6 max-w-[38ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "See the machinery",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 12.5,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "How the work runs",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Every site runs the same measured sequence. Craft is a disci",
+        "cls": "mt-6 max-w-[52ch] font-display text-[clamp(1.3rem,",
+        "tag": "p",
+        "fontSize": 27.2,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "01",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Receive the site",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "02",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Survey and set out",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "03",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Cut and excavate",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "04",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Fill and level",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "05",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Compact and hand over",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "See the services",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 12.5,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "See the work",
+        "cls": "border-b border-transparent pb-1 transition-colors",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Finished residence and pool",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Concrete pour into the foundation",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design, built into the ground.",
+        "cls": "max-w-[24ch] text-balance font-display text-[clamp",
+        "tag": "p",
+        "fontSize": 38.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Tell us about your site or a job you are planning, and we wi",
+        "cls": "mt-5 max-w-[52ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Talk to us",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-display text-[1.6rem] font-semibold leading-t",
+        "tag": "p",
+        "fontSize": 25.6,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "bySri Sai Enterprises",
+        "cls": "mt-1.5 text-[11px] font-semibold uppercase trackin",
+        "tag": "p",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "mt-4 font-display text-[1.15rem] italic leading-sn",
+        "tag": "p",
+        "fontSize": 18.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name:Sri Sai Enterprise",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      }
+    ],
+    "internalHrefs": [
+      "#main",
+      "/",
+      "/work",
+      "/services",
+      "/machinery",
+      "/about",
+      "/contact"
+    ]
+  },
+  "/work": {
+    "httpErrors": [],
+    "colors": [
+      {
+        "text": "Skip to content",
+        "cls": "sr-only focus:not-sr-only focus:fixed focus:left-4",
+        "tag": "a",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-mark text-[1.05rem] uppercase leading-none tr",
+        "tag": "span",
+        "fontSize": 18.88,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "- bySri Sai Enterprises",
+        "cls": "font-body text-[10px] font-semibold uppercase lead",
+        "tag": "span",
+        "fontSize": 10,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "text-balance text-[clamp(2.4rem,6vw,4.75rem)] lead",
+        "tag": "h1",
+        "fontSize": 76,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work built to be looked at.",
+        "cls": "mt-6 max-w-[24ch] font-display text-[clamp(1.5rem,",
+        "tag": "p",
+        "fontSize": 35.2,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Finished and running sites. The proof is in the finish.",
+        "cls": "mt-5 max-w-[48ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Excavation and foundations",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Cut, reinforced and poured. The work below the ground on a d",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Pour into the reinforcement cage",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Rebar cage in the foundation pit",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Wall and slab reinforcement",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Column cages on the base slab",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Concrete pour into the foundation",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Placing concrete at the pit",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Earthwork and site preparation",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Trenching, cutting and grading. The ground set out before th",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machine trenching on the plot",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Land graded and set out",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Retaining walls",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Slopes held and finished — stone terraces and struck concret",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Stone retaining wall at the cut",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Concrete retaining wall at the earthworks",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Demolition and clearing",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Clearing structures and rubble to make the site ready.",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Clearing with the backhoe loader",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Excavators at the demolition",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Steel frame and decking",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Columns and beams raised and set on the slab.",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Steel frame on the slab",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Steel columns and beams",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Industrial steel and shed works",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Trusses raised by crane; the sub-base compacted inside the s",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Steel erection on concrete columns",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Raising the roof trusses",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Sub-base compaction inside the shed",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Building works",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Brick, block and frame rising together.",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Brick building under construction",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Two-storey frame and blockwork",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Framework and block walls",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Landscaping and ground finishing",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Turf and green ground brought to their finished line.",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Laying turf on the slope",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Slope finishing and drainage",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Finished open ground",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "A finished residence",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Completed work: a tropical residence and its grounds.",
+        "cls": "max-w-[46ch] text-ink-2 sm:text-right",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Finished residence and pool",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Pool-side view of the residence",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Pavilions and the finished lawn",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Tell us about the site and we will work out the rest.",
+        "cls": "max-w-[24ch] text-balance font-display text-[clamp",
+        "tag": "p",
+        "fontSize": 38.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Talk to us",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-display text-[1.6rem] font-semibold leading-t",
+        "tag": "p",
+        "fontSize": 25.6,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "bySri Sai Enterprises",
+        "cls": "mt-1.5 text-[11px] font-semibold uppercase trackin",
+        "tag": "p",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "mt-4 font-display text-[1.15rem] italic leading-sn",
+        "tag": "p",
+        "fontSize": 18.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name:Sri Sai Enterprise",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      }
+    ],
+    "internalHrefs": [
+      "#main",
+      "/",
+      "/work",
+      "/services",
+      "/machinery",
+      "/about",
+      "/contact"
+    ]
+  },
+  "/services": {
+    "httpErrors": [],
+    "colors": [
+      {
+        "text": "Skip to content",
+        "cls": "sr-only focus:not-sr-only focus:fixed focus:left-4",
+        "tag": "a",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-mark text-[1.05rem] uppercase leading-none tr",
+        "tag": "span",
+        "fontSize": 18.88,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "- bySri Sai Enterprises",
+        "cls": "font-body text-[10px] font-semibold uppercase lead",
+        "tag": "span",
+        "fontSize": 10,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "text-balance text-[clamp(2.4rem,6vw,4.75rem)] lead",
+        "tag": "h1",
+        "fontSize": 76,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Everything we are asked to do carries the same standard: art",
+        "cls": "mt-6 max-w-[60ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Brick building under construction",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "01",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Civil construction contracts",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "We take on civil construction work as a contract. The scope ",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machine trenching on the plot",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "02",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Earthwork and excavation",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "We cut and remove earth where the drawings call for it. Exca",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Land graded and set out",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "03",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Site levelling and preparation",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "We level and prepare ground before building starts. Pegs and",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Clearing with the backhoe loader",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "04",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machine contracts by hour, day or trip",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The hire is booked and charged by the hour, the day or the t",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Sub-base compaction inside the shed",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "05",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery with operator",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machines are hired out with an operator. The operator runs t",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Placing concrete at the pit",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "06",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Material supply (cement, steel, aggregates, fill earth)",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Materials are supplied to site as the work needs them, chose",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Laying turf on the slope",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "07",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Labour supply and labour contracts",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Labour is supplied to site on contract. Teams are placed wit",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Slope finishing and drainage",
+        "cls": "mt-3 text-[13.5px] leading-snug text-ink-2",
+        "tag": "figcaption",
+        "fontSize": 13.5,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "08",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Road, drain and barrier work",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "We build roads, drains and barriers as part of a site. Forma",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "09",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Rammed earth and mud construction",
+        "cls": "mt-3 text-balance text-[clamp(1.5rem,2.6vw,2.2rem)",
+        "tag": "h2",
+        "fontSize": 35.2,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Rammed earth is the art form we keep alive. Walls are formed",
+        "cls": "mt-4 max-w-[58ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What you provide:",
+        "cls": "font-semibold text-ink",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "drawings, approvals, and site access.",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "How a job starts",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Every site runs the same measured sequence. Craft is a disci",
+        "cls": "mt-6 max-w-[52ch] font-display text-[clamp(1.3rem,",
+        "tag": "p",
+        "fontSize": 27.2,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "01",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Receive the site",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "02",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Survey and set out",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "03",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Cut and excavate",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "04",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Fill and level",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "05",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Compact and hand over",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Tell us about the site and we will work out the rest.",
+        "cls": "text-balance font-display text-[clamp(1.5rem,3.2vw",
+        "tag": "blockquote",
+        "fontSize": 41.6,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Talk to us",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-display text-[1.6rem] font-semibold leading-t",
+        "tag": "p",
+        "fontSize": 25.6,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "bySri Sai Enterprises",
+        "cls": "mt-1.5 text-[11px] font-semibold uppercase trackin",
+        "tag": "p",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "mt-4 font-display text-[1.15rem] italic leading-sn",
+        "tag": "p",
+        "fontSize": 18.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name:Sri Sai Enterprise",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      }
+    ],
+    "internalHrefs": [
+      "#main",
+      "/",
+      "/work",
+      "/services",
+      "/machinery",
+      "/about",
+      "/contact"
+    ]
+  },
+  "/machinery": {
+    "httpErrors": [],
+    "colors": [
+      {
+        "text": "Skip to content",
+        "cls": "sr-only focus:not-sr-only focus:fixed focus:left-4",
+        "tag": "a",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-mark text-[1.05rem] uppercase leading-none tr",
+        "tag": "span",
+        "fontSize": 18.88,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "- bySri Sai Enterprises",
+        "cls": "font-body text-[10px] font-semibold uppercase lead",
+        "tag": "span",
+        "fontSize": 10,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "text-balance text-[clamp(2.4rem,6vw,4.75rem)] lead",
+        "tag": "h1",
+        "fontSize": 76,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machines are the instruments; the operator’s eye is the diff",
+        "cls": "mt-6 max-w-[30ch] font-display text-[clamp(1.4rem,",
+        "tag": "p",
+        "fontSize": 33.6,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Everything is hired with a skilled hand at the controls, by ",
+        "cls": "mt-5 max-w-[54ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Hire terms",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Hire is by the hour, by the day, or by the trip. Every machi",
+        "cls": "max-w-[54ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Fleet list",
+        "cls": "font-display text-xl",
+        "tag": "h3",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The machine classes, their capacity, and whether each is own",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machines at work",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Sub-base compaction inside the shed",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Excavators at the demolition",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Clearing with the backhoe loader",
+        "cls": "mt-3 text-[15px] leading-snug text-ink",
+        "tag": "figcaption",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Book a machine for the work in hand.",
+        "cls": "max-w-[24ch] text-balance font-display text-[clamp",
+        "tag": "p",
+        "fontSize": 38.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Hire a machine",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-display text-[1.6rem] font-semibold leading-t",
+        "tag": "p",
+        "fontSize": 25.6,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "bySri Sai Enterprises",
+        "cls": "mt-1.5 text-[11px] font-semibold uppercase trackin",
+        "tag": "p",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "mt-4 font-display text-[1.15rem] italic leading-sn",
+        "tag": "p",
+        "fontSize": 18.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name:Sri Sai Enterprise",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      }
+    ],
+    "internalHrefs": [
+      "#main",
+      "/",
+      "/work",
+      "/services",
+      "/machinery",
+      "/about",
+      "/contact"
+    ]
+  },
+  "/about": {
+    "httpErrors": [],
+    "colors": [
+      {
+        "text": "Skip to content",
+        "cls": "sr-only focus:not-sr-only focus:fixed focus:left-4",
+        "tag": "a",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-mark text-[1.05rem] uppercase leading-none tr",
+        "tag": "span",
+        "fontSize": 18.88,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "- bySri Sai Enterprises",
+        "cls": "font-body text-[10px] font-semibold uppercase lead",
+        "tag": "span",
+        "fontSize": 10,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "text-balance text-[clamp(2.4rem,6vw,4.75rem)] lead",
+        "tag": "h1",
+        "fontSize": 76,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art aesthetics are not decoration added at the end. They are",
+        "cls": "text-balance font-display text-[clamp(1.5rem,3.2vw",
+        "tag": "blockquote",
+        "fontSize": 41.6,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Sri Sai Enterprise is a construction and earthmoving company",
+        "cls": "mt-8 max-w-[52ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What we do",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Civil construction",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contract work built to the drawings and the specification.",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Earthwork and levelling",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Ground cut, filled and set to level.",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machine and material supply",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machines with an operator, and materials brought to site.",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery with an operator",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Hired by the hour, by the day, or by the trip.",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Rammed earth and mud construction",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "h3",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Walls formed in lifts and finished by hand.",
+        "cls": "mt-3 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "How we run",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Every site runs the same measured sequence. Craft is a disci",
+        "cls": "mt-6 max-w-[52ch] font-display text-[clamp(1.3rem,",
+        "tag": "p",
+        "fontSize": 27.2,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "01",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Receive the site",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "02",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Survey and set out",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "03",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Cut and excavate",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "04",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Fill and level",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "05",
+        "cls": "font-display text-[clamp(2.4rem,4.2vw,3.4rem)] fon",
+        "tag": "span",
+        "fontSize": 54.4,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Compact and hand over",
+        "cls": "font-display text-[1.25rem] leading-snug",
+        "tag": "span",
+        "fontSize": 20,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Material goes to the site. Attendance is taken at the site. ",
+        "cls": "mt-10 max-w-[64ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Where",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "We work out of Harohalli, Karnataka.",
+        "cls": "mt-6 max-w-[46ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registrations",
+        "cls": "font-display text-[clamp(1.5rem,2.4vw,2rem)] leadi",
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name: Sri Sai Enterprise.",
+        "cls": "mt-5 max-w-[46ch] text-ink-2",
+        "tag": "p",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "max-w-[24ch] text-balance font-display text-[clamp",
+        "tag": "p",
+        "fontSize": 38.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Talk to us",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-display text-[1.6rem] font-semibold leading-t",
+        "tag": "p",
+        "fontSize": 25.6,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "bySri Sai Enterprises",
+        "cls": "mt-1.5 text-[11px] font-semibold uppercase trackin",
+        "tag": "p",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "mt-4 font-display text-[1.15rem] italic leading-sn",
+        "tag": "p",
+        "fontSize": 18.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name:Sri Sai Enterprise",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      }
+    ],
+    "internalHrefs": [
+      "#main",
+      "/",
+      "/work",
+      "/services",
+      "/machinery",
+      "/about",
+      "/contact"
+    ]
+  },
+  "/contact": {
+    "httpErrors": [],
+    "colors": [
+      {
+        "text": "Skip to content",
+        "cls": "sr-only focus:not-sr-only focus:fixed focus:left-4",
+        "tag": "a",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-mark text-[1.05rem] uppercase leading-none tr",
+        "tag": "span",
+        "fontSize": 18.88,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "- bySri Sai Enterprises",
+        "cls": "font-body text-[10px] font-semibold uppercase lead",
+        "tag": "span",
+        "fontSize": 10,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "text-balance text-[clamp(2.4rem,6vw,4.75rem)] lead",
+        "tag": "h1",
+        "fontSize": 76,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design, built into the ground.",
+        "cls": "mt-6 max-w-[30ch] font-display text-[clamp(1.5rem,",
+        "tag": "p",
+        "fontSize": 35.2,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Tell us about your site or a job you are planning, and we wi",
+        "cls": "mt-5 max-w-[52ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Reach the office",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Call",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "+91 9XXXX XXXXX",
+        "cls": "mt-2 font-display text-[clamp(1.6rem,3vw,2.2rem)] ",
+        "tag": "p",
+        "fontSize": 35.2,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The number prints here once the office confirms it.",
+        "cls": "mt-2 max-w-[44ch] text-[14px] text-ink-2",
+        "tag": "p",
+        "fontSize": 14,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "WhatsApp",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "the same number",
+        "cls": "mt-2 font-display text-[clamp(1.6rem,3vw,2.2rem)] ",
+        "tag": "p",
+        "fontSize": 35.2,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Messages reach the same phone.",
+        "cls": "mt-2 max-w-[44ch] text-[14px] text-ink-2",
+        "tag": "p",
+        "fontSize": 14,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "When you call, have this ready",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Where the site is, and what the land is like today",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What the work is: a building, a cut, a supply, a hire",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Any drawings you have, or a sketch",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "When you want to start",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Working hours",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Monday to Saturday, 9am to 6pm.",
+        "cls": "mt-3 text-lg",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Closed on Sunday.",
+        "cls": "mt-1 text-[14px] text-ink-2",
+        "tag": "p",
+        "fontSize": 14,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Who answers",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Someone from the office answers, not a machine. If the line ",
+        "cls": "mt-3 max-w-[42ch] text-[15px] leading-relaxed text",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The company",
+        "cls": "text-balance text-[clamp(1.85rem,3.4vw,3rem)] lead",
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Sri Sai Enterpriseis a construction and earthmoving company.",
+        "cls": "max-w-[60ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Where we work",
+        "cls": "text-[13px] font-semibold uppercase tracking-[0.18",
+        "tag": "p",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The office works across Bengaluru south, the Harohalli corri",
+        "cls": "mt-3 max-w-[56ch] text-[15px] leading-relaxed text",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The street address prints once the office confirms it, with ",
+        "cls": "mt-2 max-w-[56ch] text-[14px] leading-relaxed text",
+        "tag": "p",
+        "fontSize": 14,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About the company",
+        "cls": "border-b border-transparent pb-1 transition-colors",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "What can be hired",
+        "cls": "border-b border-transparent pb-1 transition-colors",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The machines",
+        "cls": "border-b border-transparent pb-1 transition-colors",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Tell us about the site and we will work out the rest.",
+        "cls": "text-balance font-display text-[clamp(1.5rem,3.2vw",
+        "tag": "blockquote",
+        "fontSize": 41.6,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "See the services we run",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 13,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-display text-[1.6rem] font-semibold leading-t",
+        "tag": "p",
+        "fontSize": 25.6,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "bySri Sai Enterprises",
+        "cls": "mt-1.5 text-[11px] font-semibold uppercase trackin",
+        "tag": "p",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "mt-4 font-display text-[1.15rem] italic leading-sn",
+        "tag": "p",
+        "fontSize": 18.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name:Sri Sai Enterprise",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      }
+    ],
+    "internalHrefs": [
+      "#main",
+      "/",
+      "/work",
+      "/services",
+      "/machinery",
+      "/about",
+      "/contact"
+    ]
+  },
+  "/does-not-exist": {
+    "httpErrors": [],
+    "colors": [
+      {
+        "text": "Skip to content",
+        "cls": "sr-only focus:not-sr-only focus:fixed focus:left-4",
+        "tag": "a",
+        "fontSize": 17,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-mark text-[1.05rem] uppercase leading-none tr",
+        "tag": "span",
+        "fontSize": 18.88,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "- bySri Sai Enterprises",
+        "cls": "font-body text-[10px] font-semibold uppercase lead",
+        "tag": "span",
+        "fontSize": 10,
+        "fontWeight": "600",
+        "fg": null,
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "relative flex h-11 items-center px-4 font-body tex",
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Page not found",
+        "cls": "text-balance text-[clamp(2.4rem,6vw,4.75rem)] lead",
+        "tag": "h1",
+        "fontSize": 76,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "The page you looked for is not here. The work is on the othe",
+        "cls": "mt-6 max-w-[44ch] text-lg text-ink-2",
+        "tag": "p",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 251,
+          "g": 247,
+          "b": 240,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Back to the home page",
+        "cls": "",
+        "tag": "span",
+        "fontSize": 12.5,
+        "fontWeight": "600",
+        "fg": {
+          "r": 252,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "bg": {
+          "r": 180,
+          "g": 71,
+          "b": 46,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Alankara",
+        "cls": "font-display text-[1.6rem] font-semibold leading-t",
+        "tag": "p",
+        "fontSize": 25.6,
+        "fontWeight": "600",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "bySri Sai Enterprises",
+        "cls": "mt-1.5 text-[11px] font-semibold uppercase trackin",
+        "tag": "p",
+        "fontSize": 11,
+        "fontWeight": "600",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Art and design at the core of everything we build.",
+        "cls": "mt-4 font-display text-[1.15rem] italic leading-sn",
+        "tag": "p",
+        "fontSize": 18.4,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Registered name:Sri Sai Enterprise",
+        "cls": "mt-4 text-[15px] leading-relaxed text-ink-2",
+        "tag": "p",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 107,
+          "g": 93,
+          "b": 75,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Home",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Work",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Services",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Machinery",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "About",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      },
+      {
+        "text": "Contact",
+        "cls": "flex min-h-[44px] items-center text-[15px] transit",
+        "tag": "a",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "fg": {
+          "r": 31,
+          "g": 27,
+          "b": 22,
+          "a": 1
+        },
+        "bg": {
+          "r": 243,
+          "g": 235,
+          "b": 221,
+          "a": 1
+        },
+        "bgImage": null
+      }
+    ],
+    "internalHrefs": [
+      "#main",
+      "/",
+      "/work",
+      "/services",
+      "/machinery",
+      "/about",
+      "/contact"
+    ]
+  }
+}

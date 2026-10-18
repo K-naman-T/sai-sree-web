@@ -6,7 +6,6 @@ import { FramedImage } from "@/components/ui/FramedImage";
 import { StepsRail } from "@/components/ui/StepsRail";
 import { Frieze, MotifBand, PullQuote } from "@/components/ui/Ornament";
 import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
-import { WhatWeDoCarousel } from "@/components/WhatWeDoCarousel";
 import { Button } from "@/components/ui/Button";
 import { BentoGrid, BentoCard } from "@/components/magicui/BentoGrid";
 import { BlurFade } from "@/components/magicui/BlurFade";
@@ -36,23 +35,11 @@ export default function Home() {
                 name={category.title}
                 description={category.blurb}
                 plate={category.plate}
-                href="/services"
+                href={category.to}
                 cta="View services"
               />
             ))}
           </BentoGrid>
-        </BlurFade>
-      </Section>
-
-      {/* What we do: the design services, one slide each — a photograph from
-          the company's own sites with the name and a line beside it. */}
-      <Section
-        className="pt-10 pb-12 sm:pt-10 sm:pb-14 lg:pt-10 lg:pb-16"
-        wash="seam-to-paper2"
-      >
-        <SectionHeading>What we do</SectionHeading>
-        <BlurFade inView={false} delay={0.05}>
-          <WhatWeDoCarousel className="mt-12" />
         </BlurFade>
       </Section>
 

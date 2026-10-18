@@ -1,0 +1,45 @@
+{
+  "route": "/",
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pageHeight": 5827,
+  "sections": [
+    {
+      "heading": "Construction built as craft.",
+      "y": 0,
+      "h": 900
+    },
+    {
+      "heading": "What we take on",
+      "y": 998,
+      "h": 1530
+    },
+    {
+      "heading": "(no heading)",
+      "y": 2528,
+      "h": 259
+    },
+    {
+      "heading": "The fleet",
+      "y": 2787,
+      "h": 655
+    },
+    {
+      "heading": "How the work runs",
+      "y": 3669,
+      "h": 635
+    },
+    {
+      "heading": "Work",
+      "y": 4366,
+      "h": 750
+    },
+    {
+      "heading": "(no heading)",
+      "y": 5179,
+      "h": 321
+    }
+  ],
+  "band": null
+}

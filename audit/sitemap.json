@@ -1,0 +1,1005 @@
+{
+  "base": "http://127.0.0.1:5180",
+  "crawledAt": "2026-10-16T14:15:53.797Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Home | Alankara",
+      "h1": "Construction built as craft.",
+      "header": [
+        {
+          "text": "ALANKARA - BY SRI SAI ENTERPRISES",
+          "href": "/"
+        },
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "sections": [
+        {
+          "kind": "section",
+          "heading": "Construction built as craft.",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "TELL US ABOUT YOUR SITE",
+              "href": "/contact"
+            }
+          ],
+          "chars": 248
+        },
+        {
+          "kind": "section",
+          "heading": "What we take on",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "ALL SERVICES",
+              "href": "/services"
+            },
+            {
+              "text": "Civil construction Contract work finished like c",
+              "href": "/services"
+            },
+            {
+              "text": "Earthwork and levelling The ground is the first ",
+              "href": "/services"
+            },
+            {
+              "text": "Machine and material supply Machines with an ope",
+              "href": "/services"
+            },
+            {
+              "text": "Rammed earth and mud construction The art form w",
+              "href": "/services"
+            },
+            {
+              "text": "Architecture Designs Design work: the building s",
+              "href": "/services"
+            },
+            {
+              "text": "Joint Ventures & Land Development Land taken up ",
+              "href": "/services"
+            }
+          ],
+          "chars": 866
+        },
+        {
+          "kind": "section",
+          "heading": "The fleet",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "SEE THE MACHINERY",
+              "href": "/machinery"
+            }
+          ],
+          "chars": 147
+        },
+        {
+          "kind": "section",
+          "heading": "How the work runs",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "SEE THE SERVICES",
+              "href": "/services"
+            }
+          ],
+          "chars": 206
+        },
+        {
+          "kind": "section",
+          "heading": "Work",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "SEE THE WORK",
+              "href": "/work"
+            }
+          ],
+          "chars": 79
+        },
+        {
+          "kind": "section",
+          "heading": "(no heading)",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "TALK TO US",
+              "href": "/contact"
+            }
+          ],
+          "chars": 144
+        }
+      ],
+      "idsOnRoute": [
+        "root",
+        "main"
+      ],
+      "linkCount": 12
+    },
+    {
+      "route": "/work",
+      "status": 200,
+      "title": "Work | Alankara",
+      "h1": "Work",
+      "header": [
+        {
+          "text": "ALANKARA - BY SRI SAI ENTERPRISES",
+          "href": "/"
+        },
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "sections": [
+        {
+          "kind": "section",
+          "heading": "Work",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 88
+        },
+        {
+          "kind": "section",
+          "heading": "Excavation and foundations",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 288
+        },
+        {
+          "kind": "section",
+          "heading": "Earthwork and site preparation",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 153
+        },
+        {
+          "kind": "section",
+          "heading": "Retaining walls",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 152
+        },
+        {
+          "kind": "section",
+          "heading": "Demolition and clearing",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 140
+        },
+        {
+          "kind": "section",
+          "heading": "Steel frame and decking",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 117
+        },
+        {
+          "kind": "section",
+          "heading": "Industrial steel and shed works",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 192
+        },
+        {
+          "kind": "section",
+          "heading": "Building works",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 145
+        },
+        {
+          "kind": "section",
+          "heading": "Landscaping and ground finishing",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 161
+        },
+        {
+          "kind": "section",
+          "heading": "A finished residence",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 166
+        },
+        {
+          "kind": "section",
+          "heading": "(no heading)",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "TALK TO US",
+              "href": "/contact"
+            }
+          ],
+          "chars": 64
+        }
+      ],
+      "idsOnRoute": [
+        "root",
+        "main"
+      ],
+      "linkCount": 1
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "title": "Services | Alankara",
+      "h1": "Services",
+      "header": [
+        {
+          "text": "ALANKARA - BY SRI SAI ENTERPRISES",
+          "href": "/"
+        },
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "sections": [
+        {
+          "kind": "section",
+          "heading": "Services",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 182
+        },
+        {
+          "kind": "li",
+          "heading": "Civil construction contracts",
+          "id": "civil",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 318
+        },
+        {
+          "kind": "li",
+          "heading": "Earthwork and excavation",
+          "id": "earthwork",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 284
+        },
+        {
+          "kind": "li",
+          "heading": "Site levelling and preparation",
+          "id": "levelling",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 271
+        },
+        {
+          "kind": "li",
+          "heading": "Machine contracts by hour, day or trip",
+          "id": "machine-contracts",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 294
+        },
+        {
+          "kind": "li",
+          "heading": "Machinery with operator",
+          "id": "machinery-operator",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 282
+        },
+        {
+          "kind": "li",
+          "heading": "Material supply (cement, steel, aggregates, fill earth)",
+          "id": "material-supply",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 311
+        },
+        {
+          "kind": "li",
+          "heading": "Labour supply and labour contracts",
+          "id": "labour",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 300
+        },
+        {
+          "kind": "li",
+          "heading": "Road, drain and barrier work",
+          "id": "road",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 297
+        },
+        {
+          "kind": "li",
+          "heading": "Rammed earth and mud construction",
+          "id": "rammed-earth",
+          "anchorsInside": [],
+          "links": [],
+          "chars": 342
+        },
+        {
+          "kind": "section",
+          "heading": "How a job starts",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 188
+        },
+        {
+          "kind": "section",
+          "heading": "(no heading)",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "TALK TO US",
+              "href": "/contact"
+            }
+          ],
+          "chars": 64
+        }
+      ],
+      "idsOnRoute": [
+        "root",
+        "main",
+        "civil",
+        "earthwork",
+        "levelling",
+        "machine-contracts",
+        "machinery-operator",
+        "material-supply",
+        "labour",
+        "road",
+        "rammed-earth"
+      ],
+      "linkCount": 1
+    },
+    {
+      "route": "/machinery",
+      "status": 200,
+      "title": "Machinery | Alankara",
+      "h1": "Machinery",
+      "header": [
+        {
+          "text": "ALANKARA - BY SRI SAI ENTERPRISES",
+          "href": "/"
+        },
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "sections": [
+        {
+          "kind": "section",
+          "heading": "Machinery",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 175
+        },
+        {
+          "kind": "section",
+          "heading": "Hire terms",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 254
+        },
+        {
+          "kind": "section",
+          "heading": "Machines at work",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 114
+        },
+        {
+          "kind": "section",
+          "heading": "(no heading)",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "HIRE A MACHINE",
+              "href": "/contact"
+            }
+          ],
+          "chars": 51
+        }
+      ],
+      "idsOnRoute": [
+        "root",
+        "main"
+      ],
+      "linkCount": 1
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "About | Alankara",
+      "h1": "About",
+      "header": [
+        {
+          "text": "ALANKARA - BY SRI SAI ENTERPRISES",
+          "href": "/"
+        },
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "sections": [
+        {
+          "kind": "section",
+          "heading": "About",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 258
+        },
+        {
+          "kind": "section",
+          "heading": "What we do",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 387
+        },
+        {
+          "kind": "section",
+          "heading": "How we run",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 338
+        },
+        {
+          "kind": "section",
+          "heading": "Where",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 93
+        },
+        {
+          "kind": "section",
+          "heading": "(no heading)",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "TALK TO US",
+              "href": "/contact"
+            }
+          ],
+          "chars": 61
+        }
+      ],
+      "idsOnRoute": [
+        "root",
+        "main"
+      ],
+      "linkCount": 1
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact | Alankara",
+      "h1": "Contact",
+      "header": [
+        {
+          "text": "ALANKARA - BY SRI SAI ENTERPRISES",
+          "href": "/"
+        },
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "sections": [
+        {
+          "kind": "section",
+          "heading": "Contact",
+          "id": null,
+          "anchorsInside": [],
+          "links": [],
+          "chars": 141
+        },
+        {
+          "kind": "section",
+          "heading": "Reach the office",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "+91 82963 19545",
+              "href": "tel:+918296319545"
+            },
+            {
+              "text": "Message the office line",
+              "href": "https://wa.me/918296319545"
+            }
+          ],
+          "chars": 539
+        },
+        {
+          "kind": "section",
+          "heading": "The office, by name",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "+91 82963 19545",
+              "href": "tel:+918296319545"
+            },
+            {
+              "text": "WHATSAPP",
+              "href": "https://wa.me/918296319545"
+            },
+            {
+              "text": "+91 97426 78584",
+              "href": "tel:+919742678584"
+            },
+            {
+              "text": "WHATSAPP",
+              "href": "https://wa.me/919742678584"
+            },
+            {
+              "text": "+91 91089 01239",
+              "href": "tel:+919108901239"
+            },
+            {
+              "text": "WHATSAPP",
+              "href": "https://wa.me/919108901239"
+            },
+            {
+              "text": "Through the office line",
+              "href": "tel:+918296319545"
+            },
+            {
+              "text": "Through the office line",
+              "href": "tel:+918296319545"
+            },
+            {
+              "text": "+91 85531 12116",
+              "href": "tel:+918553112116"
+            },
+            {
+              "text": "WHATSAPP",
+              "href": "https://wa.me/918553112116"
+            },
+            {
+              "text": "Through the office line",
+              "href": "tel:+918296319545"
+            },
+            {
+              "text": "Through the office line",
+              "href": "tel:+918296319545"
+            }
+          ],
+          "chars": 614
+        },
+        {
+          "kind": "section",
+          "heading": "The company",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "ABOUT THE COMPANY",
+              "href": "/about"
+            },
+            {
+              "text": "WHAT CAN BE HIRED",
+              "href": "/services"
+            },
+            {
+              "text": "THE MACHINES",
+              "href": "/machinery"
+            }
+          ],
+          "chars": 532
+        },
+        {
+          "kind": "section",
+          "heading": "(no heading)",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "SEE THE SERVICES WE RUN",
+              "href": "/services"
+            }
+          ],
+          "chars": 77
+        }
+      ],
+      "idsOnRoute": [
+        "root",
+        "main"
+      ],
+      "linkCount": 18
+    },
+    {
+      "route": "/no-such-page",
+      "status": 200,
+      "title": "Page not found | Alankara",
+      "h1": "Page not found",
+      "header": [
+        {
+          "text": "ALANKARA - BY SRI SAI ENTERPRISES",
+          "href": "/"
+        },
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Work",
+          "href": "/work"
+        },
+        {
+          "text": "Services",
+          "href": "/services"
+        },
+        {
+          "text": "Machinery",
+          "href": "/machinery"
+        },
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "sections": [
+        {
+          "kind": "section",
+          "heading": "Page not found",
+          "id": null,
+          "anchorsInside": [],
+          "links": [
+            {
+              "text": "BACK TO THE HOME PAGE",
+              "href": "/"
+            }
+          ],
+          "chars": 105
+        }
+      ],
+      "idsOnRoute": [
+        "root",
+        "main"
+      ],
+      "linkCount": 1
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Alankara, by Sri Sai Enterprises
+User-agent: *
+Allow: /
+
+Sitemap: https://sai-sree-web.vercel.app/sitemap.xml

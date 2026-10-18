@@ -4,11 +4,23 @@ import { cn } from "@/lib/utils";
 import { SiteHeader } from "./SiteHeader";
 import { SiteFooter } from "./SiteFooter";
 
+/**
+ * Scrolls to the top on a route change, or to the anchor when the route carries
+ * one (e.g. /services#civil). Without the anchor branch, every hash link on the
+ * site would land at the top of the page: a control that goes nowhere.
+ */
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   useEffect(() => {
+    if (hash) {
+      const target = document.getElementById(hash.slice(1));
+      if (target) {
+        target.scrollIntoView({ behavior: "auto", block: "start" });
+        return;
+      }
+    }
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, [pathname]);
+  }, [pathname, hash]);
   return null;
 }
 

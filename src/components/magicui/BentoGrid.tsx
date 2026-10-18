@@ -18,7 +18,7 @@ interface BentoGridProps extends ComponentPropsWithoutRef<"div"> {
 export function BentoGrid({ children, className, ...props }: BentoGridProps) {
   return (
     <div
-      className={cn("grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4", className)}
+      className={cn("grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3", className)}
       {...props}
     >
       {children}
@@ -29,7 +29,9 @@ export function BentoGrid({ children, className, ...props }: BentoGridProps) {
 interface BentoCardProps {
   name: string;
   description: string;
-  plate: Plate;
+  /** Optional: a card whose plate has not been supplied yet keeps the same
+   *  square image frame, empty, rather than borrowing artwork it does not own. */
+  plate?: Plate;
   href: string;
   cta: string;
   className?: string;
@@ -45,15 +47,17 @@ export function BentoCard({ name, description, plate, href, cta, className }: Be
       )}
     >
       <div className="aspect-square overflow-hidden border-b border-hairline bg-paper-2">
-        <img
-          src={plate.src}
-          width={plate.width}
-          height={plate.height}
-          alt={plate.alt}
-          loading="lazy"
-          decoding="async"
-          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
-        />
+        {plate && (
+          <img
+            src={plate.src}
+            width={plate.width}
+            height={plate.height}
+            alt={plate.alt}
+            loading="lazy"
+            decoding="async"
+            className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
+          />
+        )}
       </div>
       <div className="flex flex-1 flex-col p-5 lg:p-6">
         <h3 className="font-display text-[1.3rem] leading-snug">{name}</h3>

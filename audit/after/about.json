@@ -1,0 +1,40 @@
+{
+  "route": "/about",
+  "errors": [],
+  "pageHeight": 3096,
+  "sections": [
+    {
+      "heading": "About",
+      "y": 68,
+      "h": 822
+    },
+    {
+      "heading": "What we do",
+      "y": 952,
+      "h": 517
+    },
+    {
+      "heading": "How we run",
+      "y": 1531,
+      "h": 642
+    },
+    {
+      "heading": "Where",
+      "y": 2235,
+      "h": 287
+    },
+    {
+      "heading": "(no heading)",
+      "y": 2522,
+      "h": 247
+    }
+  ],
+  "band": {
+    "heading": "What we do",
+    "y": 952,
+    "h": 517,
+    "text": "What we do Civil construction Contract work built to the drawings and the specification. Earthwork and levelling Ground cut, filled and set to level. Machine and material supply Machines with an operator, and materials brought to site. Machinery with an operator Hired by the hour, by the day, or by the trip. Rammed earth and mud construction Walls formed in lifts and finished by hand.",
+    "images": [],
+    "tabCount": 0
+  }
+}
