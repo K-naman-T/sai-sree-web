@@ -108,7 +108,7 @@ export default function Contact() {
         <SectionHeading>The office, by name</SectionHeading>
         <p className="mt-5 max-w-[56ch] text-lg text-ink-2">
           Work is signed off by a person, not a desk. Call whoever owns the job, or call the
-          office line — it reaches the same team.
+          office line; it reaches the same team.
         </p>
         <ul className="mt-10 grid gap-x-16 sm:grid-cols-2">
           {team.map((person) => (
@@ -155,7 +155,7 @@ export default function Contact() {
             <p className="max-w-[60ch] text-lg text-ink-2">
               {companyName} is a construction and earthmoving company. Art and design sit at the
               core of everything we build, from the first cut to the final finish. The work is
-              built under the name {brandName}, by {brandBy}.
+              built under the name {brandName} by {brandBy}.
             </p>
             <div className="mt-10">
               <p className="text-[13px] font-semibold uppercase tracking-[0.18em] text-ink-2">

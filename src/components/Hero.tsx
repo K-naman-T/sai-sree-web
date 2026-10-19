@@ -8,31 +8,34 @@ import { Button } from "@/components/ui/Button";
 
 /**
  * Full-viewport hero: a multi-image auto-carousel (crossfade, ~5.2s) with a slow
- * Ken Burns drift and a light scrim localized to the bottom-left text block. No
- * on-screen controls — the slide counter and tick indicators were removed on the
- * client's call (R12b). Motion stops under prefers-reduced-motion and pauses on
- * hover. The hero carries the statement and the action; the enterprise line
- * lives in the header lockup.
+ * Ken Burns drift. No on-screen controls — the slide counter and tick indicators
+ * were removed on the client's call (R12b). Motion stops under
+ * prefers-reduced-motion and pauses on hover.
  *
- * Contrast: the scrim is a targeted bottom band plus a faint left bias, so the
- * upper and right areas of the plates stay clear. Over the text block the two
- * gradients composite to an effective alpha of >= 0.85, i.e. >= 4.5:1 against the
- * cream text (#FCF8F1) even over a pure-white plate pixel, with a text-shadow as
- * a final hold. A third, very light top-down layer (<= 14%) keeps the nav links
- * crisp over the plate border; it lies above the text block and does not touch
- * the sampled region. On small screens a bottom-only layer deepens the scrim
- * where the subtext sits. See scripts/check_hero_contrast.py and REPORT.md.
+ * Placement, set by the office on 2026-10-19: the enterprise name leads in the
+ * header, the hero reveals the brand top-left ("presents" over the wordmark),
+ * the signature sits left of centre, the statement paragraph holds the
+ * bottom-left and the headline with its action holds the bottom-right.
  *
- * The signature sits on the opposite side of the same bottom band, so it is held
- * by the same >= 0.85 alpha and the same text-shadow; it is measured, not
- * assumed, in audit/signature-contrast.mjs.
+ * Contrast: the type now runs up the left edge and across the middle, so the
+ * scrim carries a left column layer and a soft pool under the signature on top
+ * of the bottom band. Measured, not assumed: audit/hero-contrast.mjs samples the
+ * real pixels behind every text box.
  */
-const SCRIM =
-  "linear-gradient(to bottom, rgba(18,14,10,0.14) 0%, rgba(18,14,10,0.14) 8%, rgba(18,14,10,0) 16%), linear-gradient(to top, rgba(18,14,10,0.90) 0%, rgba(18,14,10,0.85) 47%, rgba(18,14,10,0.38) 58%, rgba(18,14,10,0) 68%), linear-gradient(to right, rgba(18,14,10,0.18) 0%, rgba(18,14,10,0.10) 40%, rgba(18,14,10,0) 66%)";
+const SCRIM = [
+  // Top band: keeps the nav crisp over the plate border.
+  "linear-gradient(to bottom, rgba(18,14,10,0.14) 0%, rgba(18,14,10,0.14) 8%, rgba(18,14,10,0) 16%)",
+  // Bottom band: the paragraph and the headline sit on this.
+  "linear-gradient(to top, rgba(18,14,10,0.90) 0%, rgba(18,14,10,0.85) 47%, rgba(18,14,10,0.38) 58%, rgba(18,14,10,0) 68%)",
+  // Top-left wash: follows the brand reveal and the signature down the diagonal,
+  // which is the only way the 100px wordmark holds over a bright sky.
+  "linear-gradient(115deg, rgba(18,14,10,0.84) 0%, rgba(18,14,10,0.75) 40%, rgba(18,14,10,0.46) 50%, rgba(18,14,10,0.18) 60%, rgba(18,14,10,0) 68%)",
+].join(", ");
 
-/** Mobile-only: deepen the bottom of the scrim so the subtext holds over busy art. */
-const MOBILE_SCRIM =
-  "linear-gradient(to top, rgba(18,14,10,0.40) 0%, rgba(18,14,10,0.24) 50%, rgba(18,14,10,0) 100%)";
+/** Mobile-only: the column stacks down the top half, so the shade follows it
+ *  down from the top instead of hugging the bottom edge. */
+const MOBILE_WASH =
+  "linear-gradient(to bottom, rgba(18,14,10,0.72) 0%, rgba(18,14,10,0.58) 26%, rgba(18,14,10,0.42) 44%, rgba(18,14,10,0.14) 58%, rgba(18,14,10,0) 70%)";
 
 /** Keeps the cream type legible where the scrim feathers toward the plates. */
 const TEXT_SHADOW = "0 1px 3px rgba(18,14,10,0.65), 0 3px 26px rgba(18,14,10,0.55)";
@@ -44,7 +47,7 @@ export function Hero() {
     <section
       aria-label={brandName}
       data-viewport-exempt
-      className="relative isolate h-[100dvh] min-h-[560px] w-full overflow-hidden bg-ink"
+      className="relative isolate h-[100dvh] min-h-[600px] w-full overflow-hidden bg-ink"
     >
       <div className="absolute inset-0 z-0">
         <Swiper
@@ -90,62 +93,85 @@ export function Hero() {
       />
 
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 z-[2] h-[64%] sm:hidden"
-        style={{ backgroundImage: MOBILE_SCRIM }}
+        className="pointer-events-none absolute inset-x-0 top-0 z-[2] h-[80%] sm:hidden"
+        style={{ backgroundImage: MOBILE_WASH }}
       />
 
       <div className="relative z-10 flex h-full flex-col">
-        <div className="mx-auto flex h-full w-full max-w-[1400px] flex-col justify-end px-[clamp(18px,5vw,28px)] pb-14 pt-28 sm:pb-16 lg:pb-20">
-          <div className="flex flex-col gap-9 sm:flex-row sm:items-end sm:justify-between sm:gap-12">
-            <div className="max-w-[56rem]">
-              <span className="mb-6 block h-[3px] w-16 bg-gold" aria-hidden="true" />
+        <div className="mx-auto flex h-full w-full max-w-[1400px] flex-col px-[clamp(18px,5vw,28px)] pb-[clamp(28px,6vh,64px)] pt-[calc(68px+clamp(18px,5vh,62px))] lg:[@media(max-height:880px)]:pt-[calc(68px+clamp(10px,3vh,44px))]">
+          {/* The brand reveal, top-left: the enterprise presents the name. */}
+          <div className="max-w-[52rem]">
+            <span
+              className="mb-[10px] block font-body text-[10px] font-semibold uppercase leading-none tracking-[0.15em] text-cream/85"
+              style={{ textShadow: TEXT_SHADOW }}
+              data-hero-presents
+            >
+              presents
+            </span>
+            <p
+              className="font-mark text-[clamp(2.1rem,7vw,6.6rem)] uppercase leading-[0.95] tracking-[0.16em] text-cream sm:tracking-[0.2em]"
+              style={{ textShadow: TEXT_SHADOW }}
+              data-hero-brand
+            >
+              {brandName}
+            </p>
+          </div>
+
+          {/* The office signs the hero, on the brand's own left edge, and the
+              statement follows it down the same column. */}
+          <p
+            className="mt-[clamp(30px,6vh,64px)] self-start text-left md:mt-[clamp(48px,10vh,104px)] lg:[@media(max-height:880px)]:mt-[clamp(32px,5vh,60px)]"
+            style={{ textShadow: TEXT_SHADOW }}
+            data-hero-signature
+          >
+            <span className="mb-[13px] block h-[3px] w-16 bg-gold" aria-hidden="true" />
+            <span
+              className="block font-mark text-[0.95rem] uppercase leading-tight tracking-[0.22em] text-cream sm:text-[1.06rem]"
+              data-hero-signature-name
+            >
+              {signatory.name}
+            </span>
+            <span
+              className="mt-[8px] block font-body text-[10px] font-semibold uppercase leading-none tracking-[0.15em] text-cream/90"
+              data-hero-signature-role
+            >
+              {signatory.role}
+            </span>
+          </p>
+
+          {/* The statement continues the signed column, under the role. */}
+          <p
+            className="mt-[clamp(34px,5.6vh,58px)] max-w-[50rem] lg:[@media(max-height:880px)]:mt-[clamp(24px,3.4vh,38px)] font-body text-[clamp(1rem,1.75vw,1.5rem)] font-medium leading-[1.66] text-cream/95"
+            style={{ textShadow: TEXT_SHADOW }}
+            data-hero-statement
+          >
+            <span className="sm:block">Art and design sit at the core of everything we build: </span>{" "}
+            <span className="sm:block">civil works, earthwork and levelling, machine and material supply, </span>{" "}
+            <span className="sm:block">and rammed earth and mud construction.</span>
+          </p>
+
+          {/* The action closes the column, under the statement. */}
+          <div className="mt-[clamp(22px,3.4vh,34px)]">
+            <Button to="/contact" variant="cream" size="lg">
+              Tell us about your site
+            </Button>
+          </div>
+
+          {/* Bottom band: the headline and its action hold the lower right. */}
+          <div className="mt-auto flex flex-col items-end pt-[clamp(12px,2vh,22px)]">
+            <div className="w-full max-w-[44rem] lg:text-right">
+              <span
+                className="mb-6 block h-[3px] w-16 bg-gold lg:ml-auto"
+                aria-hidden="true"
+              />
               <h1
-                className="text-balance font-display text-[clamp(2.6rem,7.5vw,5.75rem)] font-semibold leading-[1.0] tracking-[-0.02em] text-cream"
+                className="text-balance font-display text-[clamp(2.2rem,6.6vw,5rem)] font-semibold leading-[1.02] tracking-[-0.02em] text-cream [@media(max-height:860px)]:text-[clamp(2rem,5.6vw,4.2rem)]"
                 style={{ textShadow: TEXT_SHADOW }}
               >
                 Construction built as craft.
               </h1>
-              <p
-                className="mt-8 max-w-[50rem] font-body text-[clamp(1.12rem,1.75vw,1.5rem)] font-medium leading-[1.72] text-cream/95 sm:mt-7"
-                style={{ textShadow: TEXT_SHADOW }}
-              >
-                <span className="block">Art and design sit at the core of everything we build: </span>
-                <span className="block">civil works, earthwork and levelling, machine and material supply, </span>
-                <span className="block">and rammed earth and mud construction.</span>
-              </p>
 
-              <div className="mt-9">
-                <Button to="/contact" variant="cream" size="lg">
-                  Tell us about your site
-                </Button>
-              </div>
             </div>
-
-            {/* The office signs the hero: the brand lockup's grammar, mirrored
-                into the opposite corner. On a phone it stacks under the action,
-                right-aligned, which is the same corner. */}
-            <p
-              className="self-end text-right sm:pb-[6px]"
-              style={{ textShadow: TEXT_SHADOW }}
-              data-hero-signature
-            >
-              <span
-                className="mb-[13px] ml-auto block h-[3px] w-16 bg-gold"
-                aria-hidden="true"
-              />
-              <span
-                className="block font-mark text-[0.95rem] uppercase leading-none tracking-[0.22em] text-cream sm:text-[1.06rem]"
-                data-hero-signature-name
-              >
-                {signatory.name}
-              </span>
-              <span
-                className="mt-[8px] block font-body text-[10px] font-semibold uppercase leading-none tracking-[0.15em] text-cream/90"
-                data-hero-signature-role
-              >
-                {signatory.role}
-              </span>
-            </p>
           </div>
         </div>
       </div>

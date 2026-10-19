@@ -82,7 +82,11 @@ export default function Machinery() {
 
       <Section>
         <SectionHeading>Machines at work</SectionHeading>
-        <PhotoWall photos={machineryPhotos} variant="rail" className="mt-10" />
+        <PhotoWall
+          photos={machineryPhotos}
+          variant={machineryPhotos.length >= 3 ? "rail" : "solo"}
+          className="mt-10"
+        />
       </Section>
 
       <MotifBand />

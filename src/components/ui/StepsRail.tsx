@@ -10,7 +10,7 @@ export function StepsRail({ steps, className }: { steps: string[]; className?: s
     <ol
       aria-label="How a job starts, in order"
       className={cn(
-        "grid grid-cols-1 gap-px border border-hairline bg-hairline sm:grid-cols-2 lg:grid-cols-5",
+        "grid grid-cols-1 gap-px border border-hairline bg-hairline sm:grid-cols-2 lg:grid-cols-3",
         className,
       )}
     >

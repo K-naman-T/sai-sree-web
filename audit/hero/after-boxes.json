@@ -1,0 +1,114 @@
+{
+  "desk": {
+    "header": {
+      "box": {
+        "x": 48,
+        "y": 24.5625,
+        "width": 277.078125,
+        "height": 18.875
+      },
+      "text": "Sri Sai Enterprises"
+    },
+    "brand": {
+      "box": {
+        "x": 48,
+        "y": 133,
+        "width": 832,
+        "height": 95.75
+      },
+      "text": "Alankara"
+    },
+    "signature": {
+      "box": {
+        "x": 48,
+        "y": 334.75,
+        "width": 203.828125,
+        "height": 21.1875
+      },
+      "text": "Prajwal Srinivas"
+    },
+    "role": {
+      "box": {
+        "x": 48,
+        "y": 363.9375,
+        "width": 203.828125,
+        "height": 10
+      },
+      "text": "Managing Director"
+    },
+    "paragraph": {
+      "box": {
+        "x": 48,
+        "y": 424.328125,
+        "width": 800,
+        "height": 119.484375
+      },
+      "text": "Art and design sit at the core of everything we build:  civi"
+    },
+    "h1": {
+      "box": {
+        "x": 688,
+        "y": 682.8125,
+        "width": 704,
+        "height": 163.1875
+      },
+      "text": "Construction built as craft."
+    }
+  },
+  "phone": {
+    "header": {
+      "box": {
+        "x": 19.5,
+        "y": 27.109375,
+        "width": 165.375,
+        "height": 13.765625
+      },
+      "text": "Sri Sai Enterprises"
+    },
+    "brand": {
+      "box": {
+        "x": 19.5,
+        "y": 130.1875,
+        "width": 351,
+        "height": 31.90625
+      },
+      "text": "Alankara"
+    },
+    "signature": {
+      "box": {
+        "x": 19.5,
+        "y": 228.71875,
+        "width": 182.75,
+        "height": 19
+      },
+      "text": "Prajwal Srinivas"
+    },
+    "role": {
+      "box": {
+        "x": 19.5,
+        "y": 255.71875,
+        "width": 182.75,
+        "height": 10
+      },
+      "text": "Managing Director"
+    },
+    "paragraph": {
+      "box": {
+        "x": 19.5,
+        "y": 312.96875,
+        "width": 351,
+        "height": 106.1875
+      },
+      "text": "Art and design sit at the core of everything we build:  civi"
+    },
+    "h1": {
+      "box": {
+        "x": 19.5,
+        "y": 728.125,
+        "width": 351,
+        "height": 65.25
+      },
+      "text": "Construction built as craft."
+    }
+  }
+}

@@ -17,13 +17,27 @@ import { fileURLToPath, URL } from "node:url";
  */
 function stripInternalRecords(outDir: string): Plugin {
   const records = ["photos/credits.json", "photos/site-photos.json", "plates/credits.json"];
+  /**
+   * Media no page references any more. publicDir copies assets/ wholesale, so a
+   * photograph stops appearing on the site the day its section is removed but
+   * stays downloadable by anyone who guesses the filename. Retired here by name;
+   * the files stay in the repo as the record.
+   */
+  const retired = [
+    "photos/site-15.webp", // dropped from the Machinery wall
+    "photos/site-24.webp", // "A finished residence" group removed from Work
+    "photos/site-25.webp",
+    "photos/site-26.webp",
+    "plates/HERO-CREW.webp", // retired hero plate
+    "favicon-512.png", // never linked
+  ];
   /** Directories that carry the client's own source files, never a page asset. */
   const privateDirs = ["photos/originals", "plates/originals"];
   return {
     name: "strip-internal-records",
     apply: "build",
     closeBundle() {
-      for (const rel of records) {
+      for (const rel of [...records, ...retired]) {
         const file = path.join(outDir, rel);
         if (fs.existsSync(file)) fs.rmSync(file, { force: true });
       }

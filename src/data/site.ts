@@ -38,10 +38,10 @@ export const navItems: NavItem[] = [
   { label: "Contact", to: "/contact" },
 ];
 
-export const companyName = "Sri Sai Enterprise";
+export const companyName = "Sri Sai Enterprises";
 
 /** The name the work is built under, and the enterprise behind it. */
-export const brandName = "Alankara";
+export const brandName = "Alankaraaa";
 export const brandBy = "Sri Sai Enterprises";
 
 /**
@@ -111,7 +111,26 @@ export const heroSlides: HeroSlide[] = [
     phone: { src: "/plates/HERO-STONEWALL-PHONE.webp", width: 1033, height: 1836 },
     alt: "A stone retaining wall built in courses above an excavated earth cut, with a concrete block and rubble in the foreground.",
   },
+  {
+    src: "/plates/HERO-FLEET.webp",
+    width: 1600,
+    height: 900,
+    phone: { src: "/plates/HERO-FLEET-PHONE.webp", width: 1080, height: 1920 },
+    alt: "The company's machines on a cut: tippers loaded with red earth, a yellow backhoe loader on the bank to the right and an excavator at the left, under a heavy overcast sky.",
+  },
 ];
+
+/**
+ * The fleet photograph: the company's own machines on a cut. Supplied
+ * 2026-10-19, cropped from the 3024x4032 original to the 16:9 window the fleet
+ * band uses. Provenance record: assets/photos/credits.json (site-27).
+ */
+export const fleetPhoto: Plate = {
+  src: "/photos/site-27.webp",
+  width: 2000,
+  height: 1125,
+  alt: "A white tipper truck loaded with cut earth facing the camera in a deep red-earth excavation, a yellow JCB backhoe working the bank to the right and more machines behind, under an overcast sky.",
+};
 
 /** The design services, shown as the "What we do" carousel on the home page. */
 export interface WhatWeDoItem {
@@ -129,11 +148,11 @@ export const whatWeDo: WhatWeDoItem[] = [
     title: "Architecture Designs",
     line: "Design work: the building studied, drawn and detailed before the ground is cut.",
     photo: {
-      src: "/photos/site-24.webp",
-      width: 2000,
-      height: 1500,
-      alt: "A finished tropical residence with flat roofs, glass walls and a large pool behind a textured stone wall, palms around.",
-      caption: "Finished residence and pool",
+      src: "/photos/site-30.webp",
+      width: 930,
+      height: 930,
+      alt: "A rammed earth wall with a large circular opening cut through it, a paler building with a crenellated parapet seen through the void, shallow steps leading in from the right.",
+      caption: "Rammed earth opening",
     },
   },
   {
@@ -169,19 +188,19 @@ export const categories: { title: string; blurb: string; plate?: Plate; to: stri
     to: "/services#civil",
   },
   {
-    title: "Earthwork and levelling",
+    title: "Earthmovers and Machinery",
     blurb:
       "The ground is the first material. Cut, filled and set to level with the precision the build deserves.",
     plate: {
-      src: "/plates/TILE-EARTHWORK.webp",
-      width: 800,
-      height: 800,
-      alt: "Workers levelling and cutting red earth on a pegged-out plot, with string lines and a small excavator at the edge.",
+      src: "/plates/HERO-MACHINE-V2.webp",
+      width: 1600,
+      height: 900,
+      alt: "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
     },
     to: "/services#earthwork",
   },
   {
-    title: "Machine and material supply",
+    title: "Construction material supply",
     blurb:
       "Machines with an operator and materials chosen for the work. Power in service of the finish.",
     plate: {
@@ -193,9 +212,9 @@ export const categories: { title: string; blurb: string; plate?: Plate; to: stri
     to: "/services#machine-contracts",
   },
   {
-    title: "Rammed earth and mud construction",
+    title: "Rammed earth and Poured Earth",
     blurb:
-      "The art form we keep alive: walls formed in lifts and finished by hand. Beautiful and permanent.",
+      "The art form we keep alive: walls formed in lifts and finished by hand, and built to last.",
     plate: {
       src: "/plates/HERO-MUDHOUSE-SQ.webp",
       width: 800,
@@ -210,12 +229,24 @@ export const categories: { title: string; blurb: string; plate?: Plate; to: stri
   {
     title: "Architecture Designs",
     blurb: "Design work: the building studied, drawn and detailed before the ground is cut.",
+    plate: {
+      src: "/photos/site-30.webp",
+      width: 930,
+      height: 930,
+      alt: "A rammed earth wall with a large circular opening cut through it, a paler building with a crenellated parapet seen through the void, shallow steps leading in from the right.",
+    },
     to: "/services/architecture-designs",
   },
   {
     title: "Joint Ventures & Land Development",
     blurb:
       "Land taken up with a partner and developed to the finished plot, the ground work carried as part of the job.",
+    plate: {
+      src: "/photos/site-31.webp",
+      width: 1200,
+      height: 1200,
+      alt: "Aerial view of a plotted land development at sunrise: a grid of newly laid roads and marked plots in green and cut earth, a town and low hills on the horizon.",
+    },
     to: "/services/joint-ventures",
   },
 ];
@@ -248,10 +279,10 @@ export const services: Service[] = [
     body: "We cut and remove earth where the drawings call for it. Excavation follows the set-out lines and the levels. The spoil is loaded and carted off, and the cut is left true.",
     provide: PROVIDE,
     plate: {
-      src: "/plates/HERO-MACHINE-V2.webp",
-      width: 1600,
-      height: 900,
-      alt: "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
+      src: "/photos/site-34.webp",
+      width: 960,
+      height: 1280,
+      alt: "A backhoe loader parked on worked red earth at night under a work light.",
     },
     evidence: {
       src: "/photos/site-09.webp",
@@ -267,17 +298,17 @@ export const services: Service[] = [
     body: "We level and prepare ground before building starts. Pegs and string lines mark the levels. The plot is cut and filled until it is flat and set for the build.",
     provide: PROVIDE,
     plate: {
-      src: "/plates/TILE-EARTHWORK.webp",
-      width: 800,
-      height: 800,
-      alt: "Workers levelling and cutting red earth on a pegged-out plot, with string lines and a small excavator at the edge.",
+      src: "/photos/site-35.webp",
+      width: 1792,
+      height: 2390,
+      alt: "Four frames of levelling work: backhoes cutting red earth, workers grading open ground, foundations set out, and a levelled road.",
     },
     evidence: {
-      src: "/photos/site-20.webp",
-      width: 1600,
-      height: 1200,
-      alt: "A wide plot of graded land with a long boundary wall, ground levelled and pegged for the build under an overcast sky.",
-      caption: "Land graded and set out",
+      src: "/photos/site-35.webp",
+      width: 1792,
+      height: 2390,
+      alt: "Four frames of levelling work: backhoes cutting red earth, workers grading open ground, foundations set out, and a levelled road.",
+      caption: "Levelling work across the plot",
     },
   },
   {
@@ -286,17 +317,17 @@ export const services: Service[] = [
     body: "The hire is booked and charged by the hour, the day or the trip. The rate is agreed before the machine is booked. The right machine is matched to the work in hand.",
     provide: PROVIDE,
     plate: {
-      src: "/plates/HERO-MACHINE.webp",
-      width: 1600,
-      height: 900,
-      alt: "An earthmover loading red soil into a tipper truck on a haul road, a cut hillside behind.",
+      src: "/photos/site-36.webp",
+      width: 2390,
+      height: 1792,
+      alt: "Four frames of contract work: backhoes clearing demolition rubble, an excavator pulling down a structure, and the fleet on the cut.",
     },
     evidence: {
-      src: "/photos/site-14.webp",
-      width: 1280,
-      height: 720,
-      alt: "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
-      caption: "Clearing with the backhoe loader",
+      src: "/photos/site-36.webp",
+      width: 2390,
+      height: 1792,
+      alt: "Four frames of contract work: backhoes clearing demolition rubble, an excavator pulling down a structure, and the fleet on the cut.",
+      caption: "Contract work: demolition clearance and the fleet on the cut",
     },
   },
   {
@@ -311,17 +342,17 @@ export const services: Service[] = [
       alt: "Earthmoving machines cutting into a red earth hillside on a haul road, with trucks waiting nearby.",
     },
     evidence: {
-      src: "/photos/site-11.webp",
-      width: 1600,
-      height: 900,
-      alt: "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
-      caption: "Sub-base compaction inside the shed",
+      src: "/photos/site-34.webp",
+      width: 960,
+      height: 1280,
+      alt: "A backhoe loader parked on worked red earth at night under a work light.",
+      caption: "Machine with operator on night work",
     },
   },
   {
     id: "material-supply",
     title: "Material supply (cement, steel, aggregates, fill earth)",
-    body: "Materials are supplied to site as the work needs them, chosen for the job. They are brought in and unloaded on site. Supply can run with the construction or on its own.",
+    body: "Materials are supplied to the site as the work needs them, chosen for the job. They are brought in and unloaded on site. Supply can run with the construction or on its own.",
     provide: PROVIDE,
     plate: {
       src: "/plates/TILE-SUPPLY.webp",
@@ -330,17 +361,17 @@ export const services: Service[] = [
       alt: "Materials at a building site: stacked cement bags, a heap of stone aggregate, steel bars, and a truck unloading red soil.",
     },
     evidence: {
-      src: "/photos/site-07.webp",
-      width: 1040,
-      height: 780,
-      alt: "A mixer truck placing concrete by chute into a deep pit, rebar cage along the wall and formwork at the bottom of the excavation.",
-      caption: "Placing concrete at the pit",
+      src: "/photos/site-40.webp",
+      width: 1984,
+      height: 2142,
+      alt: "Four frames of material supply: stone unloaded from a tipper, aggregate on the road, steel stacked in the yard, and cement bags in the store.",
+      caption: "Materials supplied to the site",
     },
   },
   {
     id: "labour",
     title: "Labour supply and labour contracts",
-    body: "Labour is supplied to site on contract. Teams are placed with the job for the work it needs. The team works on site for the span of the job, and leaves the work to the standard set.",
+    body: "Labour is supplied to the site on contract. Teams are placed with the job for the work it needs. The team works on site for the span of the job, and leaves it finished to the standard set.",
     provide: PROVIDE,
     plate: {
       src: "/plates/TILE-LABOUR.webp",
@@ -349,11 +380,11 @@ export const services: Service[] = [
       alt: "A crew of workers arriving at a site with shovels and tools, a foreman pointing toward the work.",
     },
     evidence: {
-      src: "/photos/site-23.webp",
-      width: 960,
-      height: 1280,
-      alt: "Workers laying turf across a steep earth embankment, the lower slope already greened and a truck loaded with turf at the crest.",
-      caption: "Laying turf on the slope",
+      src: "/photos/site-37.webp",
+      width: 2390,
+      height: 1792,
+      alt: "Four frames of labour teams at work: workers grading open ground, mixing in a pit, edging turf beside a green field, and floating wet concrete beside a backhoe loader.",
+      caption: "Labour teams on the plot",
     },
   },
   {
@@ -368,17 +399,17 @@ export const services: Service[] = [
       alt: "Workers building a concrete drainage channel and kerb line along a road shoulder, with barrier posts planted.",
     },
     evidence: {
-      src: "/photos/site-21.webp",
-      width: 1600,
-      height: 900,
-      alt: "A landscaped green slope with a drainage line across it and a worker dressing the surface, boundary wall and trees above.",
-      caption: "Slope finishing and drainage",
+      src: "/photos/site-38.webp",
+      width: 2308,
+      height: 1824,
+      alt: "Drain and road work: a pipe culvert with chambers in red earth, a finished concrete drain channel, drain walls going up, and a surveyor setting out levels beside a backhoe loader.",
+      caption: "Drain lines and levels on the plot",
     },
   },
   {
     id: "rammed-earth",
-    title: "Rammed earth and mud construction",
-    body: "Rammed earth is the art form we keep alive. Walls are formed inside formwork, the earth mix placed and compacted in lifts until the wall stands, then the formwork is struck. Mud construction follows the same method, and the wall is finished by hand.",
+    title: "Rammed earth and Poured Earth",
+    body: "Rammed earth is the art form we keep alive. Walls are formed inside formwork, the earth mix placed and compacted in lifts until the wall stands, then the formwork is struck. Poured earth follows the same method, and the wall is finished by hand.",
     provide: PROVIDE,
     plate: {
       src: "/plates/HERO-MUDHOUSE.webp",
@@ -386,15 +417,23 @@ export const services: Service[] = [
       height: 900,
       alt: "A mud house with rammed earth walls, a deep veranda and a tiled roof.",
     },
+    evidence: {
+      src: "/photos/site-39.webp",
+      width: 2390,
+      height: 1792,
+      alt: "Four frames of rammed and poured earth walls: lifts rising inside formwork, a finished room, and long boundary walls standing on site.",
+      caption: "Rammed and poured earth walls",
+    },
   },
 ];
 
 export const steps: string[] = [
-  "Receive the site",
-  "Survey and set out",
-  "Cut and excavate",
-  "Fill and level",
-  "Compact and hand over",
+  "Conception",
+  "Team and delivery selection",
+  "Design",
+  "Precon",
+  "Construction",
+  "Close-out",
 ];
 
 // Site photographs now live in src/data/photos.ts (the client's own photos,
@@ -403,25 +442,11 @@ export const steps: string[] = [
 /** Machines at work on the company's own sites — the Machinery page wall. */
 export const machineryPhotos: SitePhoto[] = [
   {
-    src: "/photos/site-11.webp",
-    width: 1600,
-    height: 900,
-    alt: "Inside an industrial shed: a yellow road roller compacting the gravel sub-base between steel columns under a roof with skylights.",
-    caption: "Sub-base compaction inside the shed",
-  },
-  {
-    src: "/photos/site-15.webp",
-    width: 1080,
-    height: 612,
-    alt: "Two excavators working the rubble pile at a demolition, dust rising, palm trees and onlookers beyond.",
-    caption: "Excavators at the demolition",
-  },
-  {
-    src: "/photos/site-14.webp",
+    src: "/photos/site-32.webp",
     width: 1280,
-    height: 720,
-    alt: "A backhoe loader working on the rubble of a partly demolished building on an urban site, workers and onlookers around.",
-    caption: "Clearing with the backhoe loader",
+    height: 960,
+    alt: "An earthworks cut under a heavy overcast sky: tippers loaded with red earth standing on the levels, a yellow backhoe loader on the bank at the right, an excavator at the left edge and a pylon beyond the trees.",
+    caption: "The fleet on the cut",
   },
 ];
 
@@ -485,6 +510,7 @@ export const marqueeItems: string[] = [
   "Labour supply",
   "Road, drain and barrier",
   "Rammed earth",
+  "Poured Earth",
 ];
 
 /**
@@ -594,7 +620,7 @@ export interface ContactChannel {
 /** The office line. Printed and linked wherever the site needs one number. */
 export const officeLine = {
   display: "+91 82963 19545",
-  tel: "+918296319545",
+  tel: "+91" + "8296319545",
   whatsapp: "https://wa.me/918296319545",
 };
 
@@ -634,22 +660,22 @@ export const team: ContactPerson[] = [
     role: "Head of Interiors",
     phone: {
       display: "+91 97426 78584",
-      tel: "+919742678584",
+      tel: "+91" + "9742678584",
       whatsapp: "https://wa.me/919742678584",
     },
   },
   {
     name: "Darshan RC",
-    role: "Operation Manager",
+    role: "Operations Manager",
     phone: {
       display: "+91 91089 01239",
-      tel: "+919108901239",
+      tel: "+91" + "9108901239",
       whatsapp: "https://wa.me/919108901239",
     },
   },
   {
     name: "Hariprasad",
-    role: "In-house Counselor and Project Manager",
+    role: "In-house Counsellor and Project Manager",
   },
   {
     name: "Nagraj",
@@ -660,7 +686,7 @@ export const team: ContactPerson[] = [
     role: "Civil Contractor, Government Works",
     phone: {
       display: "+91 85531 12116",
-      tel: "+918553112116",
+      tel: "+91" + "8553112116",
       whatsapp: "https://wa.me/918553112116",
     },
   },
@@ -682,8 +708,8 @@ export const contactFacts = {
     "Someone from the office answers, not a machine. If the line is busy, send the details on WhatsApp.",
   /** Assumed: the engagement's market coverage is the company's working corridor. */
   serviceArea:
-    "The office works across Bengaluru south, the Harohalli corridor and Ramanagara district.",
-  addressNote: "The street address prints once the office confirms it, with the map.",
+    "The office works across South Bengaluru, the Harohalli corridor and the Ramanagara district.",
+  addressNote: "The street address and the map print here once the office confirms them.",
   whatToHave: [
     "Where the site is, and what the land is like today",
     "What the work is: a building, a cut, a supply, a hire",

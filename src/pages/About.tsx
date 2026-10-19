@@ -18,15 +18,15 @@ const WHAT_WE_DO: { title: string; line: string }[] = [
     line: "Ground cut, filled and set to level.",
   },
   {
-    title: "Machine and material supply",
-    line: "Machines with an operator, and materials brought to site.",
+    title: "Construction material supply",
+    line: "Materials brought to the site as the work needs them.",
   },
   {
     title: "Machinery with an operator",
     line: "Hired by the hour, by the day, or by the trip.",
   },
   {
-    title: "Rammed earth and mud construction",
+    title: "Rammed earth and Poured Earth",
     line: "Walls formed in lifts and finished by hand.",
   },
 ];
@@ -48,8 +48,8 @@ export default function About() {
         <div className="mt-10 grid gap-12 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-7">
             <PullQuote className="max-w-[34rem]">
-              Art aesthetics are not decoration added at the end. They are how the work is planned
-              and built.
+              Art and aesthetics are not decoration added at the end. They are how the work is
+              planned and built.
             </PullQuote>
             <p className="mt-8 max-w-[52ch] text-lg text-ink-2">
               Sri Sai Enterprise is a construction and earthmoving company. Art and design sit at
@@ -87,7 +87,7 @@ export default function About() {
         </p>
         <StepsRail steps={steps} className="mt-10" />
         <p className="mt-10 max-w-[64ch] text-ink-2">
-          Material goes to the site. Attendance is taken at the site. Machine hours are written in
+          Material goes to the site, and attendance is taken there. Machine hours are written in
           the logbook. The week is checked against the diesel and the bills.
         </p>
       </Section>

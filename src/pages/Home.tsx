@@ -9,11 +9,8 @@ import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
 import { Button } from "@/components/ui/Button";
 import { BentoGrid, BentoCard } from "@/components/magicui/BentoGrid";
 import { BlurFade } from "@/components/magicui/BlurFade";
-import { homeHooks } from "@/data/photos";
-import { categories, heroSlides, steps } from "@/data/site";
+import { categories, fleetPhoto, steps } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
-
-const fleetPlate = heroSlides[1];
 
 export default function Home() {
   useDocumentTitle("Home");
@@ -66,7 +63,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:col-span-8">
-            <FramedImage plate={fleetPlate} ratioClassName="aspect-[16/9]" />
+            <FramedImage plate={fleetPhoto} ratioClassName="aspect-[16/9]" />
           </div>
         </div>
       </Section>
@@ -85,35 +82,6 @@ export default function Home() {
           <Button to="/services" variant="quiet">
             See the services
           </Button>
-        </div>
-      </Section>
-
-      <MotifBand />
-
-      <Section tone="paper2">
-        <SectionHeading link={{ to: "/work", label: "See the work" }}>Work</SectionHeading>
-        <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10">
-          {homeHooks.map((photo, index) => (
-            <figure
-              key={photo.src}
-              className={index === 0 ? "lg:col-span-6" : "lg:col-span-5 lg:col-start-8 lg:mt-16"}
-            >
-              <div className="aspect-[3/2] overflow-hidden border border-hairline bg-paper-2">
-                <img
-                  src={photo.src}
-                  width={photo.width}
-                  height={photo.height}
-                  alt={photo.alt}
-                  loading="lazy"
-                  decoding="async"
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <figcaption className="mt-3 text-[15px] leading-snug text-ink">
-                {photo.caption}
-              </figcaption>
-            </figure>
-          ))}
         </div>
       </Section>
 

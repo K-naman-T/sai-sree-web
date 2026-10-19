@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { brandBy, brandName, navItems } from "@/data/site";
+import { brandBy, navItems } from "@/data/site";
 import { useScrolled } from "@/hooks/useScrolled";
 import { CloseIcon, MenuIcon } from "@/components/ui/icons";
 
@@ -33,16 +33,8 @@ export function SiteHeader({ overHero = false }: { overHero?: boolean }) {
               : "text-ink hover:text-terracotta",
           )}
         >
-          <span className="font-mark text-[1.05rem] uppercase leading-none tracking-[0.3em] sm:text-[1.18rem]">
-            {brandName}
-          </span>
-          <span
-            className={cn(
-              "font-body text-[10px] font-semibold uppercase leading-none tracking-[0.15em]",
-              transparent ? "text-cream/90" : "text-ink/80",
-            )}
-          >
-            - by {brandBy}
+          <span className="font-mark text-[0.86rem] uppercase leading-none tracking-[0.16em] sm:text-[1.18rem] sm:tracking-[0.3em]">
+            {brandBy}
           </span>
         </Link>
 

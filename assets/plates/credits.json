@@ -183,5 +183,42 @@
     "creator": "Sai Sree Enterprise",
     "source": "Client photographs supplied 2026-10-15 (WhatsApp originals)",
     "note": "Both frames are crops of the client's photograph: no retouch, no generation."
+  },
+  {
+    "file": "HERO-FLEET.webp",
+    "phoneFile": "HERO-FLEET-PHONE.webp",
+    "orig": "fleet.jpg",
+    "sourceSize": "1280x960",
+    "caption": "The company's machines on a cut",
+    "desktop": {
+      "crop": [
+        0,
+        120,
+        1280,
+        720
+      ],
+      "out": "1600x900",
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    "phone": {
+      "crop": [
+        444,
+        0,
+        540,
+        960
+      ],
+      "out": "1080x1920",
+      "focal": [
+        0.6,
+        0.5
+      ]
+    },
+    "license": "Supplied by the office 2026-10-19",
+    "creator": "Sai Sree Enterprise",
+    "source": "Office photograph supplied 2026-10-19",
+    "note": "Both frames are crops of the office's photograph, upscaled from 1280px wide. No retouch, no generation."
   }
 ]
