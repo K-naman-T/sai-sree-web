@@ -376,5 +376,54 @@
     "width": 4080,
     "height": 3060,
     "bytes": 1955124
+  },
+  {
+    "file": "site-61.webp",
+    "orig": "IMG-20261020-EXC01.jpg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 283802
+  },
+  {
+    "file": "site-62.webp",
+    "orig": "IMG-20261020-EXC02.jpg",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 338200
+  },
+  {
+    "file": "site-63.webp",
+    "orig": "IMG-20261020-EXC03.jpg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 126724
+  },
+  {
+    "file": "site-64.webp",
+    "orig": "IMG-20261020-EXC04.jpg",
+    "width": 3060,
+    "height": 4080,
+    "bytes": 1738484
+  },
+  {
+    "file": "site-65.webp",
+    "orig": "IMG-20261020-EXC05.jpg",
+    "width": 849,
+    "height": 671,
+    "bytes": 53328
+  },
+  {
+    "file": "site-66.webp",
+    "orig": "IMG-20261020-EXC06.jpg",
+    "width": 874,
+    "height": 748,
+    "bytes": 64414
+  },
+  {
+    "file": "site-67.webp",
+    "orig": "IMG-20261020-EXC07.jpg",
+    "width": 823,
+    "height": 617,
+    "bytes": 167620
   }
 ]
