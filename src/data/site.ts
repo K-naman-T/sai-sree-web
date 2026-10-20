@@ -525,13 +525,25 @@ export const borderMotif: Plate = {
  * The About title-plate background, supplied by the office on 2026-10-19: a
  * finished villa veranda opening onto a pool lined with palms. It sits in the
  * section's `texture` slot, so it renders as a pale struck print under the
- * copy — the framed plate beside it is untouched.
+ * copy; the same frame returns full-colour in the foreground plate.
  */
 export const aboutTexture: Plate = {
   src: "/plates/ABOUT-VILLA.webp",
   width: 738,
   height: 1075,
   alt: "",
+};
+
+/**
+ * The About title-plate feature photograph, supplied by the office on
+ * 2026-10-19: the finished villa veranda opening onto the pool. Same frame as
+ * the section background, shown here full-colour in the foreground plate.
+ */
+export const aboutFeature: Plate = {
+  src: "/plates/ABOUT-VILLA.webp",
+  width: 738,
+  height: 1075,
+  alt: "Finished villa veranda opening onto a still pool lined with coconut palms.",
 };
 
 export const marqueeItems: string[] = [

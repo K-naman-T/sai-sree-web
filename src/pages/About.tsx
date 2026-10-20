@@ -4,8 +4,8 @@ import { FramedImage } from "@/components/ui/FramedImage";
 import { StepsRail } from "@/components/ui/StepsRail";
 import { MotifBand, PullQuote } from "@/components/ui/Ornament";
 import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
-import { heroSlides, steps } from "@/data/site";
-import { aboutTexture } from "@/data/site";
+import { steps } from "@/data/site";
+import { aboutFeature, aboutTexture } from "@/data/site";
 import { categories } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
@@ -37,7 +37,7 @@ export default function About() {
 
   return (
     <>
-      {/* Title plate: the villa photograph behind, the framed plate beside the copy. */}
+      {/* Title plate: the villa photograph behind and in the foreground frame. */}
       <Section
         className="pt-14 sm:pt-16 lg:pt-24 pb-12 sm:pb-14 lg:pb-16"
         wash="seam-to-paper2"
@@ -53,13 +53,13 @@ export default function About() {
               planned and built.
             </PullQuote>
             <p className="mt-8 max-w-[52ch] text-lg text-ink-2">
-              Sri Sai Enterprise is a construction and earthmoving company. Art and design sit at
+              Sri Sai Enterprises is a construction and earthmoving company. Art and design sit at
               the core of everything we build, from the first cut to the final finish.
             </p>
           </div>
           <div className="lg:col-span-5">
             <div className="max-w-[min(100%,calc((100dvh_-_380px)*0.8))]">
-              <FramedImage plate={heroSlides[0]} ratioClassName="aspect-[4/5]" />
+              <FramedImage plate={aboutFeature} ratioClassName="aspect-[4/5]" />
             </div>
           </div>
         </div>
@@ -105,6 +105,9 @@ export default function About() {
             <p className="mt-6 max-w-[46ch] text-lg text-ink-2">
               We work out of Harohalli, Karnataka.
             </p>
+            <p className="mt-3 max-w-[46ch] text-[15px] leading-relaxed text-ink-2">
+              1st Floor, Viniyaka Building, Anekal Main Road, Harohalli 562112.
+            </p>
           </div>
           <div className="lg:col-span-5">
             <h2 className="font-display text-[clamp(1.5rem,2.4vw,2rem)] leading-tight">
@@ -113,7 +116,7 @@ export default function About() {
             {/* Only confirmed facts render. Registration numbers (GST, Udyam, licence)
                 appear here only when the client supplies and authorises them; no number
                 is invented (CONTENT-MANIFEST.md #9). */}
-            <p className="mt-5 max-w-[46ch] text-ink-2">Registered name: Sri Sai Enterprise.</p>
+            <p className="mt-5 max-w-[46ch] text-ink-2">Registered name: Sri Sai Enterprises.</p>
           </div>
         </div>
       </Section>
