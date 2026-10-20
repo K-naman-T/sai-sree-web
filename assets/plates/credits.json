@@ -220,5 +220,16 @@
     "creator": "Sai Sree Enterprise",
     "source": "Office photograph supplied 2026-10-19",
     "note": "Both frames are crops of the office's photograph, upscaled from 1280px wide. No retouch, no generation."
+  },
+  {
+    "file": "ABOUT-VILLA.webp",
+    "orig": "IMG-20261019-VILLA01.jpg",
+    "sourceSize": "738x1075",
+    "caption": "Finished villa veranda opening onto a pool lined with coconut palms",
+    "out": "738x1075",
+    "license": "Supplied by the office 2026-10-19",
+    "creator": "Sai Sree Enterprise",
+    "source": "Office photograph supplied 2026-10-19",
+    "note": "Converted to WebP at native resolution, no crop, no retouch, no generation. Used as the About title-plate background."
   }
 ]

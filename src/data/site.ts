@@ -448,6 +448,27 @@ export const machineryPhotos: SitePhoto[] = [
     alt: "An earthworks cut under a heavy overcast sky: tippers loaded with red earth standing on the levels, a yellow backhoe loader on the bank at the right, an excavator at the left edge and a pylon beyond the trees.",
     caption: "The fleet on the cut",
   },
+  {
+    src: "/photos/site-43.webp",
+    width: 1080,
+    height: 612,
+    alt: "An orange Tata Hitachi tracked excavator pulling down a building wall amid dust and rubble, a second machine behind it and onlookers in the foreground.",
+    caption: "Excavator on demolition work",
+  },
+  {
+    src: "/photos/site-44.webp",
+    width: 1280,
+    height: 963,
+    alt: "A yellow soil compactor and a tractor-drawn water tanker standing on stony, newly levelled ground, with trees and site sheds behind.",
+    caption: "Compactor and water tanker on the ground",
+  },
+  {
+    src: "/photos/site-45.webp",
+    width: 540,
+    height: 300,
+    alt: "Two yellow backhoe loaders working over a heap of demolition rubble on a street lined with buildings under a clear morning sky.",
+    caption: "Backhoe loaders clearing rubble",
+  },
 ];
 
 /** Studio cutouts of the machine classes — the frieze on the Machinery page. */
@@ -497,6 +518,19 @@ export const borderMotif: Plate = {
   src: "/plates/BORDER-MOTIF.webp",
   width: 2000,
   height: 84,
+  alt: "",
+};
+
+/**
+ * The About title-plate background, supplied by the office on 2026-10-19: a
+ * finished villa veranda opening onto a pool lined with palms. It sits in the
+ * section's `texture` slot, so it renders as a pale struck print under the
+ * copy — the framed plate beside it is untouched.
+ */
+export const aboutTexture: Plate = {
+  src: "/plates/ABOUT-VILLA.webp",
+  width: 738,
+  height: 1075,
   alt: "",
 };
 
@@ -657,7 +691,7 @@ export const team: ContactPerson[] = [
   },
   {
     name: "Likith Srinivas",
-    role: "Head of Interiors",
+    role: "Head of Interior Construction / Interior Project Director",
     phone: {
       display: "+91 97426 78584",
       tel: "+91" + "9742678584",
@@ -666,7 +700,7 @@ export const team: ContactPerson[] = [
   },
   {
     name: "Darshan RC",
-    role: "Operations Manager",
+    role: "Operation Manager / Exterior Project Director",
     phone: {
       display: "+91 91089 01239",
       tel: "+91" + "9108901239",

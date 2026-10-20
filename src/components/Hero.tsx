@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/Button";
  * prefers-reduced-motion and pauses on hover.
  *
  * Placement, set by the office on 2026-10-19: the enterprise name leads in the
- * header, the hero reveals the brand top-left ("presents" over the wordmark),
+ * header, the hero reveals the brand wordmark top-left,
  * the signature sits left of centre, the statement paragraph holds the
  * bottom-left and the headline with its action holds the bottom-right.
  *
@@ -99,15 +99,8 @@ export function Hero() {
 
       <div className="relative z-10 flex h-full flex-col">
         <div className="mx-auto flex h-full w-full max-w-[1400px] flex-col px-[clamp(18px,5vw,28px)] pb-[clamp(28px,6vh,64px)] pt-[calc(68px+clamp(18px,5vh,62px))] lg:[@media(max-height:880px)]:pt-[calc(68px+clamp(10px,3vh,44px))]">
-          {/* The brand reveal, top-left: the enterprise presents the name. */}
+          {/* The brand reveal, top-left: the wordmark on its own. */}
           <div className="max-w-[52rem]">
-            <span
-              className="mb-[10px] block font-body text-[10px] font-semibold uppercase leading-none tracking-[0.15em] text-cream/85"
-              style={{ textShadow: TEXT_SHADOW }}
-              data-hero-presents
-            >
-              presents
-            </span>
             <p
               className="font-mark text-[clamp(2.1rem,7vw,6.6rem)] uppercase leading-[0.95] tracking-[0.16em] text-cream sm:tracking-[0.2em]"
               style={{ textShadow: TEXT_SHADOW }}
@@ -146,8 +139,8 @@ export function Hero() {
             data-hero-statement
           >
             <span className="sm:block">Art and design sit at the core of everything we build: </span>{" "}
-            <span className="sm:block">civil works, earthwork and levelling, machine and material supply, </span>{" "}
-            <span className="sm:block">and rammed earth and mud construction.</span>
+            <span className="sm:block">Civil works, Earthwork and levelling, Machine and Material supply, </span>{" "}
+            <span className="sm:block">and Rammed Earth and Mud Construction.</span>
           </p>
 
           {/* The action closes the column, under the statement. */}

@@ -4,6 +4,7 @@ import { MotifBand } from "@/components/ui/Ornament";
 import { PhotoWall } from "@/components/ui/PhotoWall";
 import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
 import { fleetCutouts, heroSlides, machineryPhotos } from "@/data/site";
+import { suggestWall } from "@/components/ui/wallPlan";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 export default function Machinery() {
@@ -84,7 +85,7 @@ export default function Machinery() {
         <SectionHeading>Machines at work</SectionHeading>
         <PhotoWall
           photos={machineryPhotos}
-          variant={machineryPhotos.length >= 3 ? "rail" : "solo"}
+          variant={suggestWall(machineryPhotos)}
           className="mt-10"
         />
       </Section>

@@ -5,6 +5,7 @@ import { StepsRail } from "@/components/ui/StepsRail";
 import { MotifBand, PullQuote } from "@/components/ui/Ornament";
 import { TalkBand, TalkLine } from "@/components/ui/TalkBand";
 import { heroSlides, steps } from "@/data/site";
+import { aboutTexture } from "@/data/site";
 import { categories } from "@/data/site";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
@@ -36,11 +37,11 @@ export default function About() {
 
   return (
     <>
-      {/* Title plate: the mud house, the art form, struck into the paper. */}
+      {/* Title plate: the villa photograph behind, the framed plate beside the copy. */}
       <Section
         className="pt-14 sm:pt-16 lg:pt-24 pb-12 sm:pb-14 lg:pb-16"
         wash="seam-to-paper2"
-        texture={heroSlides[2]}
+        texture={aboutTexture}
       >
         <SectionHeading as="h1" rule>
           About

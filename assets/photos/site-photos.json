@@ -250,5 +250,26 @@
     "width": 1600,
     "height": 1200,
     "bytes": 424890
+  },
+  {
+    "file": "site-43.webp",
+    "orig": "IMG-20261019-MACH01.jpg",
+    "width": 1080,
+    "height": 612,
+    "bytes": 100280
+  },
+  {
+    "file": "site-44.webp",
+    "orig": "IMG-20261019-MACH02.jpg",
+    "width": 1280,
+    "height": 963,
+    "bytes": 229806
+  },
+  {
+    "file": "site-45.webp",
+    "orig": "IMG-20261019-MACH03.jpg",
+    "width": 540,
+    "height": 300,
+    "bytes": 24174
   }
 ]
