@@ -341,5 +341,40 @@
     "width": 4080,
     "height": 3060,
     "bytes": 1160758
+  },
+  {
+    "file": "site-56.webp",
+    "orig": "IMG-20261020-LAND01.jpg",
+    "width": 3060,
+    "height": 4080,
+    "bytes": 595708
+  },
+  {
+    "file": "site-57.webp",
+    "orig": "IMG-20261020-LAND02.jpg",
+    "width": 4080,
+    "height": 3060,
+    "bytes": 1500146
+  },
+  {
+    "file": "site-58.webp",
+    "orig": "IMG-20261020-LAND03.jpg",
+    "width": 3060,
+    "height": 4080,
+    "bytes": 1266028
+  },
+  {
+    "file": "site-59.webp",
+    "orig": "IMG-20261020-LAND04.jpg",
+    "width": 4080,
+    "height": 3060,
+    "bytes": 1288798
+  },
+  {
+    "file": "site-60.webp",
+    "orig": "IMG-20261020-LAND05.jpg",
+    "width": 4080,
+    "height": 3060,
+    "bytes": 1955124
   }
 ]
