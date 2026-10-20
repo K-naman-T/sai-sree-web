@@ -44,13 +44,6 @@ export const photoGroups: PhotoGroup[] = [
         caption: "Machine trenching on the plot",
       },
       {
-        src: "/photos/site-20.webp",
-        width: 1600,
-        height: 1200,
-        alt: "A wide plot of graded land with a long boundary wall, ground levelled and pegged for the build under an overcast sky.",
-        caption: "Land graded and set out",
-      },
-      {
         src: "/photos/site-46.webp",
         width: 1200,
         height: 1600,
